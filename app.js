@@ -755,21 +755,27 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const WEB3FORMS_ACCESS_KEY = "f1e12cf4-2878-44df-ac1e-2e56a9acbfda"; 
     
-    if (WEB3FORMS_ACCESS_KEY && WEB3FORMS_ACCESS_KEY !== "f1e12cf4-2878-44df-ac1e-2e56a9acbfda") {
+    if (WEB3FORMS_ACCESS_KEY && WEB3FORMS_ACCESS_KEY !== "YOUR_WEB3FORMS_ACCESS_KEY") {
+      const formData = new FormData();
+      formData.append("access_key", WEB3FORMS_ACCESS_KEY);
+      formData.append("name", senderName);
+      formData.append("email", senderEmail);
+      formData.append("message", senderMsg);
+      formData.append("subject", `New Portfolio Message from ${senderName}`);
+
       fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
-        body: JSON.stringify({
-          access_key: WEB3FORMS_ACCESS_KEY,
-          name: senderName,
-          email: senderEmail,
-          message: senderMsg,
-          subject: `New Portfolio Message from ${senderName}`
-        })
-      }).catch(err => console.error("Web3Forms submission error:", err));
+        body: formData
+      })
+      .then(async (res) => {
+        const data = await res.json();
+        if (res.ok) {
+          console.log("Web3Forms submission success:", data);
+        } else {
+          console.error("Web3Forms submission error response:", data);
+        }
+      })
+      .catch(err => console.error("Web3Forms connection error:", err));
     }
     
     
