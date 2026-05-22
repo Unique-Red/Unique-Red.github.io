@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // Set dynamic copyright year
   const copyrightYear = document.getElementById('copyright-year');
   if (copyrightYear) {
     copyrightYear.textContent = new Date().getFullYear();
@@ -754,11 +753,9 @@ document.addEventListener('DOMContentLoaded', () => {
     submitBtn.disabled = true;
     submitBtn.textContent = 'Pinging...';
     
-    // Optional Web3Forms Integration: Paste your Access Key here to receive real emails!
-    // Get your free key at: https://web3forms.com/
     const WEB3FORMS_ACCESS_KEY = "f1e12cf4-2878-44df-ac1e-2e56a9acbfda"; 
     
-    if (WEB3FORMS_ACCESS_KEY && WEB3FORMS_ACCESS_KEY !== "YOUR_WEB3FORMS_ACCESS_KEY") {
+    if (WEB3FORMS_ACCESS_KEY && WEB3FORMS_ACCESS_KEY !== "f1e12cf4-2878-44df-ac1e-2e56a9acbfda") {
       fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
