@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noah Useghan — Backend Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Noah Useghan, a backend developer specializing in Python, Flask, FastAPI, cloud systems, and database optimization. Featuring a terminal emulator, interactive API playground, and system architecture visualizer.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://noahuseghan.com/"> 
+  <meta property="og:title" content="Noah Useghan — Backend &amp; Systems Engineer">
+  <meta property="og:description" content="Portfolio of Noah Useghan, specializing in scalable APIs, database query tuning, and system architecture. Features an interactive CLI shell simulator and API playground.">
+  <meta property="og:image" content="https://noahuseghan.com/NU.png">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://noahuseghan.com/">
+  <meta property="twitter:title" content="Noah Useghan — Backend &amp; Systems Engineer">
+  <meta property="twitter:description" content="Portfolio of Noah Useghan, specializing in scalable APIs, database query tuning, and system architecture. Features an interactive CLI shell simulator and API playground.">
+  <meta property="twitter:image" content="https://noahuseghan.com/NU.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=JetBrains+Mono:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="NU.png">
+  
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="interactive-mode">
+
+  
+  <div id="mode-controls" class="no-print">
+    <div class="mode-toggle-wrapper">
+      <span class="mode-label active" id="label-interactive">Interactive Hub</span>
+      <label class="switch" aria-label="Toggle between Interactive Hub and Printable Resume">
+        <input type="checkbox" id="mode-toggle">
+        <span class="slider round"></span>
+      </label>
+      <span class="mode-label" id="label-printable">Printable CV</span>
+    </div>
+  </div>
+
+  
+  <div class="cursor no-print" id="custom-cursor"></div>
+  <div class="cursor-ring no-print" id="custom-cursor-ring"></div>
+
+  
+  
+  
+  <div id="interactive-wrapper" class="view-wrapper active no-print">
+    
+    
+    <header id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-logo">
+          <img src="NU.png" alt="NU Logo" class="logo-img">
+        </a>
+        <nav class="nav-links-wrapper">
+          <ul class="nav-links">
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#skills">Stack</a></li>
+            <li><a href="#experience">Career</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#sandbox" class="accent-link">Sandbox</a></li>
+            <li><a href="#education">Credentials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    
+    <section id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-glow"></div>
+      
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Available for Roles &middot; Remote</span>
+        </div>
+        <h1 class="hero-title" data-text="NOAH USEGHAN">
+          NOAH <span class="text-gradient">USEGHAN</span>
+        </h1>
+        <p class="hero-subtitle">Backend &amp; Systems Engineer</p>
+        
+        
+        <div class="hero-terminal-container">
+          <div class="terminal-bar">
+            <div class="dots"><span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span></div>
+            <div class="terminal-title">noah@backend-server:~</div>
+          </div>
+          <div class="terminal-body" id="hero-terminal-output">
+            <div class="line"><span class="prompt">guest@noah-dev:~$</span> <span class="typing" id="hero-typing-text">curl -s https://noahuseghan.com/summary</span></div>
+            <div class="line response-line" id="hero-terminal-response" style="display: none;">
+              <span class="cyan">{</span><br>
+              &nbsp;&nbsp;<span class="yellow">"bio"</span>: <span class="green">"Architecting robust APIs, scalable databases, and cloud systems."</span>,<br>
+              &nbsp;&nbsp;<span class="yellow">"languages"</span>: <span class="green">["Rust", "Python", "Golang", "JavaScript"]</span>,<br>
+              &nbsp;&nbsp;<span class="yellow">"frameworks"</span>: <span class="green">["Flask", "FastAPI", "Django"]</span>,<br>
+              &nbsp;&nbsp;<span class="yellow">"core_strength"</span>: <span class="green">"Writing APIs that scale and clean queries that don't break"</span><br>
+              <span class="cyan">}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#sandbox" class="btn btn-primary">Open Developer Sandbox</a>
+          <a href="#experience" class="btn btn-secondary">Explore Career History</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down" aria-label="Scroll to about section">
+        <span>Scroll Down</span>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </a>
+    </section>
+
+    
+    <section id="about" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 01. Profile</span>
+          <h2 class="section-title">THE ENGINE UNDER THE HOOD</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm <strong>Noah Useghan</strong>, a backend-focused systems engineer who designs the architectures that run complex applications. I build the hidden parts of products—making sure endpoints are ultra-fast, security layers are airtight, and asynchronous processing runs without a hitch.</p>
+            <p>My toolkit centers on <strong>Python backend systems</strong> and modern relational/document databases. Over the last 5+ years, I've designed transaction ledgers for fintech, biometric pipelines for healthcare, and spatial triggers for emergency alert systems.</p>
+            <p>I'm heavily involved in the local dev scene, organizing and contributing to events like <strong>GDG Lagos</strong> and <strong>Flaskcon Africa</strong>. My philosophy is simple: write maintainable code, model data clean, and measure performance in milliseconds.</p>
+          </div>
+          
+          <div class="about-stats-container">
+            <div class="stats-grid">
+              <div class="stat-card">
+                <h3 class="stat-value">5+</h3>
+                <p class="stat-label">Years Experience</p>
+              </div>
+              <div class="stat-card">
+                <h3 class="stat-value">5+</h3>
+                <p class="stat-label">Products Shipped</p>
+              </div>
+              <div class="stat-card">
+                <h3 class="stat-value">-30%</h3>
+                <p class="stat-label">API Latency Cut</p>
+              </div>
+              <div class="stat-card">
+                <h3 class="stat-value">99.9%</h3>
+                <p class="stat-label">API Uptime Maintained</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="skills" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 02. Tech Stack</span>
+          <h2 class="section-title">ENGINEERING TOOLKIT</h2>
+        </div>
+        <div class="skills-grid">
+          
+          <div class="skills-column">
+            <h3 class="skill-group-title"><span class="code-symbol">&lt;/&gt;</span> Languages &amp; Frameworks</h3>
+            <div class="skills-list">
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Rust</div>
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Python</div>
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Golang</div>
+              <div class="skill-pill">JavaScript</div>
+              <div class="skill-pill">Flask</div>
+              <div class="skill-pill">FastAPI</div>
+              <div class="skill-pill">Django</div>
+              <div class="skill-pill">Flask-RESTX</div>
+            </div>
+          </div>
+          
+          <div class="skills-column">
+            <h3 class="skill-group-title"><span class="code-symbol">&#128196;</span> Databases</h3>
+            <div class="skills-list">
+              <div class="skill-pill highlight"><span class="pill-dot"></span>PostgreSQL</div>
+              <div class="skill-pill highlight"><span class="pill-dot"></span>MySQL</div>
+              <div class="skill-pill">MongoDB</div>
+              <div class="skill-pill">SQLite</div>
+              <div class="skill-pill">SQLAlchemy (ORM)</div>
+              <div class="skill-pill">Redis (Cache)</div>
+            </div>
+          </div>
+
+          <div class="skills-column">
+            <h3 class="skill-group-title"><span class="code-symbol">&#9729;</span> Cloud &amp; DevOps</h3>
+            <div class="skills-list">
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Docker</div>
+              <div class="skill-pill">AWS</div>
+              <div class="skill-pill">Google Cloud</div>
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Render</div>
+              <div class="skill-pill highlight"><span class="pill-dot"></span>GitHub Actions</div>
+              <div class="skill-pill">CI/CD</div>
+              <div class="skill-pill">GitOps</div>
+              <div class="skill-pill">Kubernetes</div>
+              <div class="skill-pill">Vercel</div>
+            </div>
+          </div>
+
+          <div class="skills-column">
+            <h3 class="skill-group-title"><span class="code-symbol">&#128279;</span> Integrations &amp; Security</h3>
+            <div class="skills-list">
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Stripe</div>
+              <div class="skill-pill highlight"><span class="pill-dot"></span>Paystack</div>
+              <div class="skill-pill">Firebase FCM</div>
+              <div class="skill-pill">Gemini AI</div>
+              <div class="skill-pill">OAuth / JWT</div>
+              <div class="skill-pill">Bcrypt Hashing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="experience" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 03. Experience</span>
+          <h2 class="section-title">CAREER HISTORY</h2>
+        </div>
+        <div class="timeline-container">
+          
+          <div class="timeline-item">
+            <div class="timeline-date">Apr 2025 – Present</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="job-title">Lead Backend Engineer <span class="company">&mdash; Agoldresourcing</span></h3>
+                <span class="job-type">UK Remote</span>
+              </div>
+              <p class="job-desc">Engineered highly available canonical time reconciliation engines and system telemetry pipelines.</p>
+              <ul class="job-bullets">
+                <li>Engineered the ECS Time Spine, deploying a highly available canonical time reconciliation engine on cloud infrastructure.</li>
+                <li>Designed and implemented live telemetry to monitor system health and data ingestion pipelines in real-time.</li>
+                <li>Authored comprehensive API documentation with clean, interactive interfaces, ensuring seamless internal and external developer integration.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Oct 2024 – Present</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="job-title">Lead Backend Developer <span class="company">&mdash; Alerte Universal</span></h3>
+                <span class="job-type">Global Remote</span>
+              </div>
+              <p class="job-desc">Architected safety and geo-tracking emergency systems to provide real-time community protection.</p>
+              <ul class="job-bullets">
+                <li>Architected the complete backend infrastructure for an emergency response platform from scratch, successfully leading the system to its full App Distribution approval.</li>
+                <li>Engineered a real-time geospatial engine utilising bounding-box queries to trigger instant push notifications for high-risk zones.</li>
+                <li>Developed family safety modules featuring real-time group tracking and optimised 24-hour historical location logging.</li>
+                <li>Integrated advanced artificial intelligence to build a context-aware safety assistant, secured by custom subscription-based access decorators and automated payment processing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Sep 2025 – Mar 2026</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="job-title">Fractional Backend Engineer <span class="company">&mdash; VitalinkPlus</span></h3>
+                <span class="job-type">UK Remote (Contract)</span>
+              </div>
+              <p class="job-desc">Directed a distributed team of engineers to architect a high-availability smart health assistant backend.</p>
+              <ul class="job-bullets">
+                <li>Directed a distributed team of 3 engineers to architect a high-availability backend ecosystem, ensuring seamless 24/7 connectivity between seniors and caregivers across the UK.</li>
+                <li>Developed high-frequency data pipelines for biometric telemetry using optimised time-series database indexing.</li>
+                <li>Implemented comprehensive security protocols including token-based authentication, password hashing, OAuth integrations, and multi-factor verification flows.</li>
+                <li>Engineered a dual-channel notification system for push alerts and critical health event communications.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Oct 2025 – Dec 2025</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="job-title">Backend Engineer <span class="company">&mdash; Cashom</span></h3>
+                <span class="job-type">Global Remote (Contract)</span>
+              </div>
+              <p class="job-desc">Engineered secure wallet and social payment systems with rate limiting and async processing.</p>
+              <ul class="job-bullets">
+                <li>Engineered a secure fintech backend facilitating digital wallets, peer-to-peer transfers, and stringent user authentication.</li>
+                <li>Developed a proprietary social payment system featuring a secure escrow mechanism to handle transfers to unregistered users.</li>
+                <li>Integrated third-party payment gateways for live processing alongside real-time push notifications for transaction updates.</li>
+                <li>Deployed a production-ready RESTful architecture incorporating rate limiting, asynchronous task processing, and secure administrator management tools.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Oct 2022 – Dec 2023</div>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="job-title">Backend Developer <span class="company">&mdash; Help Experience (HEx)</span></h3>
+                <span class="job-type">Lagos, Nigeria</span>
+              </div>
+              <p class="job-desc">Refactored MVPs, optimized server responsiveness, and designed database operations.</p>
+              <ul class="job-bullets">
+                <li>Designed and deployed optimised APIs to streamline data extraction from relational databases, reducing response times by 30% and enhancing overall system performance.</li>
+                <li>Automated the processing of large datasets, facilitating seamless real-time updates and improving data reliability by 25%.</li>
+                <li>Spearheaded the integration of modular backend components, scaling the architecture to support high concurrent user traffic.</li>
+                <li>Revamped the minimum viable product (MVP) architecture, aligning backend functionality with user needs to increase platform engagement by 20%.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="projects" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 04. Selected Projects</span>
+          <h2 class="section-title">EARLIER PROJECTS</h2>
+        </div>
+        <div class="projects-grid">
+          
+          <div class="project-card" data-api-target="/api/v1/projects/easy-transact" data-arch-target="finance">
+            <div class="project-header">
+              <span class="project-number">01</span>
+              <div class="project-links">
+                <span class="action-hint">Click card to load in Sandbox tools</span>
+              </div>
+            </div>
+            <h3 class="project-title">Easy Transact</h3>
+            <p class="project-description">A secure financial management app integrating custom authentication, audit trails, and automatic ledger adjustments. Includes background tasks generating financial reports.</p>
+            <div class="project-tech-tags">
+              <span>Python</span>
+              <span>Flask</span>
+              <span>SQLAlchemy</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="project-card" data-api-target="/api/v1/projects/stma" data-arch-target="stma">
+            <div class="project-header">
+              <span class="project-number">02</span>
+              <span class="action-hint">Click card to load in Sandbox tools</span>
+            </div>
+            <h3 class="project-title">STMA Portal</h3>
+            <p class="project-description">A high-performance student data management backend designed with Flask RESTful API. Handles bulk student enrollment, course registrations, and grade computations under strict token validation.</p>
+            <div class="project-tech-tags">
+              <span>Flask RESTful</span>
+              <span>PostgreSQL</span>
+              <span>JWT</span>
+              <span>Docker</span>
+            </div>
+          </div>
+
+          <div class="project-card" data-api-target="/api/v1/projects/redroute" data-arch-target="redroute">
+            <div class="project-header">
+              <span class="project-number">03</span>
+              <span class="action-hint">Click card to load in Sandbox tools</span>
+            </div>
+            <h3 class="project-title">RedRoute Shortener</h3>
+            <p class="project-description">A URL shortener and QR engine using Redis read-through caching. Achieved sub-10ms redirect routes while maintaining usage statistics and geo-analytics in a relational datastore.</p>
+            <div class="project-tech-tags">
+              <span>FastAPI</span>
+              <span>Redis Cache</span>
+              <span>SQLite</span>
+              <span>QR Code API</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="sandbox" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 05. Interactive Sandbox</span>
+          <h2 class="section-title">DEVELOPER CONSOLE &amp; SIMULATORS</h2>
+        </div>
+        
+        <div class="sandbox-intro">
+          <p>Explore this live simulation interface to check my systems. Select an interactive tool below to interact with the simulated backend environment.</p>
+        </div>
+
+        <div class="sandbox-wrapper">
+          
+          <div class="sandbox-tabs">
+            <button class="sandbox-tab-btn active" data-tab="terminal">
+              <span class="tab-icon">&gt;_</span> Terminal Console
+            </button>
+            <button class="sandbox-tab-btn" data-tab="api">
+              <span class="tab-icon">{}</span> API Explorer
+            </button>
+            <button class="sandbox-tab-btn" data-tab="architecture">
+              <span class="tab-icon">&#9698;</span> System Architecture
+            </button>
+          </div>
+
+          
+          <div class="sandbox-content">
+            
+            
+            <div class="sandbox-pane active" id="pane-terminal">
+              <div class="terminal-mock-window">
+                <div class="window-header">
+                  <div class="dots"><span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span></div>
+                  <div class="window-title">guest@noah-backend: ~ (bash)</div>
+                  <div class="window-actions">
+                    <button id="terminal-clear-btn" title="Clear terminal">Reset</button>
+                  </div>
+                </div>
+                <div class="terminal-screen" id="terminal-screen-logs">
+                  <div class="terminal-row welcome-msg">
+                    <p class="accent-text">NOAH-OS (v1.2.0-STABLE) Web Console</p>
+                    <p>System initialized successfully. Connection secure.</p>
+                    <p>Type <span class="cyan">help</span> to view available backend commands.</p>
+                    <p>&nbsp;</p>
+                  </div>
+                </div>
+                <div class="terminal-input-row">
+                  <span class="prompt-symbol">visitor@noah-backend:~$</span>
+                  <input type="text" id="terminal-input" autocomplete="off" autofocus placeholder="Type command here..." aria-label="Terminal Input">
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="sandbox-pane" id="pane-api">
+              <div class="api-explorer-grid">
+                
+                
+                <div class="api-request-panel">
+                  <h3 class="panel-subtitle">Request Configuration</h3>
+                  
+                  <div class="form-group">
+                    <label for="api-endpoint">Endpoint</label>
+                    <div class="api-endpoint-input-group">
+                      <span class="http-method-badge get" id="request-method-badge">GET</span>
+                      <select id="api-endpoint" class="api-select">
+                        <option value="/api/v1/profile" data-method="GET">/api/v1/profile</option>
+                        <option value="/api/v1/skills" data-method="GET">/api/v1/skills</option>
+                        <option value="/api/v1/projects" data-method="GET">/api/v1/projects</option>
+                        <option value="/api/v1/projects/easy-transact" data-method="GET">/api/v1/projects/easy-transact</option>
+                        <option value="/api/v1/projects/stma" data-method="GET">/api/v1/projects/stma</option>
+                        <option value="/api/v1/projects/redroute" data-method="GET">/api/v1/projects/redroute</option>
+                        <option value="/api/v1/architecture" data-method="GET">/api/v1/architecture</option>
+                        <option value="/api/v1/contact" data-method="POST">/api/v1/contact</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  
+                  <div class="form-group" id="api-body-group" style="display: none;">
+                    <label for="api-post-body">Request Body (JSON)</label>
+                    <textarea id="api-post-body" class="api-textarea" rows="5">
+{
+  "name": "Recruiter Name",
+  "email": "hello@company.com",
+  "message": "Let's schedule an interview!"
+}</textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="api-latency">Simulated Network Latency</label>
+                    <div class="latency-slider-wrapper">
+                      <input type="range" id="api-latency" min="50" max="2000" step="50" value="300">
+                      <span id="api-latency-val">300ms</span>
+                    </div>
+                  </div>
+
+                  <button id="btn-send-request" class="btn btn-primary btn-block">
+                    <span class="btn-text">Execute Request</span>
+                    <span class="spinner" style="display:none;"></span>
+                  </button>
+                </div>
+
+                
+                <div class="api-response-panel">
+                  <div class="panel-header-with-status">
+                    <h3 class="panel-subtitle">Response Details</h3>
+                    <div class="response-meta">
+                      <span class="response-status" id="response-status-badge">---</span>
+                      <span class="response-time" id="response-time-val">0ms</span>
+                    </div>
+                  </div>
+
+                  <div class="api-response-body">
+                    <pre><code id="api-response-code" class="language-json">Click "Execute Request" to fetch simulated endpoints...</code></pre>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            
+            <div class="sandbox-pane" id="pane-architecture">
+              <div class="arch-visualizer-grid">
+                
+                
+                <div class="arch-canvas-container">
+                  <div class="canvas-help-text">Click on any system component below to view its role &amp; metrics</div>
+                  <svg id="architecture-svg" viewBox="0 0 800 500" width="100%" height="100%">
+                    
+                    
+                    <defs>
+                      <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 0 L 10 5 L 0 10 z" fill="#E41F25" opacity="0.7"/>
+                      </marker>
+                      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                        <feGaussianBlur stdDeviation="5" result="blur"/>
+                        <feMerge>
+                          <feMergeNode in="blur"/>
+                          <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                      </filter>
+                    </defs>
+
+                    
+                    
+                    <path class="arch-wire" d="M 70 250 L 170 250" marker-end="url(#arrow)" />
+                    
+                    <path class="arch-wire" d="M 230 250 L 330 250" marker-end="url(#arrow)" />
+                    
+                    
+                    <path class="arch-wire" d="M 390 220 Q 420 130 500 130" marker-end="url(#arrow)" />
+                    <path class="arch-wire" d="M 500 150 Q 410 160 390 230" marker-end="url(#arrow)" />
+                    
+                    
+                    <path class="arch-wire" d="M 420 250 L 520 250" marker-end="url(#arrow)" />
+                    
+                    
+                    <path class="arch-wire" d="M 390 280 Q 420 370 500 370" marker-end="url(#arrow)" />
+                    
+                    
+                    <path class="arch-wire" d="M 560 350 Q 640 250 560 160" marker-end="url(#arrow)" />
+                    
+                    
+                    <path class="arch-wire" d="M 580 390 L 680 390" marker-end="url(#arrow)" />
+                    
+                    
+                    <path class="arch-wire" d="M 390 290 Q 450 320 680 270" marker-end="url(#arrow)" />
+
+                    
+                    
+                    <g class="arch-node" id="node-client" data-node="client">
+                      <rect class="node-shape" x="10" y="210" width="80" height="80" rx="8"/>
+                      <text class="node-text" x="50" y="245">CLIENT</text>
+                      <text class="node-subtext" x="50" y="265">Web/Mobile</text>
+                    </g>
+
+                    
+                    <g class="arch-node" id="node-gateway" data-node="gateway">
+                      <rect class="node-shape" x="150" y="210" width="100" height="80" rx="8"/>
+                      <text class="node-text" x="200" y="245">GATEWAY</text>
+                      <text class="node-subtext" x="200" y="265">Nginx / Rate Limit</text>
+                    </g>
+
+                    
+                    <g class="arch-node" id="node-server" data-node="server">
+                      <rect class="node-shape" x="310" y="210" width="120" height="80" rx="8"/>
+                      <text class="node-text text-accent" x="370" y="245">APP SERVER</text>
+                      <text class="node-subtext" x="370" y="265">Python (Gunicorn)</text>
+                    </g>
+
+                    
+                    <g class="arch-node" id="node-redis" data-node="redis">
+                      <rect class="node-shape" x="480" y="100" width="100" height="70" rx="8"/>
+                      <text class="node-text" x="530" y="130">REDIS</text>
+                      <text class="node-subtext" x="530" y="150">Cache / Queue</text>
+                    </g>
+
+                    
+                    <g class="arch-node" id="node-database" data-node="database">
+                      <rect class="node-shape" x="500" y="210" width="120" height="80" rx="8"/>
+                      <text class="node-text" x="560" y="245">RELATIONAL DB</text>
+                      <text class="node-subtext" x="560" y="265">PostgreSQL/MySQL</text>
+                    </g>
+
+                    
+                    <g class="arch-node" id="node-worker" data-node="worker">
+                      <rect class="node-shape" x="480" y="340" width="120" height="70" rx="8"/>
+                      <text class="node-text" x="540" y="370">ASYNC WORKER</text>
+                      <text class="node-subtext" x="540" y="390">Celery / Cron</text>
+                    </g>
+
+                    
+                    <g class="arch-node" id="node-external" data-node="external">
+                      <rect class="node-shape" x="660" y="240" width="130" height="170" rx="8"/>
+                      <text class="node-text" x="725" y="275">EXTERNAL SERVICES</text>
+                      <text class="node-small-sub" x="725" y="305">Stripe Payments</text>
+                      <text class="node-small-sub" x="725" y="330">Paystack Hook</text>
+                      <text class="node-small-sub" x="725" y="355">Firebase FCM</text>
+                      <text class="node-small-sub" x="725" y="380">Gemini AI API</text>
+                    </g>
+
+                  </svg>
+                </div>
+
+                
+                <div class="arch-info-panel">
+                  <h3 class="panel-subtitle" id="arch-node-name">System Topology</h3>
+                  <div class="arch-node-details" id="arch-node-desc">
+                    <p>Click on any component of the system architecture diagram to inspect how it is utilized in my production setups.</p>
+                    <p>This graph models the standard high-availability stateless design pattern I implement for backend projects like <strong>Alerte Universal</strong> and <strong>VitalinkPlus</strong>.</p>
+                  </div>
+                  <div class="arch-node-stats" id="arch-node-stats-box" style="display: none;">
+                    <div class="arch-stat-row">
+                      <span class="label">Key Tech:</span>
+                      <span class="value" id="arch-stat-tech">--</span>
+                    </div>
+                    <div class="arch-stat-row">
+                      <span class="label">Best Practice:</span>
+                      <span class="value" id="arch-stat-practice">--</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section id="education" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 06. Education &amp; Credentials</span>
+          <h2 class="section-title">EDUCATION &amp; CERTIFICATIONS</h2>
+        </div>
+        <div class="education-grid">
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div class="edu-details">
+              <span class="edu-date">2025</span>
+              <h3 class="edu-title">B.A.Ed. in Guidance and Counselling</h3>
+              <span class="edu-institution">University of Lagos</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">📜</div>
+            <div class="edu-details">
+              <span class="edu-date">2024</span>
+              <h3 class="edu-title">AI Augmented Professional Development Skills</h3>
+              <span class="edu-institution">ALX Africa</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">📜</div>
+            <div class="edu-details">
+              <span class="edu-date">2023</span>
+              <h3 class="edu-title">Diploma in Software Engineering</h3>
+              <span class="edu-institution">ALX Africa</span>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">📜</div>
+            <div class="edu-details">
+              <span class="edu-date">2022</span>
+              <h3 class="edu-title">Diploma in Backend Engineering</h3>
+              <span class="edu-institution">Altschool Africa</span>
+            </div>
+          </div>
+        </div>
+        <div class="orgs-container">
+          <h3 class="orgs-heading">Organizations &amp; Community</h3>
+          <div class="orgs-grid">
+            <div class="org-card">
+              <span class="org-role">Volunteer</span>
+              <h4 class="org-name">Flaskcon Africa</h4>
+              <span class="org-date">2024 – Present</span>
+            </div>
+            <div class="org-card">
+              <span class="org-role">Member</span>
+              <h4 class="org-name">Google Developer Group Lagos</h4>
+              <span class="org-date">2022 – Present</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="reveal">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// 07. Get In Touch</span>
+          <h2 class="section-title">LET'S COLLABORATE</h2>
+        </div>
+        <div class="contact-grid">
+          
+          <div class="contact-info">
+            <p class="contact-lead">Are you looking to hire a backend developer who writes testable APIs, designs solid schemas, and understands scaling?</p>
+            <p>I'm open to remote full-time positions, contracting, or consulting projects. Let's build something secure and performant.</p>
+            
+            <div class="contact-details-list">
+              <a href="mailto:noahuseghan@gmail.com" class="contact-detail-item">
+                <span class="icon">&#9993;</span>
+                <span class="text">noahuseghan@gmail.com</span>
+              </a>
+              <a href="tel:+2348121684322" class="contact-detail-item">
+                <span class="icon">&#9742;</span>
+                <span class="text">(+234)8121684322</span>
+              </a>
+              <a href="https://github.com/Unique-Red" target="_blank" class="contact-detail-item">
+                <span class="icon">&lt;/&gt;</span>
+                <span class="text">github.com/Unique-Red</span>
+              </a>
+              <a href="https://linkedin.com/in/noahuseghan" target="_blank" class="contact-detail-item">
+                <span class="icon">in</span>
+                <span class="text">linkedin.com/in/noahuseghan</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <div class="contact-form-header">
+              <span class="form-title">Send a Quick Ping</span>
+              <span class="form-sub">Bypasses API client - fires real notification endpoint simulation</span>
+            </div>
+            
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group-half">
+                  <label for="contact-name">Name</label>
+                  <input type="text" id="contact-name" placeholder="Alex Carter" required>
+                </div>
+                <div class="form-group-half">
+                  <label for="contact-email">Email</label>
+                  <input type="email" id="contact-email" placeholder="alex@company.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" rows="4" placeholder="Hi Noah, I checked your portfolio and..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="contact-submit-btn">Send Message</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+    <footer>
+      <div class="container footer-container">
+        <p class="copyright">&copy; 2026 Noah Useghan.</p>
+        <div class="footer-badges">
+          <span class="badge">Flaskcon Africa Volunteer</span>
+          <span class="badge">GDG Lagos member</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  
+  
+  
+  <div id="printable-wrapper" class="view-wrapper">
+    <div class="cv-page">
+      
+      
+      <div class="cv-actions no-print">
+        <button id="btn-print-cv" class="btn btn-primary">
+          <span class="icon">&#128422;</span> Print CV / Save as PDF
+        </button>
+        <button id="btn-back-interactive" class="btn btn-secondary">
+          Return to Interactive Site
+        </button>
+      </div>
+
+      
+      <header class="cv-header">
+        <div class="cv-header-left">
+          <h1 class="cv-name">Noah Useghan</h1>
+          <p class="cv-title">Backend &amp; Systems Engineer</p>
+        </div>
+        <div class="cv-header-right">
+          <p class="cv-meta">Lagos, Nigeria &middot; Open to Global Remote</p>
+          <p class="cv-meta">Phone: (+234)8121684322 &middot; Email: noahuseghan@gmail.com</p>
+          <p class="cv-meta">GitHub: github.com/Unique-Red &middot; LinkedIn: linkedin.com/in/noahuseghan</p>
+        </div>
+      </header>
+
+      <section class="cv-section">
+        <h2 class="cv-section-title">Summary</h2>
+        <p class="cv-summary-text">
+          Backend Engineer with 5+ years of experience architecting high availability systems and leading distributed engineering teams. With a proven track record of engineering scalable platforms from the ground up, including complex emergency response systems and secure fintech applications.
+        </p>
+      </section>
+
+      <section class="cv-section">
+        <h2 class="cv-section-title">Technical Expertise</h2>
+        <div class="cv-skills-grid">
+          <div><strong>Programming Languages:</strong> Rust, Python, Golang, Javascript</div>
+          <div><strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, SQLite</div>
+          <div><strong>Development Expertise:</strong> REST APIs, JSON-RPC, API design, data ingestion, data processing, pipeline architecture, web development and Artificial Intelligence (AI)</div>
+          <div><strong>Infrastructure &amp; DevOps:</strong> Docker, AWS, Google Cloud, Render, GitHub Actions, CI/CD pipelines, GitOps workflows, monitoring and observability</div>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2 class="cv-section-title">Professional Experience</h2>
+        
+        <div class="cv-job">
+          <div class="cv-job-header">
+            <span class="cv-job-title"><strong>Lead Backend Engineer</strong> &mdash; Agoldresourcing</span>
+            <span class="cv-job-date">Apr 2025 – Present</span>
+          </div>
+          <div class="cv-job-location">United Kingdom &middot; Remote</div>
+          <ul class="cv-job-bullets">
+            <li>Engineered the ECS Time Spine, deploying a highly available canonical time reconciliation engine on cloud infrastructure.</li>
+            <li>Designed and implemented live telemetry to monitor system health and data ingestion pipelines in real-time.</li>
+            <li>Authored comprehensive API documentation with clean, interactive interfaces, ensuring seamless internal and external developer integration.</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-header">
+            <span class="cv-job-title"><strong>Lead Backend Developer</strong> &mdash; Alerte Universal</span>
+            <span class="cv-job-date">Oct 2024 – Present</span>
+          </div>
+          <div class="cv-job-location">Global &middot; Remote</div>
+          <ul class="cv-job-bullets">
+            <li>Architected the complete backend infrastructure for an emergency response platform from scratch, successfully leading the system to its full App Distribution approval.</li>
+            <li>Engineered a real-time geospatial engine utilising bounding-box queries to trigger instant push notifications for high-risk zones.</li>
+            <li>Developed family safety modules featuring real-time group tracking and optimised 24-hour historical location logging.</li>
+            <li>Integrated advanced artificial intelligence to build a context-aware safety assistant, secured by custom subscription-based access decorators and automated payment processing.</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-header">
+            <span class="cv-job-title"><strong>Fractional Backend Engineer</strong> &mdash; VitalinkPlus</span>
+            <span class="cv-job-date">Sep 2025 – Mar 2026</span>
+          </div>
+          <div class="cv-job-location">United Kingdom &middot; Contract / Remote</div>
+          <ul class="cv-job-bullets">
+            <li>Directed a distributed team of 3 engineers to architect a high-availability backend ecosystem, ensuring seamless 24/7 connectivity between seniors and caregivers across the UK.</li>
+            <li>Developed high-frequency data pipelines for biometric telemetry using optimised time-series database indexing.</li>
+            <li>Implemented comprehensive security protocols including token-based authentication, password hashing, OAuth integrations, and multi-factor verification flows.</li>
+            <li>Engineered a dual-channel notification system for push alerts and critical health event communications.</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-header">
+            <span class="cv-job-title"><strong>Backend Engineer</strong> &mdash; Cashom</span>
+            <span class="cv-job-date">Oct 2025 – Dec 2025</span>
+          </div>
+          <div class="cv-job-location">Global &middot; Part-time Contract / Remote</div>
+          <ul class="cv-job-bullets">
+            <li>Engineered a secure fintech backend facilitating digital wallets, peer-to-peer transfers, and stringent user authentication.</li>
+            <li>Developed a proprietary social payment system featuring a secure escrow mechanism to handle transfers to unregistered users.</li>
+            <li>Integrated third-party payment gateways for live processing alongside real-time push notifications for transaction updates.</li>
+            <li>Deployed a production-ready RESTful architecture incorporating rate limiting, asynchronous task processing, and secure administrator management tools.</li>
+          </ul>
+        </div>
+
+        <div class="cv-job">
+          <div class="cv-job-header">
+            <span class="cv-job-title"><strong>Backend Developer</strong> &mdash; Help Experience (HEx)</span>
+            <span class="cv-job-date">Oct 2022 – Dec 2023</span>
+          </div>
+          <div class="cv-job-location">Lagos, Nigeria &middot; Full-Time</div>
+          <ul class="cv-job-bullets">
+            <li>Designed and deployed optimised APIs to streamline data extraction from relational databases, reducing response times by 30% and enhancing overall system performance.</li>
+            <li>Automated the processing of large datasets, facilitating seamless real-time updates and improving data reliability by 25%.</li>
+            <li>Spearheaded the integration of modular backend components, scaling the architecture to support high concurrent user traffic.</li>
+            <li>Revamped the minimum viable product (MVP) architecture, aligning backend functionality with user needs to increase platform engagement by 20%.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="cv-section page-break-before">
+        <h2 class="cv-section-title">Selected Projects</h2>
+        
+        <div class="cv-project">
+          <strong>Easy Transact</strong>
+          <p>Architected a secure, AI-integrated platform focusing on complex financial data analysis and user-centric workflows. Engineered robust authentication and automated communication systems, strictly adhering to data privacy and compliance standards.</p>
+        </div>
+
+        <div class="cv-project">
+          <strong>STMA Student Portal Backend</strong>
+          <p>Designed and deployed a RESTful architecture to streamline the management of extensive student records. Implemented secure, token-based authorisation protocols, significantly enhancing overall data integrity and system security.</p>
+        </div>
+
+        <div class="cv-project">
+          <strong>RedRoute URL Engine</strong>
+          <p>Optimised data storage and retrieval systems to support rapid URL shortening and dynamic QR code generation. Integrated advanced caching layers, improving data processing speeds by 37% and ensuring highly reliable communication protocols.</p>
+        </div>
+      </section>
+
+      <section class="cv-section">
+        <h2 class="cv-section-title">Certifications &amp; Education</h2>
+        <ul class="cv-bullets">
+          <li><strong>B.A.Ed. in Guidance and Counselling</strong> &mdash; University of Lagos (2025)</li>
+          <li><strong>AI Augmented Professional Development Skills</strong> &mdash; ALX Africa (2024)</li>
+          <li><strong>Diploma in Software Engineering</strong> &mdash; ALX Africa (2023)</li>
+          <li><strong>Diploma in Backend Engineering</strong> &mdash; Altschool Africa (2022)</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2 class="cv-section-title">Volunteer &amp; Community Roles</h2>
+        <ul class="cv-bullets">
+          <li><strong>Volunteer</strong> &mdash; Flaskcon Africa (2024 – Present)</li>
+          <li><strong>Member</strong> &mdash; Google Developer Group (GDG) Lagos (2022 – Present)</li>
+        </ul>
+      </section>
+
+    </div>
+  </div>
+
+  
+  <script src="app.js"></script>
+</body>
+</html>
