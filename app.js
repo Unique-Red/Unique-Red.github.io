@@ -1,8 +1,3 @@
-/**
- * Noah Useghan — Portfolio Main Application Script
- * Precision-engineered vanilla JavaScript for high performance and smooth interactions.
- */
-
 document.addEventListener('DOMContentLoaded', () => {
 
   // Set dynamic copyright year
@@ -11,9 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     copyrightYear.textContent = new Date().getFullYear();
   }
 
-  // ==========================================================================
-  // 1. STATE & VIEW MANAGEMENT (DUAL-MODE SWITCH)
-  // ==========================================================================
   const body = document.body;
   const modeToggle = document.getElementById('mode-toggle');
   const labelInteractive = document.getElementById('label-interactive');
