@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unique-red.github.io/sitemap.xml
