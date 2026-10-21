@@ -17,7 +17,7 @@
     linkedin: "https://www.linkedin.com/in/noah-useghan-147814234/",
     github: "https://github.com/Unique-Red",
     publication: "The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities (Jan 2026)",
-    experienceYears: "5+",
+    experienceYears: "4+",
     coreStack: "Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, Redis, Docker, AWS, Distributed Architecture",
     leadership: "Speaker & Panel Host at Flaskcon Africa, Member of Google Developer Group (GDG) Lagos"
   };
@@ -197,7 +197,8 @@
       const matchesCategory = (currentCategory === 'all') ||
         (currentCategory === 'ktp' && (job.category.includes('KTP') || job.title.includes('KTP'))) ||
         (currentCategory === 'uk-remote' && (job.category.includes('UK') || job.location.includes('United Kingdom') || job.location.includes('UK'))) ||
-        (currentCategory === 'global-remote' && (job.category.includes('Global') || job.location.includes('Global')));
+        (currentCategory === 'global-remote' && (job.category.includes('Global') || job.location.includes('Global'))) ||
+        (currentCategory === 'linkedin' && ((job.source && job.source.includes('LinkedIn')) || job.category.includes('LinkedIn') || (job.tags && job.tags.includes('LinkedIn'))));
 
       // Search match
       const query = searchQuery;
@@ -237,8 +238,9 @@
     jobsGrid.innerHTML = filtered.map(job => {
       const status = getJobStatus(job.id);
       const isKtp = job.category.includes('KTP') || job.title.includes('KTP');
-      const catClass = isKtp ? 'cat-ktp' : 'cat-remote';
-      const catIcon = isKtp ? 'fa-graduation-cap' : 'fa-network-wired';
+      const isLinkedIn = (job.source && job.source.includes('LinkedIn')) || job.category.includes('LinkedIn');
+      const catClass = isKtp ? 'cat-ktp' : (isLinkedIn ? 'cat-linkedin' : 'cat-remote');
+      const catIcon = isKtp ? 'fa-graduation-cap' : (isLinkedIn ? 'fa-brands fa-linkedin' : 'fa-network-wired');
       const matchScore = job.match_score || 95;
       const matchClass = matchScore >= 95 ? 'match-high' : 'match-med';
 
@@ -340,16 +342,19 @@
     const ktpCount = jobsData.filter(j => j.category.includes('KTP') || j.title.includes('KTP')).length;
     const ukRemoteCount = jobsData.filter(j => j.category.includes('UK') || j.location.includes('United Kingdom') || j.location.includes('UK')).length;
     const globalCount = jobsData.filter(j => j.category.includes('Global') || j.location.includes('Global')).length;
+    const linkedinCount = jobsData.filter(j => (j.source && j.source.includes('LinkedIn')) || j.category.includes('LinkedIn') || (j.tags && j.tags.includes('LinkedIn'))).length;
 
     const countAllEl = document.getElementById('count-all');
     const countKtpEl = document.getElementById('count-ktp');
     const countUkEl = document.getElementById('count-uk-remote');
     const countGlobalEl = document.getElementById('count-global-remote');
+    const countLinkedInEl = document.getElementById('count-linkedin');
 
     if (countAllEl) countAllEl.textContent = total;
     if (countKtpEl) countKtpEl.textContent = ktpCount;
     if (countUkEl) countUkEl.textContent = ukRemoteCount;
     if (countGlobalEl) countGlobalEl.textContent = globalCount;
+    if (countLinkedInEl) countLinkedInEl.textContent = linkedinCount;
   }
 
   // LocalStorage Helpers
@@ -407,7 +412,7 @@
     if (isKtp) {
       return `Dear Selection Committee and Academic/Commercial Supervisors at ${job.organization},
 
-I am writing to express my strong enthusiasm for the ${job.title} position (Innovate UK Knowledge Transfer Partnership). With over 5 years of experience architecting resilient distributed systems and having co-authored peer-reviewed research in applied Artificial Intelligence ("The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities", Jan 2026), I offer a unique combination of academic rigor and production-grade engineering excellence.
+I am writing to express my strong enthusiasm for the ${job.title} position (Innovate UK Knowledge Transfer Partnership). With over 4 years of experience architecting resilient distributed systems and having co-authored peer-reviewed research in applied Artificial Intelligence ("The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities", Jan 2026), I offer a unique combination of academic rigor and production-grade engineering excellence.
 
 As an engineer who has spearheaded end-to-end backend architectures for mission-critical platforms—such as Alerte Universal (emergency response) and Agoldresourcing—I have demonstrated the ability to translate complex conceptual research into high-availability, scalable software solutions. My core technical expertise spans Python (FastAPI/Flask), Rust, Golang, PostgreSQL, and event-driven cloud telemetry, adhering to robust software design principles.
 
@@ -429,7 +434,7 @@ GitHub: ${CANDIDATE.github}`;
 
 I am excited to submit my application for the ${job.title} opening. 
 
-With 5+ years of experience engineering high-throughput backend services and distributed systems, I specialize in building fault-tolerant, scalable architectures using Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, and cloud-native infrastructure.
+With 4+ years of experience engineering high-throughput backend services and distributed systems, I specialize in building fault-tolerant, scalable architectures using Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, and cloud-native infrastructure.
 
 In my recent roles as Lead Backend Developer for Alerte Universal and Software Engineer for UK-based teams at Agoldresourcing and VitalinkPlus:
 • I architected scalable microservices and real-time streaming architectures supporting high-concurrency environments.

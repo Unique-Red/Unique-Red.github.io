@@ -18,6 +18,7 @@ import html
 import urllib.request
 import urllib.parse
 import urllib.error
+import hashlib
 from datetime import datetime
 
 # Ensure utf-8 stdout/stderr on Windows consoles
@@ -277,6 +278,89 @@ def fetch_remote_tech_jobs():
         
     return jobs
 
+def scrape_linkedin_jobs(keywords="python", limit=20):
+    """
+    Scrapes recently posted jobs from LinkedIn (past 24 hours: f_TPR=r86400).
+    Targets LinkedIn's public guest search API without requiring authentication.
+    """
+    jobs = []
+    print(f"Fetching recent LinkedIn jobs (past 24h) for keywords='{keywords}'...")
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    }
+    
+    encoded_keywords = urllib.parse.quote(keywords)
+    
+    for start in [0, 10]:
+        api_url = f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={encoded_keywords}&f_TPR=r86400&start={start}"
+        try:
+            req = urllib.request.Request(api_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=12) as resp:
+                content = resp.read().decode("utf-8", errors="ignore")
+                
+            items = re.findall(r'<div class="base-card[^"]*".*?>(.*?)</div>\s*</li>', content, re.DOTALL)
+            if not items:
+                items = re.findall(r'<li[^>]*>(.*?)</li>', content, re.DOTALL)
+                
+            for it in items:
+                title_m = re.search(r'<h3[^>]*class="[^"]*base-search-card__title[^"]*"[^>]*>(.*?)</h3>', it, re.DOTALL)
+                company_m = re.search(r'<h4[^>]*class="[^"]*base-search-card__subtitle[^"]*"[^>]*>(.*?)</h4>', it, re.DOTALL)
+                loc_m = re.search(r'<span[^>]*class="[^"]*job-search-card__location[^"]*"[^>]*>(.*?)</span>', it, re.DOTALL)
+                link_m = re.search(r'<a[^>]*class="[^"]*base-card__full-link[^"]*"[^>]*href="([^"]*)"', it, re.DOTALL)
+                date_m = re.search(r'<time[^>]*datetime="([^"]*)"[^>]*>(.*?)</time>', it, re.DOTALL)
+                
+                if not title_m or not link_m:
+                    continue
+                    
+                title = html.unescape(title_m.group(1)).strip()
+                company = html.unescape(re.sub(r'<[^>]+>', '', company_m.group(1))).strip() if company_m else "Leading Tech Company"
+                loc = html.unescape(loc_m.group(1)).strip() if loc_m else "Remote / Flexible"
+                link = link_m.group(1).split("?")[0].strip()
+                date_str = date_m.group(2).strip() if date_m else "Past 24h"
+                
+                # Deduce category based on location
+                loc_lower = loc.lower()
+                if any(u in loc_lower for u in ["uk", "united kingdom", "london", "manchester", "birmingham", "edinburgh"]):
+                    category = "UK Remote Backend" if "remote" in loc_lower or "hybrid" in loc_lower else "UK Tech"
+                elif any(r in loc_lower for r in ["remote", "worldwide", "anywhere"]):
+                    category = "Global Remote"
+                else:
+                    category = "LinkedIn Recent (Python)"
+                
+                job_id = f"li-{hashlib.md5(link.encode()).hexdigest()[:10]}"
+                match_score = compute_match_score(title, f"{company} {loc} {keywords}", category)
+                if "python" in title.lower():
+                    match_score = max(match_score, 92)
+                
+                jobs.append({
+                    "id": job_id,
+                    "title": title,
+                    "category": category,
+                    "organization": company,
+                    "location": loc,
+                    "salary": "Competitive (Market Rate)",
+                    "deadline": f"Posted: {date_str}",
+                    "summary": f"Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+                    "apply_url": link,
+                    "match_score": match_score,
+                    "tags": ["LinkedIn", "Python", "Past 24 Hours", loc[:24]],
+                    "source": "LinkedIn (Past 24h)"
+                })
+                
+                if len(jobs) >= limit:
+                    break
+        except Exception as e:
+            print(f"Notice: LinkedIn scrape batch start={start} skipped ({e}).")
+            
+        if len(jobs) >= limit:
+            break
+            
+    print(f"Scraped {len(jobs)} recent openings from LinkedIn.")
+    return jobs
+
 def get_fallback_verified_jobs():
     """Curated verified live KTP Associate openings and UK/Global remote roles."""
     return [
@@ -491,9 +575,13 @@ def main():
     # 3. Fetch remote tech jobs
     remote_jobs = fetch_remote_tech_jobs()
     print(f"Fetched {len(remote_jobs)} remote tech jobs")
+
+    # 4. Scrape LinkedIn recent Python jobs (past 24h: f_TPR=r86400)
+    linkedin_jobs = scrape_linkedin_jobs(keywords="python", limit=20)
+    print(f"Scraped {len(linkedin_jobs)} recent Python openings from LinkedIn (past 24h)")
     
     # Combine all scraped
-    all_scraped = ktp_jobs + jobs_ac + remote_jobs
+    all_scraped = ktp_jobs + jobs_ac + remote_jobs + linkedin_jobs
     
     # If scraped list is smaller than expected, ensure verified fallbacks are included
     verified_fallbacks = get_fallback_verified_jobs()
@@ -540,13 +628,14 @@ def main():
             "total_count": len(combined_jobs),
             "target_candidate": "Noah Useghan",
             "candidate_highlights": [
-                "5+ Years High-Availability Systems",
+                "4+ Years High-Availability Systems",
                 "Author: AI Assistive Tech Publication (Jan 2026)",
                 "Host & Speaker: Flaskcon Africa & GDG Lagos",
                 "Python, Rust, Golang, Cloud & Distributed Telemetry"
             ],
             "sources": [
                 "Innovate UK KTP Portal (iuk-ktp.org.uk)",
+                "LinkedIn Jobs (Past 24h: Python)",
                 "jobs.ac.uk KTP Network",
                 "Curated UK & Global Remote Feeds"
             ]
