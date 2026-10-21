@@ -214,11 +214,21 @@ document.addEventListener('DOMContentLoaded', () => {
       email: "noahuseghan@gmail.com",
       github: "https://github.com/Unique-Red",
       linkedin: "https://linkedin.com/in/noahuseghan"
+    },
+    'ktp.json': {
+      program: "Innovate UK Knowledge Transfer Partnerships (KTP)",
+      candidate: "Noah Useghan (Backend & Systems Engineer)",
+      academic_publication: "The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties (Jan 2026)",
+      publication_co_authors: "Dr. E. S. Aremu, Dr. O. Ariyo, Noah Useghan",
+      indexing: ["ResearchGate", "Zenodo", "Academia.edu"],
+      core_strengths: ["High-Availability Backend Architecture", "AI Cognitive Data Pipelines", "ECS Time Spine", "Real-Time Geospatial Engines"],
+      status: "Available for UK KTP Associate Appointment"
     }
   };
 
   const availableCommands = {
     'help': 'Display active backend commands.',
+    'talent': 'Display UK Global Talent & Academic endorsement dossier.',
     'ls': 'List mock configuration files available to inspect.',
     'cat [file]': 'View details inside a configuration file.',
     'skills': 'Print summary of technical programming assets.',
@@ -391,6 +401,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           }, 400);
         }, 1000);
+        break;
+
+      case 'talent':
+        let talentOutput = '<span class="accent-text">=== UK GLOBAL TALENT & ACADEMIC DOSSIER ===</span><br>';
+        talentOutput += '<strong>Candidate:</strong> Noah Useghan (Backend & Systems Engineer)<br>';
+        talentOutput += '<strong>Academic Research (Jan 2026):</strong> "The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties (PSLDS)"<br>';
+        talentOutput += '<strong>Co-Authors:</strong> Dr. E. S. Aremu, Dr. O. Ariyo, Noah Useghan<br>';
+        talentOutput += '<strong>Archived on:</strong> ResearchGate, Zenodo (CERN), Academia.edu<br>';
+        talentOutput += '<strong>Architectural Highlights:</strong> ECS Time Spine (AWS cloud time reconciliation), Real-Time Geospatial engine (bounding-box queries), Biometric health telemetry stream<br>';
+        talentOutput += '<strong>Community Governance:</strong> Flaskcon Africa (Panel Host), EFSA (General Secretary)<br>';
+        talentOutput += '<span class="green">Status: Qualified for Tech Nation Global Talent & UKRI / Innovate UK KTP Associate positions.</span><br>';
+        appendTerminalRow(talentOutput, 'output-row', true);
         break;
 
       case 'clear':
@@ -929,14 +951,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (nodeElement) {
-          
           nodeElement.dispatchEvent(new Event('click'));
         }
       }
-
-      
-      document.getElementById('sandbox').scrollIntoView({ behavior: 'smooth' });
     });
   });
 
 });
+

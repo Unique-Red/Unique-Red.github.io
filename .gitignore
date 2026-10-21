@@ -1,0 +1,17 @@
+# Environment and Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/

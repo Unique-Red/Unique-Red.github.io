@@ -1,0 +1,41 @@
+name: Automated KTP & Job Radar Crawler
+
+on:
+  schedule:
+    # Run twice daily at 07:00 UTC and 19:00 UTC
+    - cron: '0 7,19 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Job & KTP Crawler
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python scripts/job_crawler.py
+
+      - name: Commit and Push Updated Job Data
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/jobs.json
+          if git diff --staged --quiet; then
+            echo "No changes in jobs.json to commit."
+          else
+            git commit -m "Auto-update KTP & remote opportunities radar [skip ci]"
+            git push
+          fi

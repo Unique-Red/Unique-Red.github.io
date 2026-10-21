@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "last_updated": "2026-10-20T19:48:53Z",
+    "total_count": 23,
+    "target_candidate": "Noah Useghan",
+    "candidate_highlights": [
+      "5+ Years High-Availability Systems",
+      "Author: AI Assistive Tech Publication (Jan 2026)",
+      "Host & Speaker: Flaskcon Africa & GDG Lagos",
+      "Python, Rust, Golang, Cloud & Distributed Telemetry"
+    ],
+    "sources": [
+      "Innovate UK KTP Portal (iuk-ktp.org.uk)",
+      "jobs.ac.uk KTP Network",
+      "Curated UK & Global Remote Feeds"
+    ]
+  },
+  "jobs": [
+    {
+      "id": "ktp-41cf613901",
+      "title": "ML/AI Computer Vision Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "University of Portsmouth",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/ml-ai-computer-vision-engineer-ktp-associate/",
+      "match_score": 99,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-5da54e0b80",
+      "title": "Artificial Intelligence & Machine Learning Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "University of Salford",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/artificial-intelligence-machine-learning-engineer-ktp-associate/",
+      "match_score": 99,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-95aeb91ef0",
+      "title": "FEM, Design & AI/ML Optimisation Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "University of Derby",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/fem-design-ai-ml-optimisation-engineer-ktp-associate/",
+      "match_score": 99,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-dace810322",
+      "title": "Machine Learning Software Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "The University of Essex",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/machine-learning-software-engineer-ktp-associate/",
+      "match_score": 99,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "remote-2091158",
+      "title": "Software Engineer, AI Coding Tasks",
+      "category": "Global Remote",
+      "organization": "Askable",
+      "location": "Worldwide",
+      "salary": "$1000 per task",
+      "deadline": "Active Listing",
+      "summary": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want.\n \nYou turn a real change from a repository you know i...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
+      "match_score": 99,
+      "tags": [
+        "C++",
+        "docker",
+        "git",
+        "go"
+      ],
+      "source": "Remotive Remote API"
+    },
+    {
+      "id": "remote-2091133",
+      "title": "Senior React Full-stack Developer",
+      "category": "UK Remote Backend",
+      "organization": "Lemon.io",
+      "location": "Europe, USA, Canada, APAC",
+      "salary": "",
+      "deadline": "Active Listing",
+      "summary": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
+      "match_score": 99,
+      "tags": [
+        ".Net",
+        "android",
+        "AWS",
+        "azure"
+      ],
+      "source": "Remotive Remote API"
+    },
+    {
+      "id": "remote-2091132",
+      "title": "Senior back-end Engineer",
+      "category": "UK Remote Backend",
+      "organization": "Lemon.io",
+      "location": "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway",
+      "salary": "",
+      "deadline": "Active Listing",
+      "summary": "Senior Developer? Work Remote. Get Paid Well. Build What Matters.\n \nLemon.io connects hand-picked senior developers with vetted startups across the US and Europe — no bidding wars, no ghosting, just serious opportunities...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
+      "match_score": 99,
+      "tags": [
+        ".Net",
+        "android",
+        "C",
+        "C#"
+      ],
+      "source": "Remotive Remote API"
+    },
+    {
+      "id": "ktp-f17ea794c0",
+      "title": "Smart Manufacturing Software Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "The University of Essex",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/smart-manufacturing-software-engineer-ktp-associate/",
+      "match_score": 97,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "uk-backend-lead-05",
+      "title": "Senior / Lead Backend Engineer (Python / Distributed Systems)",
+      "category": "UK Remote Backend",
+      "organization": "Fintech Solutions UK",
+      "location": "London, UK (Remote / Visa Sponsorship Available)",
+      "salary": "£75,000 - £95,000",
+      "deadline": "Rolling",
+      "summary": "Architecting resilient transaction ledgers, high-throughput RESTful services, and asynchronous event streams in Python/FastAPI and PostgreSQL.",
+      "apply_url": "https://www.adzuna.co.uk/",
+      "match_score": 97,
+      "tags": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Visa Sponsorship",
+        "Fintech"
+      ],
+      "source": "Curated UK Tech Radar"
+    },
+    {
+      "id": "ktp-ulster-ai-01",
+      "title": "Data and AI Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "Ulster University",
+      "location": "Pomeroy, UK (Hybrid)",
+      "salary": "£37,000 - £42,000 + £4,000 Training Budget",
+      "deadline": "Closing Soon",
+      "summary": "Partnering with Ulster University to integrate AI, real-time KPI data ingestion, and cloud reporting pipelines. Delivers predictive analytics for tender accuracy and cost optimization.",
+      "apply_url": "https://iuk-ktp.org.uk/job/data-and-ai-engineer-ktp-associate/",
+      "match_score": 96,
+      "tags": [
+        "KTP Associate",
+        "AI Integration",
+        "Data Pipelines",
+        "Ulster University"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-e2f9f1e47f",
+      "title": "Data and AI Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "Ulster University",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/data-and-ai-engineer-ktp-associate/",
+      "match_score": 95,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-770aeff53c",
+      "title": "AI-Enabled Business Intelligence and Automation Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "Teesside University",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/ai-enabled-business-intelligence-and-automation-engineer-ktp-associate/",
+      "match_score": 95,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-5908522976",
+      "title": "Research Associate in Steel Structures and Sustainable Design (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "The University of Sheffield",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/research-associate-in-steel-structures-and-sustainable-design-ktp-associate/",
+      "match_score": 95,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-salford-ai-03",
+      "title": "Artificial Intelligence & Machine Learning Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "University of Salford",
+      "location": "Manchester / Salford, UK",
+      "salary": "£36,000 - £41,000 + £4k Personal Training Grant",
+      "deadline": "Active",
+      "summary": "High-profile KTP role working closely with senior academic researchers and commercial industry directors to architect real-time machine learning models and automated decision pipelines.",
+      "apply_url": "https://iuk-ktp.org.uk/job/artificial-intelligence-machine-learning-engineer-ktp-associate/",
+      "match_score": 95,
+      "tags": [
+        "KTP Associate",
+        "Machine Learning",
+        "Data Systems",
+        "University of Salford"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-portsmouth-cv-02",
+      "title": "ML/AI Computer Vision Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "University of Portsmouth",
+      "location": "Reigate, Surrey, UK",
+      "salary": "£38,000 + £4,000 Personal Training Grant",
+      "deadline": "Active",
+      "summary": "Partnering with the University of Portsmouth on a high-impact KTP to transform vehicle repair operations through artificial intelligence, automated image assessment, and backend processing.",
+      "apply_url": "https://iuk-ktp.org.uk/job/ml-ai-computer-vision-engineer-ktp-associate/",
+      "match_score": 94,
+      "tags": [
+        "KTP Associate",
+        "Machine Learning",
+        "Computer Vision",
+        "University of Portsmouth"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "global-remote-sys-06",
+      "title": "Systems Backend Engineer (Rust / Go / Python)",
+      "category": "Global Remote",
+      "organization": "OmniCloud Platform",
+      "location": "Worldwide / Global Remote",
+      "salary": "$90,000 - $130,000",
+      "deadline": "Rolling",
+      "summary": "Building high-availability telemetry pipelines, time-series metrics ingestion, and microservices for next-generation edge infrastructure.",
+      "apply_url": "https://remotive.com/",
+      "match_score": 93,
+      "tags": [
+        "Rust",
+        "Golang",
+        "Telemetry",
+        "Global Remote"
+      ],
+      "source": "Curated Global Remote"
+    },
+    {
+      "id": "ktp-southampton-ml-04",
+      "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
+      "category": "KTP Associates",
+      "organization": "University of Southampton",
+      "location": "Southampton, UK",
+      "salary": "£35,000 - £40,000 + £4k Training Budget",
+      "deadline": "Active",
+      "summary": "Leverage machine learning algorithms and high-performance computing simulation data to optimize maritime hydrodynamic efficiency. High technical research-to-commercial translation.",
+      "apply_url": "https://iuk-ktp.org.uk/job/machine-learning-engineer-ship-design-hydrodynamics/",
+      "match_score": 90,
+      "tags": [
+        "KTP Associate",
+        "High Performance Computing",
+        "University of Southampton"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-78ec54bac7",
+      "title": "Electrochemical Water Treatment Technology Specialist (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "Heriot Watt University",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/electrochemical-water-treatment-technology-specialist-ktp-associate/",
+      "match_score": 85,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-6ae67d251f",
+      "title": "Pharmaceutical Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "Queen’s University Belfast",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/pharmaceutical-engineer-ktp-associate/",
+      "match_score": 85,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-8f55b8d683",
+      "title": "CFD Mechanical Engineer (KTP Associate)",
+      "category": "KTP Associates",
+      "organization": "Queen’s University Belfast",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/cfd-mechanical-engineer-ktp-associate/",
+      "match_score": 85,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "ktp-2869f3ee26",
+      "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
+      "category": "KTP Associates",
+      "organization": "University of Southampton",
+      "location": "United Kingdom, UK (Hybrid/Onsite)",
+      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
+      "deadline": "Rolling / 3-4 Weeks",
+      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
+      "apply_url": "https://iuk-ktp.org.uk/job/machine-learning-engineer-ship-design-hydrodynamics/",
+      "match_score": 72,
+      "tags": [
+        "KTP Associate",
+        "Innovate UK",
+        "UK University",
+        "Research & Development",
+        "Tech Bridge"
+      ],
+      "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "remote-1680495",
+      "title": "Remote Office Assistant",
+      "category": "Global Remote",
+      "organization": "Coalition Technologies ",
+      "location": "Worldwide",
+      "salary": "$35,3k- $52k",
+      "deadline": "Active Listing",
+      "summary": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role...",
+      "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+      "match_score": 65,
+      "tags": [
+        "CSS",
+        "excel",
+        "frontend",
+        "git"
+      ],
+      "source": "Remotive Remote API"
+    },
+    {
+      "id": "remote-2091045",
+      "title": "Tier III Service Desk Engineer",
+      "category": "Global Remote",
+      "organization": "Unio Digital",
+      "location": "Worldwide",
+      "salary": "",
+      "deadline": "Active Listing",
+      "summary": "Unió Digital is an Arizona-based managed service provider (MSP) delivering Managed IT Services, Low Voltage Cabling, Access Control, Video Surveillance, and Intrusion Services. We believe technology should be intuitive,...",
+      "apply_url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+      "match_score": 65,
+      "tags": [
+        "azure",
+        "cisco",
+        "security",
+        "video"
+      ],
+      "source": "Remotive Remote API"
+    }
+  ]
+}
