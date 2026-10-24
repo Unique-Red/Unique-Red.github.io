@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-10-23T21:57:47Z",
-    "total_count": 24,
+    "last_updated": "2026-10-24T11:55:48Z",
+    "total_count": 35,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
       "4+ Years High-Availability Systems",
@@ -311,6 +311,120 @@
       "source": "Curated Global Remote"
     },
     {
+      "id": "li-d39007f931",
+      "title": "Lead Python Software Engineer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Archer",
+      "location": "Arlington, VA",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 22 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/lead-python-software-engineer-at-archer-4481685585",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Arlington, VA"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-ac5371eea4",
+      "title": "Python GenAI Developer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Falcon Smart IT (FalconSmartIT)",
+      "location": "Tampa, FL",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 19 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/python-genai-developer-at-falcon-smart-it-falconsmartit-4481915295",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Tampa, FL"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-4c47ccea4a",
+      "title": "Senior Python Engineer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Prestige Staffing",
+      "location": "Alpharetta, GA",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 23 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-python-engineer-at-prestige-staffing-4463030680",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Alpharetta, GA"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-20a81f71f3",
+      "title": "Senior Lead Software Engineer - Python / NoSQL",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "JPMorganChase",
+      "location": "Houston, TX",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 8 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-lead-software-engineer-python-nosql-at-jpmorganchase-4483306128",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Houston, TX"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-7d648463f8",
+      "title": "Junior Backend Software Engineer (Python or PHP) - Chicago - ONSITE 2X Week- FreeWheel",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Comcast",
+      "location": "Chicago, IL",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 4 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-backend-software-engineer-python-or-php-chicago-onsite-2x-week-freewheel-at-comcast-4482396920",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Chicago, IL"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-6493839d2c",
+      "title": "Lead Python Developer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Synechron",
+      "location": "Jersey City, NJ",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 19 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/lead-python-developer-at-synechron-4480668817",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Jersey City, NJ"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
       "id": "ktp-southampton-ml-04",
       "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
       "category": "KTP Associates",
@@ -409,6 +523,25 @@
       "source": "Innovate UK KTP Portal"
     },
     {
+      "id": "li-26189c958c",
+      "title": "Software Engineer (Associate or Experienced)",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Boeing",
+      "location": "Chantilly, VA",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 19 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-associate-or-experienced-at-boeing-4480683200",
+      "match_score": 82,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Chantilly, VA"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
       "id": "ktp-2869f3ee26",
       "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
       "category": "KTP Associates",
@@ -429,6 +562,44 @@
       "source": "Innovate UK KTP Portal"
     },
     {
+      "id": "li-a976700059",
+      "title": "Sr Software Engineer - Remote",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Optum",
+      "location": "Eden Prairie, MN",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 13 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-remote-at-optum-4483147804",
+      "match_score": 72,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Eden Prairie, MN"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-d222d01439",
+      "title": "Software Engineer Professional, Financial Engineering",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Freddie Mac",
+      "location": "McLean, VA",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 19 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-professional-financial-engineering-at-freddie-mac-4481907746",
+      "match_score": 72,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "McLean, VA"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
       "id": "ktp-360835f7db",
       "title": "Digital Manufacturing Engineer for AI based Quality Inspection",
       "category": "KTP Associates",
@@ -447,6 +618,24 @@
         "Tech Bridge"
       ],
       "source": "Innovate UK KTP Portal"
+    },
+    {
+      "id": "remote-2091161",
+      "title": "AI Trainer - Video Annotation",
+      "category": "Global Remote",
+      "organization": "iMerit Technology",
+      "location": "Worldwide",
+      "salary": "70K-80K",
+      "deadline": "Active Listing",
+      "summary": "AI Trainer - Video AnnotationRemote   |   Independent Contractor   Prove your skills. Get certified. Robotics AI is advancing rapidly, and high-quality video data helps intelligent systems better understand the world aro...",
+      "apply_url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
+      "match_score": 65,
+      "tags": [
+        "video",
+        "AI/ML",
+        "robotics"
+      ],
+      "source": "Remotive Remote API"
     },
     {
       "id": "remote-1680495",
@@ -485,6 +674,25 @@
         "video"
       ],
       "source": "Remotive Remote API"
+    },
+    {
+      "id": "li-e6518a9456",
+      "title": "Full Stack Developer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Guidehouse",
+      "location": "San Antonio, TX",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 19 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/full-stack-developer-at-guidehouse-4483104544",
+      "match_score": 65,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "San Antonio, TX"
+      ],
+      "source": "LinkedIn (Past 24h)"
     }
   ]
 }
