@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-10-27T13:06:18Z",
+    "last_updated": "2026-10-27T22:54:10Z",
     "total_count": 47,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
@@ -351,78 +351,97 @@
       "source": "Curated Global Remote"
     },
     {
-      "id": "li-cceda35d67",
-      "title": "Senior Backend Engineer (Python or PHP)- New York - ONSITE 4X Week",
+      "id": "li-33b7e2167d",
+      "title": "Python/Django Developer with AWS",
       "category": "LinkedIn Recent (Python)",
-      "organization": "Comcast",
-      "location": "New York, NY",
+      "organization": "Centraprise",
+      "location": "San Jose, CA",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 hours ago",
+      "deadline": "Posted: 7 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-backend-engineer-python-or-php-new-york-onsite-4x-week-at-comcast-4483620434",
+      "apply_url": "https://www.linkedin.com/jobs/view/python-django-developer-with-aws-at-centraprise-4483657382",
       "match_score": 92,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "New York, NY"
+        "San Jose, CA"
       ],
       "source": "LinkedIn (Past 24h)"
     },
     {
-      "id": "li-7b5c64fb57",
-      "title": "Python Agentic Developer",
+      "id": "li-d22e8ec9c1",
+      "title": "Python Developer",
       "category": "LinkedIn Recent (Python)",
-      "organization": "Mphasis",
-      "location": "Alpharetta, GA",
+      "organization": "Hays",
+      "location": "Fort Mill, SC",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 41 minutes ago",
+      "deadline": "Posted: 7 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/python-agentic-developer-at-mphasis-4483639676",
+      "apply_url": "https://www.linkedin.com/jobs/view/python-developer-at-hays-4484077578",
       "match_score": 92,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "Alpharetta, GA"
+        "Fort Mill, SC"
       ],
       "source": "LinkedIn (Past 24h)"
     },
     {
-      "id": "li-c1a81dfc32",
-      "title": "Python Application Developer",
+      "id": "li-4c4b7ad2f0",
+      "title": "Junior Python Developer",
       "category": "LinkedIn Recent (Python)",
-      "organization": "TMV Global Inc",
-      "location": "Atlanta, GA",
+      "organization": "Kareer Basycs",
+      "location": "New York, United States",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 21 hours ago",
+      "deadline": "Posted: 4 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/python-application-developer-at-tmv-global-inc-4482999446",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-python-developer-at-kareer-basycs-4482216789",
       "match_score": 92,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "Atlanta, GA"
+        "New York, United States"
       ],
       "source": "LinkedIn (Past 24h)"
     },
     {
-      "id": "li-f4c63a302d",
-      "title": "Python Engineer - Technical Architect/Lead",
+      "id": "li-4af80e5aeb",
+      "title": "Data Engineer 4 (Python, Oracle Database)",
       "category": "LinkedIn Recent (Python)",
-      "organization": "InnoveusIT",
-      "location": "Atlanta, GA",
+      "organization": "Capital One",
+      "location": "Deerfield, IL",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 18 hours ago",
+      "deadline": "Posted: 23 minutes ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/python-engineer-technical-architect-lead-at-innoveusit-4481483304",
+      "apply_url": "https://www.linkedin.com/jobs/view/data-engineer-4-python-oracle-database-at-capital-one-4484265050",
       "match_score": 92,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "Atlanta, GA"
+        "Deerfield, IL"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-be3f782862",
+      "title": "Senior Python Full Stack Developer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "VMC Soft Technologies, Inc",
+      "location": "Austin, TX",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 7 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-python-full-stack-developer-at-vmc-soft-technologies-inc-4481885956",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Austin, TX"
       ],
       "source": "LinkedIn (Past 24h)"
     },
@@ -433,7 +452,7 @@
       "organization": "Capital One",
       "location": "McLean, VA",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 14 hours ago",
+      "deadline": "Posted: 1 day ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/data-engineer-4-python-pyspark-aws-at-capital-one-4483741703",
       "match_score": 92,
@@ -452,7 +471,7 @@
       "organization": "JPMorganChase",
       "location": "Plano, TX",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 8 hours ago",
+      "deadline": "Posted: 2 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/lead-software-engineer-python-data-pyspark-aws-at-jpmorganchase-4483791979",
       "match_score": 92,
@@ -465,13 +484,51 @@
       "source": "LinkedIn (Past 24h)"
     },
     {
+      "id": "li-f48c03b63d",
+      "title": "Python API Developer - SWE III",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Quevera",
+      "location": "Annapolis Junction, MD",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 5 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/python-api-developer-swe-iii-at-quevera-4466405450",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "Annapolis Junction, MD"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-9bae58ace9",
+      "title": "Software Engineer(Python/Backend) - Professional Services Firm - $130,000-$160,000",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Saragossa",
+      "location": "New York, United States",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 2 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-python-backend-professional-services-firm-%24130-000-%24160-000-at-saragossa-4452267105",
+      "match_score": 92,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "New York, United States"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
       "id": "li-fc3f6c2996",
       "title": "Senior Lead Software Engineer- Python",
       "category": "LinkedIn Recent (Python)",
       "organization": "JPMorganChase",
       "location": "Jersey City, NJ",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 3 hours ago",
+      "deadline": "Posted: 12 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/senior-lead-software-engineer-python-at-jpmorganchase-4408498955",
       "match_score": 92,
@@ -480,25 +537,6 @@
         "Python",
         "Past 24 Hours",
         "Jersey City, NJ"
-      ],
-      "source": "LinkedIn (Past 24h)"
-    },
-    {
-      "id": "li-483a00c125",
-      "title": "Python Developer",
-      "category": "LinkedIn Recent (Python)",
-      "organization": "Atlas Tech",
-      "location": "North Charleston, SC",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 20 hours ago",
-      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/python-developer-at-atlas-tech-4481462615",
-      "match_score": 92,
-      "tags": [
-        "LinkedIn",
-        "Python",
-        "Past 24 Hours",
-        "North Charleston, SC"
       ],
       "source": "LinkedIn (Past 24h)"
     },
@@ -519,25 +557,6 @@
         "University of Southampton"
       ],
       "source": "Innovate UK KTP Portal"
-    },
-    {
-      "id": "li-cbca19d7ce",
-      "title": "Senior Software Engineer, Backend Full Stack - Financial Product",
-      "category": "LinkedIn Recent (Python)",
-      "organization": "Rippling",
-      "location": "San Francisco, CA",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 23 hours ago",
-      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-backend-full-stack-financial-product-at-rippling-4336077196",
-      "match_score": 87,
-      "tags": [
-        "LinkedIn",
-        "Python",
-        "Past 24 Hours",
-        "San Francisco, CA"
-      ],
-      "source": "LinkedIn (Past 24h)"
     },
     {
       "id": "ktp-e36f724ce3",
@@ -626,7 +645,7 @@
       "organization": "Boeing",
       "location": "Chantilly, VA",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 13 hours ago",
+      "deadline": "Posted: 23 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-associate-or-experienced-at-boeing-4480683200",
       "match_score": 82,
@@ -645,7 +664,7 @@
       "organization": "Boeing",
       "location": "Colorado Springs, CO",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 13 hours ago",
+      "deadline": "Posted: 23 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-associate-or-experienced-at-boeing-4474086029",
       "match_score": 82,
@@ -664,7 +683,7 @@
       "organization": "Vertafore",
       "location": "Denver, CO",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 14 hours ago",
+      "deadline": "Posted: 23 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-vue-django-postgres-at-vertafore-4483274047",
       "match_score": 80,
@@ -673,6 +692,25 @@
         "Python",
         "Past 24 Hours",
         "Denver, CO"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-8a2bc001cf",
+      "title": "Senior Backend Engineer",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "Scribe",
+      "location": "San Francisco, CA",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 6 hours ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-backend-engineer-at-scribe-4476102997",
+      "match_score": 75,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "San Francisco, CA"
       ],
       "source": "LinkedIn (Past 24h)"
     },
@@ -697,40 +735,40 @@
       "source": "Innovate UK KTP Portal"
     },
     {
-      "id": "li-dbf48ade68",
+      "id": "li-6ca4b6edb9",
       "title": "Junior Software Engineer",
       "category": "LinkedIn Recent (Python)",
       "organization": "Tata Consultancy Services",
-      "location": "Santa Clara, CA",
+      "location": "McLean, VA",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 19 hours ago",
+      "deadline": "Posted: 4 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/junior-software-engineer-at-tata-consultancy-services-4483234551",
+      "apply_url": "https://www.linkedin.com/jobs/view/junior-software-engineer-at-tata-consultancy-services-4483679777",
       "match_score": 72,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "Santa Clara, CA"
+        "McLean, VA"
       ],
       "source": "LinkedIn (Past 24h)"
     },
     {
-      "id": "li-5102797106",
-      "title": "Junior Software Engineer",
+      "id": "li-2af90d6c89",
+      "title": "Senior Software Engineer",
       "category": "LinkedIn Recent (Python)",
-      "organization": "Tata Consultancy Services",
-      "location": "Cincinnati, OH",
+      "organization": "Caterpillar Inc.",
+      "location": "Peoria, IL",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 19 hours ago",
+      "deadline": "Posted: 6 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/junior-software-engineer-at-tata-consultancy-services-4483235548",
+      "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-caterpillar-inc-4484087863",
       "match_score": 72,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "Cincinnati, OH"
+        "Peoria, IL"
       ],
       "source": "LinkedIn (Past 24h)"
     },
@@ -741,7 +779,7 @@
       "organization": "Bitsight",
       "location": "Boston, MA",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 14 hours ago",
+      "deadline": "Posted: 1 day ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-bitsight-4483750736",
       "match_score": 72,
@@ -754,21 +792,40 @@
       "source": "LinkedIn (Past 24h)"
     },
     {
-      "id": "li-ca1fa5d574",
+      "id": "li-0a15535d8e",
       "title": "Software Engineer",
       "category": "LinkedIn Recent (Python)",
-      "organization": "MIT Lincoln Laboratory",
-      "location": "Lexington, MA",
+      "organization": "Kratos Defense and Security Solutions",
+      "location": "Colorado Springs, CO",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 14 hours ago",
+      "deadline": "Posted: 5 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-at-mit-lincoln-laboratory-4483744423",
+      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-at-kratos-defense-and-security-solutions-4467273712",
       "match_score": 72,
       "tags": [
         "LinkedIn",
         "Python",
         "Past 24 Hours",
-        "Lexington, MA"
+        "Colorado Springs, CO"
+      ],
+      "source": "LinkedIn (Past 24h)"
+    },
+    {
+      "id": "li-73e223920e",
+      "title": "Sr. Software Engineer, Automation Engineering",
+      "category": "LinkedIn Recent (Python)",
+      "organization": "NBCUniversal",
+      "location": "New York, NY",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 6 minutes ago",
+      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://www.linkedin.com/jobs/view/sr-software-engineer-automation-engineering-at-nbcuniversal-4465687359",
+      "match_score": 72,
+      "tags": [
+        "LinkedIn",
+        "Python",
+        "Past 24 Hours",
+        "New York, NY"
       ],
       "source": "LinkedIn (Past 24h)"
     },
@@ -779,7 +836,7 @@
       "organization": "John Deere",
       "location": "Urbandale, IA",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 13 hours ago",
+      "deadline": "Posted: 23 hours ago",
       "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://www.linkedin.com/jobs/view/senior-software-engineer-at-john-deere-4483761510",
       "match_score": 72,
@@ -788,25 +845,6 @@
         "Python",
         "Past 24 Hours",
         "Urbandale, IA"
-      ],
-      "source": "LinkedIn (Past 24h)"
-    },
-    {
-      "id": "li-3b1b015299",
-      "title": "Software Engineer",
-      "category": "LinkedIn Recent (Python)",
-      "organization": "TalentHop",
-      "location": "United States",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 4 hours ago",
-      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/software-engineer-at-talenthop-4481852868",
-      "match_score": 72,
-      "tags": [
-        "LinkedIn",
-        "Python",
-        "Past 24 Hours",
-        "United States"
       ],
       "source": "LinkedIn (Past 24h)"
     },
@@ -885,44 +923,6 @@
         "video"
       ],
       "source": "Remotive Remote API"
-    },
-    {
-      "id": "li-5488f89a05",
-      "title": "Entry Level Software Developer - 2027 - Lowell",
-      "category": "LinkedIn Recent (Python)",
-      "organization": "IBM",
-      "location": "Lowell, MA",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 14 hours ago",
-      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/entry-level-software-developer-2027-lowell-at-ibm-4481803982",
-      "match_score": 65,
-      "tags": [
-        "LinkedIn",
-        "Python",
-        "Past 24 Hours",
-        "Lowell, MA"
-      ],
-      "source": "LinkedIn (Past 24h)"
-    },
-    {
-      "id": "li-10fced5114",
-      "title": "Data Scientist",
-      "category": "LinkedIn Recent (Python)",
-      "organization": "Fidelity Investments",
-      "location": "Boston, MA",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 3 hours ago",
-      "summary": "Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://www.linkedin.com/jobs/view/data-scientist-at-fidelity-investments-4484024817",
-      "match_score": 65,
-      "tags": [
-        "LinkedIn",
-        "Python",
-        "Past 24 Hours",
-        "Boston, MA"
-      ],
-      "source": "LinkedIn (Past 24h)"
     }
   ]
 }
