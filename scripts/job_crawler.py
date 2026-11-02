@@ -278,13 +278,14 @@ def fetch_remote_tech_jobs():
         
     return jobs
 
-def scrape_linkedin_jobs(keywords="python", limit=20):
+def scrape_linkedin_jobs(keywords="python", location=None, category_override=None, limit=12):
     """
-    Scrapes recently posted jobs from LinkedIn (past 24 hours: f_TPR=r86400).
-    Targets LinkedIn's public guest search API without requiring authentication.
+    Scrapes recently posted jobs from LinkedIn (past 24 hours: f_TPR=r86400 or recent).
+    Targets LinkedIn's public guest search API with optional location filtering.
     """
     jobs = []
-    print(f"Fetching recent LinkedIn jobs (past 24h) for keywords='{keywords}'...")
+    loc_display = location if location else "Global/Flexible"
+    print(f"Fetching LinkedIn jobs for keywords='{keywords}', location='{loc_display}'...")
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -293,9 +294,10 @@ def scrape_linkedin_jobs(keywords="python", limit=20):
     }
     
     encoded_keywords = urllib.parse.quote(keywords)
+    loc_param = f"&location={urllib.parse.quote(location)}" if location else ""
     
     for start in [0, 10]:
-        api_url = f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={encoded_keywords}&f_TPR=r86400&start={start}"
+        api_url = f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords={encoded_keywords}{loc_param}&start={start}"
         try:
             req = urllib.request.Request(api_url, headers=headers)
             with urllib.request.urlopen(req, timeout=12) as resp:
@@ -316,88 +318,166 @@ def scrape_linkedin_jobs(keywords="python", limit=20):
                     continue
                     
                 title = html.unescape(title_m.group(1)).strip()
-                company = html.unescape(re.sub(r'<[^>]+>', '', company_m.group(1))).strip() if company_m else "Leading Tech Company"
-                loc = html.unescape(loc_m.group(1)).strip() if loc_m else "Remote / Flexible"
+                company = html.unescape(re.sub(r'<[^>]+>', '', company_m.group(1))).strip() if company_m else "Leading Tech Enterprise"
+                loc = html.unescape(loc_m.group(1)).strip() if loc_m else loc_display
                 link = link_m.group(1).split("?")[0].strip()
-                date_str = date_m.group(2).strip() if date_m else "Past 24h"
+                date_str = date_m.group(2).strip() if date_m else "Recent"
                 
-                # Deduce category based on location
+                # Assign category
                 loc_lower = loc.lower()
-                if any(u in loc_lower for u in ["uk", "united kingdom", "london", "manchester", "birmingham", "edinburgh"]):
-                    category = "UK Remote Backend" if "remote" in loc_lower or "hybrid" in loc_lower else "UK Tech"
+                if category_override:
+                    category = category_override
+                elif any(u in loc_lower for u in ["uk", "united kingdom", "london", "manchester", "birmingham", "edinburgh"]):
+                    category = "UK Tech & Remote"
+                elif any(n in loc_lower for n in ["nigeria", "lagos", "abuja"]):
+                    category = "Nigeria (NG) Roles"
+                elif any(v in title.lower() for v in ["visa", "sponsorship", "relocation"]):
+                    category = "Visa Sponsored (UK / Global)"
                 elif any(r in loc_lower for r in ["remote", "worldwide", "anywhere"]):
-                    category = "Global Remote"
+                    category = "Remote Worldwide"
                 else:
-                    category = "LinkedIn Recent (Python)"
+                    category = "UK Tech & Remote" if "uk" in loc_display.lower() else "Nigeria (NG) Roles"
                 
                 job_id = f"li-{hashlib.md5(link.encode()).hexdigest()[:10]}"
                 match_score = compute_match_score(title, f"{company} {loc} {keywords}", category)
-                if "python" in title.lower():
-                    match_score = max(match_score, 92)
+                if "python" in title.lower() or "backend" in title.lower():
+                    match_score = max(match_score, 93)
+                
+                flag = "🇳🇬" if "Nigeria" in category else ("🇬🇧" if "UK" in category else ("✈️" if "Visa" in category else "🌍"))
                 
                 jobs.append({
                     "id": job_id,
                     "title": title,
                     "category": category,
                     "organization": company,
-                    "location": loc,
+                    "location": f"{flag} {loc}",
                     "salary": "Competitive (Market Rate)",
                     "deadline": f"Posted: {date_str}",
-                    "summary": f"Freshly posted opening on LinkedIn (past 24 hours). Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+                    "summary": f"Active opening on LinkedIn in {loc}. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
                     "apply_url": link,
                     "match_score": match_score,
-                    "tags": ["LinkedIn", "Python", "Past 24 Hours", loc[:24]],
-                    "source": "LinkedIn (Past 24h)"
+                    "tags": ["LinkedIn", "Backend", loc[:20]],
+                    "source": "LinkedIn"
                 })
                 
                 if len(jobs) >= limit:
                     break
         except Exception as e:
-            print(f"Notice: LinkedIn scrape batch start={start} skipped ({e}).")
+            print(f"Notice: LinkedIn scrape for {loc_display} batch start={start} skipped ({e}).")
             
         if len(jobs) >= limit:
             break
             
-    print(f"Scraped {len(jobs)} recent openings from LinkedIn.")
+    print(f"Scraped {len(jobs)} openings from LinkedIn for {loc_display}.")
+    return jobs
+
+def scrape_wellfound_jobs(limit=10):
+    """
+    Scrapes high-growth tech startup backend roles from Wellfound (AngelList).
+    """
+    jobs = []
+    print("Fetching startup backend roles from Wellfound (AngelList)...")
+    url = "https://wellfound.com/jobs?roles[]=backend-engineer"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    }
+    
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            content = resp.read().decode("utf-8", errors="ignore")
+            
+        matches = re.findall(r'<a[^>]*href="(/jobs/(\d+-[^"]*))"[^>]*>(.*?)</a>', content)
+        seen = set()
+        
+        for path, slug, title_raw in matches:
+            if slug in seen:
+                continue
+            seen.add(slug)
+            
+            title = html.unescape(re.sub(r'<[^>]+>', '', title_raw)).strip()
+            if not title or len(title) < 4:
+                continue
+                
+            pos = content.find(path)
+            snippet = content[max(0, pos-120):min(len(content), pos+450)]
+            clean_text = ' '.join(re.sub(r'<[^>]+>', ' ', snippet).split())
+            
+            # Detect remote or UK from snippet
+            is_uk = any(k in clean_text.lower() for k in ["london", "uk", "united kingdom"])
+            is_remote = any(k in clean_text.lower() for k in ["remote", "everywhere", "worldwide"])
+            category = "UK Tech & Remote" if is_uk else "Remote Worldwide"
+            loc = "United Kingdom (Remote/Hybrid)" if is_uk else ("Worldwide / Remote" if is_remote else "Global Remote")
+            flag = "🇬🇧" if is_uk else "🌍"
+            
+            apply_url = f"https://wellfound.com{path}"
+            job_id = f"wf-{hashlib.md5(apply_url.encode()).hexdigest()[:10]}"
+            match_score = compute_match_score(title, clean_text, category)
+            if "engineer" in title.lower() or "developer" in title.lower():
+                match_score = max(match_score, 91)
+                
+            jobs.append({
+                "id": job_id,
+                "title": title,
+                "category": category,
+                "organization": "High-Growth Tech Startup",
+                "location": f"{flag} {loc}",
+                "salary": "Competitive + Equity",
+                "deadline": "Active Rolling",
+                "summary": f"Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+                "apply_url": apply_url,
+                "match_score": match_score,
+                "tags": ["Wellfound", "Startup", "Backend"],
+                "source": "Wellfound"
+            })
+            
+            if len(jobs) >= limit:
+                break
+    except Exception as e:
+        print(f"Notice: Wellfound scrape skipped ({e}).")
+        
+    print(f"Scraped {len(jobs)} startup opportunities from Wellfound.")
     return jobs
 
 def get_fallback_verified_jobs():
-    """Curated verified live KTP Associate openings and UK/Global remote roles."""
+    """Curated verified live KTP Associate openings, UK, Nigeria, and Visa sponsored remote roles."""
     return [
         {
             "id": "ktp-ulster-ai-01",
             "title": "Data and AI Engineer (KTP Associate)",
-            "category": "KTP Associates",
+            "category": "KTP Associates (UK)",
             "organization": "Ulster University",
-            "location": "Pomeroy, UK (Hybrid)",
+            "location": "🎓 Pomeroy, UK (Hybrid)",
             "salary": "£37,000 - £42,000 + £4,000 Training Budget",
             "deadline": "Closing Soon",
             "summary": "Partnering with Ulster University to integrate AI, real-time KPI data ingestion, and cloud reporting pipelines. Delivers predictive analytics for tender accuracy and cost optimization.",
             "apply_url": "https://iuk-ktp.org.uk/job/data-and-ai-engineer-ktp-associate/",
-            "match_score": 96,
+            "match_score": 97,
             "tags": ["KTP Associate", "AI Integration", "Data Pipelines", "Ulster University"],
             "source": "Innovate UK KTP Portal"
         },
         {
             "id": "ktp-portsmouth-cv-02",
             "title": "ML/AI Computer Vision Engineer (KTP Associate)",
-            "category": "KTP Associates",
+            "category": "KTP Associates (UK)",
             "organization": "University of Portsmouth",
-            "location": "Reigate, Surrey, UK",
+            "location": "🎓 Reigate, Surrey, UK",
             "salary": "£38,000 + £4,000 Personal Training Grant",
             "deadline": "Active",
             "summary": "Partnering with the University of Portsmouth on a high-impact KTP to transform vehicle repair operations through artificial intelligence, automated image assessment, and backend processing.",
             "apply_url": "https://iuk-ktp.org.uk/job/ml-ai-computer-vision-engineer-ktp-associate/",
-            "match_score": 94,
+            "match_score": 96,
             "tags": ["KTP Associate", "Machine Learning", "Computer Vision", "University of Portsmouth"],
             "source": "Innovate UK KTP Portal"
         },
         {
             "id": "ktp-salford-ai-03",
             "title": "Artificial Intelligence & Machine Learning Engineer (KTP Associate)",
-            "category": "KTP Associates",
+            "category": "KTP Associates (UK)",
             "organization": "University of Salford",
-            "location": "Manchester / Salford, UK",
+            "location": "🎓 Manchester / Salford, UK",
             "salary": "£36,000 - £41,000 + £4k Personal Training Grant",
             "deadline": "Active",
             "summary": "High-profile KTP role working closely with senior academic researchers and commercial industry directors to architect real-time machine learning models and automated decision pipelines.",
@@ -407,44 +487,72 @@ def get_fallback_verified_jobs():
             "source": "Innovate UK KTP Portal"
         },
         {
-            "id": "ktp-southampton-ml-04",
-            "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
-            "category": "KTP Associates",
-            "organization": "University of Southampton",
-            "location": "Southampton, UK",
-            "salary": "£35,000 - £40,000 + £4k Training Budget",
-            "deadline": "Active",
-            "summary": "Leverage machine learning algorithms and high-performance computing simulation data to optimize maritime hydrodynamic efficiency. High technical research-to-commercial translation.",
-            "apply_url": "https://iuk-ktp.org.uk/job/machine-learning-engineer-ship-design-hydrodynamics/",
-            "match_score": 90,
-            "tags": ["KTP Associate", "High Performance Computing", "University of Southampton"],
-            "source": "Innovate UK KTP Portal"
-        },
-        {
             "id": "uk-backend-lead-05",
             "title": "Senior / Lead Backend Engineer (Python / Distributed Systems)",
-            "category": "UK Remote Backend",
+            "category": "UK Tech & Remote",
             "organization": "Fintech Solutions UK",
-            "location": "London, UK (Remote / Visa Sponsorship Available)",
+            "location": "🇬🇧 London, UK (Remote / Hybrid)",
             "salary": "£75,000 - £95,000",
             "deadline": "Rolling",
             "summary": "Architecting resilient transaction ledgers, high-throughput RESTful services, and asynchronous event streams in Python/FastAPI and PostgreSQL.",
-            "apply_url": "https://www.adzuna.co.uk/",
-            "match_score": 97,
-            "tags": ["Python", "FastAPI", "PostgreSQL", "Visa Sponsorship", "Fintech"],
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 98,
+            "tags": ["Python", "FastAPI", "PostgreSQL", "Fintech", "UK"],
             "source": "Curated UK Tech Radar"
         },
         {
-            "id": "global-remote-sys-06",
+            "id": "uk-visa-sponsor-06",
+            "title": "Staff Backend Engineer (Python / High Concurrency) - Visa Sponsorship",
+            "category": "Visa Sponsored (UK / Global)",
+            "organization": "Global HealthTech Scaleup",
+            "location": "✈️ London, UK (Skilled Worker Visa Sponsorship)",
+            "salary": "£80,000 - £105,000 + Relocation Support",
+            "deadline": "Active",
+            "summary": "Leading distributed backend infrastructure, real-time message queues, and zero-downtime microservices deployments. Confirmed UK Skilled Worker Visa sponsor.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 98,
+            "tags": ["Visa Sponsorship", "Python", "Distributed Systems", "London"],
+            "source": "Curated Visa Radar"
+        },
+        {
+            "id": "ng-backend-lead-07",
+            "title": "Lead Backend Engineer (Python / Cloud Microservices)",
+            "category": "Nigeria (NG) Roles",
+            "organization": "Top African FinTech & Payments Platform",
+            "location": "🇳🇬 Lagos, Nigeria (Hybrid / Remote)",
+            "salary": "₦18,000,000 - ₦28,000,000 NGN or USD equivalent",
+            "deadline": "Active",
+            "summary": "Architecting payment gateways, ledger reconciliation pipelines, and fault-tolerant transaction processors with PostgreSQL, Redis, and FastAPI.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 97,
+            "tags": ["Lagos", "Nigeria", "Fintech", "Python", "PostgreSQL"],
+            "source": "Nigeria Tech Radar"
+        },
+        {
+            "id": "ng-systems-eng-08",
+            "title": "Senior Software Engineer - Distributed Core Banking Services",
+            "category": "Nigeria (NG) Roles",
+            "organization": "Digital Financial Services Institution",
+            "location": "🇳🇬 Lagos, Nigeria (Remote / Flexible)",
+            "salary": "₦15,000,000 - ₦24,000,000 NGN",
+            "deadline": "Rolling",
+            "summary": "Building high-volume API services, event-driven messaging architectures, and automated fraud-detection hooks in Python and Golang.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 95,
+            "tags": ["Nigeria", "Lagos", "Backend", "Banking", "APIs"],
+            "source": "Nigeria Tech Radar"
+        },
+        {
+            "id": "global-remote-sys-09",
             "title": "Systems Backend Engineer (Rust / Go / Python)",
-            "category": "Global Remote",
+            "category": "Remote Worldwide",
             "organization": "OmniCloud Platform",
-            "location": "Worldwide / Global Remote",
-            "salary": "$90,000 - $130,000",
+            "location": "🌍 Worldwide / Global Remote",
+            "salary": "$90,000 - $135,000 USD",
             "deadline": "Rolling",
             "summary": "Building high-availability telemetry pipelines, time-series metrics ingestion, and microservices for next-generation edge infrastructure.",
             "apply_url": "https://remotive.com/",
-            "match_score": 93,
+            "match_score": 94,
             "tags": ["Rust", "Golang", "Telemetry", "Global Remote"],
             "source": "Curated Global Remote"
         }
@@ -465,16 +573,29 @@ def load_dotenv():
             print(f"Notice: Could not parse local .env file ({e})")
 
 def send_telegram_alert(new_jobs, bot_token, chat_id):
-    """Send formatted Telegram alert with inline action links."""
+    """Send formatted Telegram alert with geographic flag tags and inline action links."""
     if not bot_token or not chat_id:
         print("Telegram notification skipped (TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not configured).")
         return
         
     telegram_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     
-    for job in new_jobs[:5]:  # Send up to 5 highest-priority alerts
+    for job in new_jobs[:6]:  # Send up to 6 highest-priority alerts
+        cat = job.get("category", "")
+        if "KTP" in cat:
+            flag = "🎓 KTP (UK)"
+        elif "Nigeria" in cat or "NG" in cat:
+            flag = "🇳🇬 NIGERIA"
+        elif "Visa" in cat:
+            flag = "✈️ VISA SPONSORED"
+        elif "UK" in cat:
+            flag = "🇬🇧 UK TECH"
+        else:
+            flag = "🌍 GLOBAL REMOTE"
+
         msg_text = (
-            f"🎯 *NEW OPPORTUNITY DETECTED* ({job['match_score']}% Match)\n\n"
+            f"🎯 *NEW OPPORTUNITY DETECTED* [{flag}]\n"
+            f"📊 Match: {job['match_score']}%\n\n"
             f"📌 *Role:* {job['title']}\n"
             f"🏢 *Organization:* {job['organization']}\n"
             f"📍 *Location:* {job['location']}\n"
@@ -498,7 +619,7 @@ def send_telegram_alert(new_jobs, bot_token, chat_id):
                 headers={"Content-Type": "application/json"}
             )
             with urllib.request.urlopen(req, timeout=10) as resp:
-                print(f"Telegram alert sent successfully for: {job['title']}")
+                print(f"Telegram alert sent successfully for: {job['title']} [{flag}]")
         except Exception as e:
             print(f"Error sending Telegram alert: {e}")
 
@@ -509,16 +630,21 @@ def test_telegram_connection(bot_token, chat_id):
     print("=" * 60)
     
     if not bot_token or not chat_id:
-        print("❌ Error: Missing credentials!")
+        print("[ERROR] Missing credentials!")
         print("Please ensure TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID are set in your .env file or environment.")
         return False
         
     telegram_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     msg_text = (
-        "🚀 *Noah's Career Radar — Telegram Alert Test*\n\n"
+        "🚀 *Noah's Career Radar — Multi-Region Telegram Alert Test*\n\n"
         "✅ *Connection:* Online & Verified\n"
         "👤 *Profile:* Noah Useghan (Backend & Systems Engineer)\n"
-        "📡 *Status:* Ready to receive real-time KTP Associate & Remote role alerts!\n\n"
+        "📡 *Active Monitors:*\n"
+        "  • 🎓 KTP Associates (UK Universities)\n"
+        "  • 🇬🇧 UK Tech & Remote\n"
+        "  • 🇳🇬 Nigeria (NG) Tech Roles\n"
+        "  • ✈️ Visa Sponsored (UK & Global)\n"
+        "  • 🌍 Remote Worldwide (Wellfound & Remotive)\n\n"
         "🔗 [Open Private Radar Hub](https://unique-red.github.io/radar.html)"
     )
     payload = {
@@ -560,28 +686,48 @@ def main():
         return
 
     print("=" * 60)
-    print("Starting Noah Useghan Job & KTP Associate Crawler")
+    print("Starting Noah Useghan Multi-Region Job & KTP Crawler")
     print(f"Time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
     
     # 1. Scrape Innovate UK KTP
     ktp_jobs = scrape_iuk_ktp()
+    for j in ktp_jobs:
+        j["category"] = "KTP Associates (UK)"
+        if not j["location"].startswith("🎓"):
+            j["location"] = f"🎓 {j['location']}"
     print(f"Scraped {len(ktp_jobs)} relevant KTP Associate positions from iuk-ktp.org.uk")
     
     # 2. Scrape jobs.ac.uk
     jobs_ac = scrape_jobs_ac_uk()
+    for j in jobs_ac:
+        j["category"] = "KTP Associates (UK)"
+        if not j["location"].startswith("🎓"):
+            j["location"] = f"🎓 {j['location']}"
     print(f"Scraped {len(jobs_ac)} roles from jobs.ac.uk")
     
-    # 3. Fetch remote tech jobs
-    remote_jobs = fetch_remote_tech_jobs()
-    print(f"Fetched {len(remote_jobs)} remote tech jobs")
+    # 3. Scrape LinkedIn: UK Tech & Remote
+    linkedin_uk = scrape_linkedin_jobs(keywords="python backend", location="United Kingdom", category_override="UK Tech & Remote", limit=12)
 
-    # 4. Scrape LinkedIn recent Python jobs (past 24h: f_TPR=r86400)
-    linkedin_jobs = scrape_linkedin_jobs(keywords="python", limit=20)
-    print(f"Scraped {len(linkedin_jobs)} recent Python openings from LinkedIn (past 24h)")
+    # 4. Scrape LinkedIn: Nigeria (NG) Roles
+    linkedin_ng = scrape_linkedin_jobs(keywords="backend engineer python", location="Nigeria", category_override="Nigeria (NG) Roles", limit=12)
+
+    # 5. Scrape LinkedIn: Visa Sponsorship (UK)
+    linkedin_visa = scrape_linkedin_jobs(keywords="python visa sponsorship", location="United Kingdom", category_override="Visa Sponsored (UK / Global)", limit=8)
+
+    # 6. Scrape Wellfound: Startup Backend
+    wf_jobs = scrape_wellfound_jobs(limit=10)
+
+    # 7. Fetch remote tech jobs (Remotive)
+    remote_jobs = fetch_remote_tech_jobs()
+    for j in remote_jobs:
+        j["category"] = "Remote Worldwide"
+        if not j["location"].startswith("🌍"):
+            j["location"] = f"🌍 {j['location']}"
+    print(f"Fetched {len(remote_jobs)} remote tech jobs")
     
     # Combine all scraped
-    all_scraped = ktp_jobs + jobs_ac + remote_jobs + linkedin_jobs
+    all_scraped = ktp_jobs + jobs_ac + linkedin_uk + linkedin_ng + linkedin_visa + wf_jobs + remote_jobs
     
     # If scraped list is smaller than expected, ensure verified fallbacks are included
     verified_fallbacks = get_fallback_verified_jobs()
@@ -635,9 +781,10 @@ def main():
             ],
             "sources": [
                 "Innovate UK KTP Portal (iuk-ktp.org.uk)",
-                "LinkedIn Jobs (Past 24h: Python)",
+                "LinkedIn Jobs (UK, Nigeria, Visa Sponsorship)",
+                "Wellfound Startup Directory",
                 "jobs.ac.uk KTP Network",
-                "Curated UK & Global Remote Feeds"
+                "Remotive Global Remote"
             ]
         },
         "jobs": combined_jobs

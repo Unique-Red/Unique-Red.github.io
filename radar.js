@@ -194,11 +194,17 @@
   function getFilteredJobs() {
     return jobsData.filter(job => {
       // Category match
+      const cat = (job.category || '').toLowerCase();
+      const loc = (job.location || '').toLowerCase();
+      const title = (job.title || '').toLowerCase();
+      const tags = (job.tags || []).map(t => t.toLowerCase());
+
       const matchesCategory = (currentCategory === 'all') ||
-        (currentCategory === 'ktp' && (job.category.includes('KTP') || job.title.includes('KTP'))) ||
-        (currentCategory === 'uk-remote' && (job.category.includes('UK') || job.location.includes('United Kingdom') || job.location.includes('UK'))) ||
-        (currentCategory === 'global-remote' && (job.category.includes('Global') || job.location.includes('Global'))) ||
-        (currentCategory === 'linkedin' && ((job.source && job.source.includes('LinkedIn')) || job.category.includes('LinkedIn') || (job.tags && job.tags.includes('LinkedIn'))));
+        (currentCategory === 'ktp' && (cat.includes('ktp') || title.includes('ktp'))) ||
+        (currentCategory === 'uk-remote' && (cat.includes('uk') || loc.includes('uk') || loc.includes('united kingdom') || loc.includes('london'))) ||
+        (currentCategory === 'ng-roles' && (cat.includes('nigeria') || loc.includes('nigeria') || loc.includes('lagos') || loc.includes('🇳🇬'))) ||
+        (currentCategory === 'visa-sponsored' && (cat.includes('visa') || title.includes('visa') || loc.includes('visa') || tags.some(t => t.includes('visa')))) ||
+        (currentCategory === 'global-remote' && (cat.includes('remote') || cat.includes('global') || loc.includes('worldwide') || loc.includes('remote') || loc.includes('everywhere')));
 
       // Search match
       const query = searchQuery;
@@ -238,9 +244,12 @@
     jobsGrid.innerHTML = filtered.map(job => {
       const status = getJobStatus(job.id);
       const isKtp = job.category.includes('KTP') || job.title.includes('KTP');
-      const isLinkedIn = (job.source && job.source.includes('LinkedIn')) || job.category.includes('LinkedIn');
-      const catClass = isKtp ? 'cat-ktp' : (isLinkedIn ? 'cat-linkedin' : 'cat-remote');
-      const catIcon = isKtp ? 'fa-graduation-cap' : (isLinkedIn ? 'fa-brands fa-linkedin' : 'fa-network-wired');
+      const isNg = job.category.includes('Nigeria') || job.location.includes('Nigeria') || job.location.includes('🇳🇬');
+      const isVisa = job.category.includes('Visa') || job.title.toLowerCase().includes('visa') || (job.tags && job.tags.some(t => t.toLowerCase().includes('visa')));
+      const isUk = !isKtp && !isNg && !isVisa && (job.category.includes('UK') || job.location.includes('🇬🇧') || job.location.includes('United Kingdom'));
+
+      const catClass = isKtp ? 'cat-ktp' : (isNg ? 'cat-ng' : (isVisa ? 'cat-visa' : (isUk ? 'cat-uk' : 'cat-remote')));
+      const catIcon = isKtp ? 'fa-graduation-cap' : (isNg ? 'fa-globe-africa' : (isVisa ? 'fa-plane-departure' : (isUk ? 'fa-flag' : 'fa-network-wired')));
       const matchScore = job.match_score || 95;
       const matchClass = matchScore >= 95 ? 'match-high' : 'match-med';
 
@@ -339,22 +348,46 @@
   // Update counts in tabs
   function updateCategoryCounts() {
     const total = jobsData.length;
-    const ktpCount = jobsData.filter(j => j.category.includes('KTP') || j.title.includes('KTP')).length;
-    const ukRemoteCount = jobsData.filter(j => j.category.includes('UK') || j.location.includes('United Kingdom') || j.location.includes('UK')).length;
-    const globalCount = jobsData.filter(j => j.category.includes('Global') || j.location.includes('Global')).length;
-    const linkedinCount = jobsData.filter(j => (j.source && j.source.includes('LinkedIn')) || j.category.includes('LinkedIn') || (j.tags && j.tags.includes('LinkedIn'))).length;
+    const ktpCount = jobsData.filter(j => {
+      const c = (j.category || '').toLowerCase();
+      const t = (j.title || '').toLowerCase();
+      return c.includes('ktp') || t.includes('ktp');
+    }).length;
+    const ukCount = jobsData.filter(j => {
+      const c = (j.category || '').toLowerCase();
+      const l = (j.location || '').toLowerCase();
+      return c.includes('uk') || l.includes('uk') || l.includes('united kingdom') || l.includes('london');
+    }).length;
+    const ngCount = jobsData.filter(j => {
+      const c = (j.category || '').toLowerCase();
+      const l = (j.location || '').toLowerCase();
+      return c.includes('nigeria') || l.includes('nigeria') || l.includes('lagos') || l.includes('🇳🇬');
+    }).length;
+    const visaCount = jobsData.filter(j => {
+      const c = (j.category || '').toLowerCase();
+      const t = (j.title || '').toLowerCase();
+      const tags = (j.tags || []).map(x => x.toLowerCase());
+      return c.includes('visa') || t.includes('visa') || tags.some(x => x.includes('visa'));
+    }).length;
+    const globalCount = jobsData.filter(j => {
+      const c = (j.category || '').toLowerCase();
+      const l = (j.location || '').toLowerCase();
+      return c.includes('remote') || c.includes('global') || l.includes('worldwide') || l.includes('remote') || l.includes('everywhere');
+    }).length;
 
     const countAllEl = document.getElementById('count-all');
     const countKtpEl = document.getElementById('count-ktp');
     const countUkEl = document.getElementById('count-uk-remote');
+    const countNgEl = document.getElementById('count-ng-roles');
+    const countVisaEl = document.getElementById('count-visa-sponsored');
     const countGlobalEl = document.getElementById('count-global-remote');
-    const countLinkedInEl = document.getElementById('count-linkedin');
 
     if (countAllEl) countAllEl.textContent = total;
     if (countKtpEl) countKtpEl.textContent = ktpCount;
-    if (countUkEl) countUkEl.textContent = ukRemoteCount;
+    if (countUkEl) countUkEl.textContent = ukCount;
+    if (countNgEl) countNgEl.textContent = ngCount;
+    if (countVisaEl) countVisaEl.textContent = visaCount;
     if (countGlobalEl) countGlobalEl.textContent = globalCount;
-    if (countLinkedInEl) countLinkedInEl.textContent = linkedinCount;
   }
 
   // LocalStorage Helpers
@@ -405,20 +438,31 @@
     document.body.style.overflow = '';
   }
 
-  // Context-Aware Personal Statement Generator
+  // Context-Aware Storytelling Cover Letter Generator (Why Company, Why Me, Proof Points, Challenge Offer)
   function generateTailoredStatement(job) {
-    const isKtp = job.category.includes('KTP') || job.title.includes('KTP');
+    const isKtp = (job.category || '').includes('KTP') || (job.title || '').includes('KTP');
+    const isNg = (job.category || '').includes('Nigeria') || (job.location || '').includes('Nigeria') || (job.location || '').includes('🇳🇬');
 
     if (isKtp) {
-      return `Dear Selection Committee and Academic/Commercial Supervisors at ${job.organization},
+      return `Dear Selection Committee and Supervisors at ${job.organization},
 
-I am writing to express my strong enthusiasm for the ${job.title} position (Innovate UK Knowledge Transfer Partnership). With over 4 years of experience architecting resilient distributed systems and having co-authored peer-reviewed research in applied Artificial Intelligence ("The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities", Jan 2026), I offer a unique combination of academic rigor and production-grade engineering excellence.
+I'd love to serve as the KTP Associate for ${job.organization}.
 
-As an engineer who has spearheaded end-to-end backend architectures for mission-critical platforms—such as Alerte Universal (emergency response) and Agoldresourcing—I have demonstrated the ability to translate complex conceptual research into high-availability, scalable software solutions. My core technical expertise spans Python (FastAPI/Flask), Rust, Golang, PostgreSQL, and event-driven cloud telemetry, adhering to robust software design principles.
+Why ${job.organization}? The mandate of Knowledge Transfer Partnerships—translating frontier academic research into tangible commercial impact—deeply aligns with my background. Looking at the objectives for the ${job.title} role, your team is tackling high-impact technical challenges bridging university research with commercial delivery. I love the mission driving this partnership and I believe I can contribute my skills to the continued success and execution of this project.
 
-What excites me most about this KTP Associate role with ${job.organization} is the direct mandate to bridge academic research with tangible commercial and societal impact. Furthermore, as an active contributor to the wider technical ecosystem—regularly hosting panel sessions at Flaskcon Africa and participating in Google Developer Group initiatives—I am deeply committed to cross-disciplinary knowledge exchange and continuous professional growth.
+Why me? I am a Software & Backend Systems Engineer with 4+ years of experience and a published researcher who loves learning, architecting, and building resilient platforms from the ground up. Having co-authored peer-reviewed applied AI research while engineering high-availability production platforms, I offer a unique combination of academic rigor and production velocity:
+• Alerte Universal (Safety & Emergency Response Platform): Architected high-availability backend microservices and engineered a real-time geospatial bounding-box notification engine ensuring rapid, mission-critical delivery.
+• Agoldresourcing: Engineered the ECS Time Spine on AWS for canonical cloud reconciliation, cutting API response times by 30% and eliminating ledger sync discrepancies.
+• VitalinkPlus (Smart Health Assistant): Built fractional backend services for biometric telemetry ingestion, data pipelines, and streaming infrastructure maintaining 99.9% uptime.
+• AI Academic Research Publication (Jan 2026): Co-authored peer-reviewed research on "The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities", indexed on ResearchGate and Zenodo/CERN.
+• Leadership & Community: Hosted panel sessions at Flaskcon Africa featuring 4 tech leaders; active contributor and speaker at Google Developer Group (GDG) Lagos.
+• Production Core Stack: Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, Redis, Docker, and distributed event-driven systems.
 
-I look forward to discussing how my technical background, research mindset, and proactive delivery can drive measurable success for this project and the partnering enterprise.
+Am I fit for this? I believe I am. I'm passionate about high-impact engineering and cross-disciplinary knowledge exchange. I bring both the academic discipline required for UKRI reporting and the production velocity needed by enterprise partners. I'd love you to take a chance on me. I'm confident about this role.
+
+Do you think I am fit? If you aren't yet convinced, you can assess my skills with a task. I could provide a technical research breakdown, complete a system architecture design challenge, or build a proof-of-concept prototype leveraging your partnership goals.
+
+Looking forward to hearing more about this opportunity.
 
 Sincerely,
 ${CANDIDATE.name}
@@ -429,24 +473,60 @@ LinkedIn: ${CANDIDATE.linkedin}
 GitHub: ${CANDIDATE.github}`;
     }
 
-    // Standard Backend / Distributed Systems Pitch
-    return `Hi Hiring Team at ${job.organization},
+    if (isNg) {
+      return `Dear Hiring Manager at ${job.organization},
 
-I am excited to submit my application for the ${job.title} opening. 
+I'd love to work for ${job.organization}.
 
-With 4+ years of experience engineering high-throughput backend services and distributed systems, I specialize in building fault-tolerant, scalable architectures using Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, and cloud-native infrastructure.
+Why ${job.organization}? I love working on products that contribute to the growth and digital empowerment of businesses across Nigeria and emerging markets. Looking at the work your engineering team is doing on ${job.title}, your team is solving interesting, high-scale problems in the tech space. I love the purpose that drives ${job.organization} and I believe I can contribute my skills to the continued success and scale of the product.
 
-In my recent roles as Lead Backend Developer for Alerte Universal and Software Engineer for UK-based teams at Agoldresourcing and VitalinkPlus:
-• I architected scalable microservices and real-time streaming architectures supporting high-concurrency environments.
-• Optimized complex query performance and database indexing, reducing latency and operational overhead.
-• Maintained rigorous standards for automated testing, CI/CD pipeline reliability, and structured telemetry.
+Why me? I'm currently a Software & Backend Systems Engineer with 4+ years of experience who loves learning, architecting, and building high-throughput web platforms and APIs. I believe you'd want to consider my application with my achievements below:
+• Alerte Universal (Safety & Emergency Response Platform): Architected high-availability backend microservices and engineered a real-time geospatial bounding-box notification engine ensuring rapid, mission-critical delivery.
+• Agoldresourcing: Engineered the ECS Time Spine on AWS for canonical cloud reconciliation, cutting API response times by 30% and eliminating ledger sync discrepancies.
+• VitalinkPlus (Smart Health Assistant): Built fractional backend services for biometric telemetry ingestion, data pipelines, and streaming infrastructure maintaining 99.9% uptime.
+• AI Academic Research Publication (Jan 2026): Co-authored peer-reviewed research on "The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities", indexed on ResearchGate and Zenodo/CERN.
+• Leadership & Community: Hosted panel sessions at Flaskcon Africa featuring 4 tech leaders; active contributor and speaker at Google Developer Group (GDG) Lagos.
+• Production Core Stack: Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, Redis, Docker, and distributed event-driven systems.
 
-Additionally, my background as a co-author of peer-reviewed artificial intelligence research (Jan 2026) and active panel host for Flaskcon Africa reflects my commitment to deep technical excellence and proactive team communication.
+Am I fit for this? I believe I am. I'm passionate about engineering excellence and community. The major reason I love building is that I want to create systems that simplify operations, handle high concurrency without downtime, and empower thousands of users reliably. I'd love you to take a chance on me. I'm confident about this role.
 
-I would welcome the opportunity to connect and discuss how my hands-on backend expertise can accelerate your engineering roadmaps at ${job.organization}.
+Do you think I am fit? If you aren't yet convinced, you can assess my skills with a task. I could complete a technical take-home task, build an architectural proof of concept, or solve a system design challenge leveraging your product.
 
-Best regards,
+Looking forward to hearing more about this opportunity.
+
+Sincerely,
 ${CANDIDATE.name}
+Backend & Distributed Systems Engineer | AI Research Co-Author
+Email: ${CANDIDATE.email}
+Portfolio: ${CANDIDATE.portfolio}
+LinkedIn: ${CANDIDATE.linkedin}
+GitHub: ${CANDIDATE.github}`;
+    }
+
+    // Default: UK Tech & Remote / Visa Sponsored / Remote Worldwide
+    return `Dear Hiring Manager at ${job.organization},
+
+I'd love to work for ${job.organization}.
+
+Why ${job.organization}? I love working on products that contribute to the growth of other businesses and solve complex, high-impact problems. Looking at the work your team is doing on ${job.title}, your team is solving compelling challenges in the modern tech space. I love the purpose and technical standard that drives ${job.organization} and I believe I can contribute my skills to the continued success of the product.
+
+Why me? I'm currently a Software & Backend Systems Engineer with 4+ years of experience who loves learning, architecting, and building resilient web platforms and microservices. I believe you'd want to consider my application with my achievements below:
+• Alerte Universal (Emergency Response & Safety Platform): Architected high-availability backend microservices and engineered a real-time geospatial bounding-box notification engine ensuring rapid, mission-critical delivery.
+• Agoldresourcing: Engineered the ECS Time Spine on AWS for canonical cloud reconciliation, cutting API response times by 30% and eliminating ledger sync discrepancies.
+• VitalinkPlus (Smart Health Assistant): Built fractional backend services for biometric telemetry ingestion, data pipelines, and streaming infrastructure maintaining 99.9% uptime.
+• AI Academic Research Publication (Jan 2026): Co-authored peer-reviewed research on "The Role Of Artificial Intelligence In Managing Handwriting And Spelling Difficulties Among University Students With Perceived Specific Learning Disabilities", indexed on ResearchGate and Zenodo/CERN.
+• Leadership & Community: Hosted panel sessions at Flaskcon Africa featuring 4 tech leaders; active contributor and speaker at Google Developer Group (GDG) Lagos.
+• Production Core Stack: Python (FastAPI, Flask, Django), Rust, Golang, PostgreSQL, Redis, Docker, and distributed event-driven systems.
+
+Am I fit for this? I believe I am. I'm passionate about building robust systems and community. The major reason I love engineering is solving deep architectural challenges, writing clean, tested code, and designing systems that scale seamlessly under high concurrency. I'd love you to take a chance on me. I'm confident about this role.
+
+Do you think I am fit? If you aren't yet convinced, you can assess my skills with a task. I could build an open-source proof of concept, complete a system design architecture challenge, or complete a technical take-home task leveraging your product and stack.
+
+Looking forward to hearing more about this opportunity.
+
+Sincerely,
+${CANDIDATE.name}
+Backend & Distributed Systems Engineer | AI Research Co-Author
 Email: ${CANDIDATE.email}
 Portfolio: ${CANDIDATE.portfolio}
 LinkedIn: ${CANDIDATE.linkedin}
