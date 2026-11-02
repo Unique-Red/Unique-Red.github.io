@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /radar.html
+Disallow: /bizdev-radar.html
 Disallow: /data/
 
 Sitemap: https://unique-red.github.io/sitemap.xml

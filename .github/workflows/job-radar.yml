@@ -21,21 +21,28 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Job & KTP Crawler
+      - name: Run Noah's Job & KTP Crawler
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python scripts/job_crawler.py
 
+      - name: Run Tinuijioluwa's BDE & Partnerships Crawler
+        env:
+          TELEGRAM_BOT_TOKEN_BDE: ${{ secrets.TELEGRAM_BOT_TOKEN_BDE }}
+          TELEGRAM_CHAT_ID_BDE: ${{ secrets.TELEGRAM_CHAT_ID_BDE }}
+        run: |
+          python scripts/bde_job_crawler.py
+
       - name: Commit and Push Updated Job Data
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/jobs.json
+          git add data/jobs.json data/jobs_bde.json
           if git diff --staged --quiet; then
-            echo "No changes in jobs.json to commit."
+            echo "No changes in jobs data to commit."
           else
-            git commit -m "Auto-update KTP & remote opportunities radar [skip ci]"
+            git commit -m "Auto-update Noah & Tinuijioluwa opportunity radars [skip ci]"
             git push
           fi
