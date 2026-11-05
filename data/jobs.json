@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-11-05T00:15:59Z",
-    "total_count": 69,
+    "last_updated": "2026-11-05T15:19:22Z",
+    "total_count": 56,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
       "4+ Years High-Availability Systems",
@@ -48,26 +48,6 @@
       "deadline": "Rolling / 3-4 Weeks",
       "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
       "apply_url": "https://iuk-ktp.org.uk/job/computer-vision-ai-data-scientist-for-esports-ktp-associate/",
-      "match_score": 99,
-      "tags": [
-        "KTP Associate",
-        "Innovate UK",
-        "UK University",
-        "Research & Development",
-        "Tech Bridge"
-      ],
-      "source": "Innovate UK KTP Portal"
-    },
-    {
-      "id": "ktp-35f700ec46",
-      "title": "AI/ML Research Engineer, Additive Manufacturing (KTP Associate)",
-      "category": "KTP Associates (UK)",
-      "organization": "University of Exeter",
-      "location": "🎓 United Kingdom, UK (Hybrid/Onsite)",
-      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
-      "deadline": "Rolling / 3-4 Weeks",
-      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
-      "apply_url": "https://iuk-ktp.org.uk/job/ai-ml-research-engineer-additive-manufacturing-ktp-associate-2/",
       "match_score": 99,
       "tags": [
         "KTP Associate",
@@ -331,204 +311,6 @@
       "source": "Curated Global Remote"
     },
     {
-      "id": "li-b0efe6ad97",
-      "title": "Senior Backend Engineer",
-      "category": "UK Tech & Remote",
-      "organization": "Plentific",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 month ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-backend-engineer-at-plentific-4472795857",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-c37cb56a76",
-      "title": "Senior Backend Developer (Django/Python)",
-      "category": "UK Tech & Remote",
-      "organization": "Updraft",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 6 months ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-backend-developer-django-python-at-updraft-4418593390",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-f5c6ab474b",
-      "title": "Senior Python Backend Software Developer",
-      "category": "UK Tech & Remote",
-      "organization": "Xelix",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 6 days ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-backend-software-developer-at-xelix-4485239421",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-3f0046005c",
-      "title": "Python Software Developer - Backend",
-      "category": "UK Tech & Remote",
-      "organization": "Xelix",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 6 days ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/python-software-developer-backend-at-xelix-4485241227",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-2e7270cd7c",
-      "title": "Senior Backend Engineer",
-      "category": "UK Tech & Remote",
-      "organization": "Aurora",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 months ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-backend-engineer-at-aurora-4432551482",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-39fc967182",
-      "title": "Senior Python Software Engineer",
-      "category": "UK Tech & Remote",
-      "organization": "Connected Consulting Limited",
-      "location": "🇬🇧 Watford, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Active opening on LinkedIn in Watford, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-software-engineer-at-connected-consulting-limited-4482481877",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Watford, England, Un"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-2214ea9a5d",
-      "title": "Senior Backend Engineer",
-      "category": "UK Tech & Remote",
-      "organization": "9fin",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-backend-engineer-at-9fin-4471526352",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-8c09aaa363",
-      "title": "Senior Python Software Engineer - FinTech",
-      "category": "UK Tech & Remote",
-      "organization": "Client Server",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 day ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-software-engineer-fintech-at-client-server-4486873685",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-60bfbc52bd",
-      "title": "Backend Engineer",
-      "category": "UK Tech & Remote",
-      "organization": "Octopus Energy",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/backend-engineer-at-octopus-energy-4484095549",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-a7a3b8beb6",
-      "title": "Senior Python Django Developer",
-      "category": "UK Tech & Remote",
-      "organization": "RWS",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-django-developer-at-rws-4479416213",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-df5db74107",
-      "title": "Backend Engineer",
-      "category": "UK Tech & Remote",
-      "organization": "9fin",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/backend-engineer-at-9fin-4322250232",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
       "id": "li-5eae6ddecd",
       "title": "Backend Developer",
       "category": "Nigeria (NG) Roles",
@@ -601,15 +383,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-3fa4a90a52",
-      "title": "Django and Python Web Developer -ATAfrica",
+      "id": "li-f92009d211",
+      "title": "Senior Backend Engineer",
       "category": "Nigeria (NG) Roles",
-      "organization": "ATAfrica",
+      "organization": "Lorgarithm",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 12 hours ago",
+      "deadline": "Posted: 3 months ago",
       "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/django-and-python-web-developer-atafrica-at-atafrica-4486375387",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-backend-engineer-at-lorgarithm-4448968578",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -619,15 +401,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-a8f4b04081",
-      "title": "Forward Deployed Engineer (Python / Go) | Production Agentic AI | B2C Start-up, Series A | £100k-£200k + Equity | London (5 Days) | Visa Sponsorship + Relocation",
+      "id": "li-d69a13a97a",
+      "title": "Senior Python Engineer (Greenfield TradFi Expansion)",
       "category": "Visa Sponsored (UK / Global)",
-      "organization": "Owen Thomas | B Corp™",
+      "organization": "Radley James",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 10 hours ago",
+      "deadline": "Posted: 2 weeks ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/forward-deployed-engineer-python-go-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3200k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4487283163",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-engineer-greenfield-tradfi-expansion-at-radley-james-4480384703",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -637,22 +419,94 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-03bc8ecd88",
-      "title": "Senior Product Engineer (Python / Go) | Production Agentic AI | B2C Start-up, Series A | £100k-£200k + Equity | London (5 Days) | Visa Sponsorship + Relocation",
+      "id": "li-96b6cced57",
+      "title": "Lead Software Engineer (AI)",
       "category": "Visa Sponsored (UK / Global)",
-      "organization": "Owen Thomas | B Corp™",
-      "location": "🇬🇧 London Area, United Kingdom",
+      "organization": "Aurora Energy Research",
+      "location": "🇬🇧 Oxford, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 10 hours ago",
-      "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3200k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4487279434",
-      "match_score": 93,
+      "deadline": "Posted: 3 weeks ago",
+      "summary": "Active opening on LinkedIn in Oxford, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/lead-software-engineer-ai-at-aurora-energy-research-4464511764",
+      "match_score": 92,
       "tags": [
         "LinkedIn",
         "Backend",
-        "London Area, United "
+        "Oxford, England, Uni"
       ],
       "source": "LinkedIn"
+    },
+    {
+      "id": "wf-2d0fa324ff",
+      "title": "Founding Engineer, Mobile & AI",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Worldwide / Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/4995186-founding-engineer-mobile-ai",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-3b798408d5",
+      "title": "AI/ML Engineer (Part-Time) - Voice AI Engineer for iClinic AI, Inc",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Worldwide / Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/4897645-ai-ml-engineer-part-time-clinical-voice-ai",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-be972d23a1",
+      "title": "Software Engineer in Test",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/2971703-software-engineer-in-test",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-9ac6568f44",
+      "title": "Founding Software Engineer",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/4986189-founding-software-engineer",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
     },
     {
       "id": "wf-6c42670759",
@@ -673,6 +527,24 @@
       "source": "Wellfound"
     },
     {
+      "id": "wf-c7f3807fcc",
+      "title": "Founding Software Engineer",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Worldwide / Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/4970254-founding-software-engineer",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
       "id": "wf-f37365fd9e",
       "title": "Senior Software Engineer (Ruby/Rails), MVR",
       "category": "Remote Worldwide",
@@ -682,78 +554,6 @@
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
       "apply_url": "https://wellfound.com/jobs/4985474-senior-software-engineer-ruby-rails-mvr",
-      "match_score": 91,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-1a3bb01db2",
-      "title": "Software engineer, agents",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970361-software-engineer-agents",
-      "match_score": 91,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-8b295100f3",
-      "title": "Staff Fullstack Engineer (TypeScript)",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970269-staff-fullstack-engineer-typescript",
-      "match_score": 91,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-ec86090c11",
-      "title": "Senior Software Engineer",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970211-senior-software-engineer",
-      "match_score": 91,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-46117c0641",
-      "title": "Senior Network Engineer",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970099-senior-network-engineer",
       "match_score": 91,
       "tags": [
         "Wellfound",
@@ -795,6 +595,24 @@
         "LinkedIn",
         "Backend",
         "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-066ce95259",
+      "title": "Software Engineer - North Africa",
+      "category": "Nigeria (NG) Roles",
+      "organization": "The Flex",
+      "location": "🇳🇬 Magama, Niger State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 5 days ago",
+      "summary": "Active opening on LinkedIn in Magama, Niger State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/software-engineer-north-africa-at-the-flex-4485602198",
+      "match_score": 87,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Magama, Niger State,"
       ],
       "source": "LinkedIn"
     },
@@ -919,56 +737,38 @@
       "source": "Innovate UK KTP Portal"
     },
     {
-      "id": "li-01ee301716",
-      "title": "Engineering Manager, AI & Platform",
+      "id": "li-f002b7f78f",
+      "title": "AI Engineer",
       "category": "Nigeria (NG) Roles",
-      "organization": "Immigify",
+      "organization": "Tezza Business Solutions Ltd",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 months ago",
+      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/ai-engineer-at-tezza-business-solutions-ltd-4441851619",
+      "match_score": 85,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Lagos, Lagos State, "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-13bfcca4f7",
+      "title": "Staff AI Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Jobgether",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
+      "deadline": "Posted: 2 hours ago",
       "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/engineering-manager-ai-platform-at-immigify-4481123087",
+      "apply_url": "https://ng.linkedin.com/jobs/view/staff-ai-engineer-at-jobgether-4486738305",
       "match_score": 85,
       "tags": [
         "LinkedIn",
         "Backend",
         "Nigeria"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-fcba0e2de1",
-      "title": "Back End Developer",
-      "category": "UK Tech & Remote",
-      "organization": "Plentific",
-      "location": "🇬🇧 London Area, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/back-end-developer-at-plentific-4482288834",
-      "match_score": 75,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London Area, United "
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-9ace8d2b80",
-      "title": "Product Engineer",
-      "category": "Nigeria (NG) Roles",
-      "organization": "The Flex",
-      "location": "🇳🇬 Magama, Niger State, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 month ago",
-      "summary": "Active opening on LinkedIn in Magama, Niger State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/product-engineer-at-the-flex-4470926534",
-      "match_score": 75,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Magama, Niger State,"
       ],
       "source": "LinkedIn"
     },
@@ -1009,24 +809,6 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-c8147194c7",
-      "title": "Applications Developer (Clinical/ERP Systems)",
-      "category": "Nigeria (NG) Roles",
-      "organization": "African Medical Centre of Excellence (AMCE)",
-      "location": "🇳🇬 Abuja, Federal Capital Territory, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Active opening on LinkedIn in Abuja, Federal Capital Territory, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/applications-developer-clinical-erp-systems-at-african-medical-centre-of-excellence-amce-4477729015",
-      "match_score": 75,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Abuja, Federal Capit"
-      ],
-      "source": "LinkedIn"
-    },
-    {
       "id": "ktp-2869f3ee26",
       "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
       "category": "KTP Associates (UK)",
@@ -1047,15 +829,15 @@
       "source": "Innovate UK KTP Portal"
     },
     {
-      "id": "li-93ef229707",
-      "title": "Research Engineer, Benchmarking - Member of Technical Staff",
+      "id": "li-0d76068335",
+      "title": "Senior Member of Research Staff (London)",
       "category": "Visa Sponsored (UK / Global)",
-      "organization": "Callosum",
+      "organization": "The Voleon Group",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
+      "deadline": "Posted: 2 weeks ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/research-engineer-benchmarking-member-of-technical-staff-at-callosum-4456706367",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-member-of-research-staff-london-at-the-voleon-group-4407418327",
       "match_score": 70,
       "tags": [
         "LinkedIn",
@@ -1065,52 +847,16 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-524885b7a8",
-      "title": "Member of Technical Staff - Pre-Training",
+      "id": "li-8b2ad7b527",
+      "title": "Member of Research Staff (London)",
       "category": "Visa Sponsored (UK / Global)",
-      "organization": "Reflection",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 12 hours ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/member-of-technical-staff-pre-training-at-reflection-4324668808",
-      "match_score": 65,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-fc1c31afeb",
-      "title": "Data Scientist",
-      "category": "Visa Sponsored (UK / Global)",
-      "organization": "Viridien",
-      "location": "🇬🇧 Llandudno, Wales, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 months ago",
-      "summary": "Active opening on LinkedIn in Llandudno, Wales, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/data-scientist-at-viridien-4349587418",
-      "match_score": 65,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Llandudno, Wales, Un"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-5fa4493a33",
-      "title": "Member of Technical Staff - Multilingual Data",
-      "category": "Visa Sponsored (UK / Global)",
-      "organization": "Reflection",
+      "organization": "The Voleon Group",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
       "deadline": "Posted: 1 week ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/member-of-technical-staff-multilingual-data-at-reflection-4464881469",
-      "match_score": 65,
+      "apply_url": "https://uk.linkedin.com/jobs/view/member-of-research-staff-london-at-the-voleon-group-4448676569",
+      "match_score": 70,
       "tags": [
         "LinkedIn",
         "Backend",
@@ -1119,15 +865,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-bde9421260",
-      "title": "Principal Data Scientist",
+      "id": "li-a635f26219",
+      "title": "Full Stack (Back-End Leaning)",
       "category": "Visa Sponsored (UK / Global)",
-      "organization": "Marshmallow",
+      "organization": "Solve Intelligence",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 6 days ago",
+      "deadline": "Posted: 4 months ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/principal-data-scientist-at-marshmallow-4464124932",
+      "apply_url": "https://uk.linkedin.com/jobs/view/full-stack-back-end-leaning-at-solve-intelligence-4427943846",
       "match_score": 65,
       "tags": [
         "LinkedIn",
@@ -1137,15 +883,33 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-652acc0832",
-      "title": "Staff Data Scientist",
+      "id": "li-772790ccb3",
+      "title": "Full Stack Engineer",
       "category": "Visa Sponsored (UK / Global)",
-      "organization": "Marshmallow",
+      "organization": "OJ Digital",
+      "location": "🇬🇧 Greater London, England, United Kingdom",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 weeks ago",
+      "summary": "Active opening on LinkedIn in Greater London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/full-stack-engineer-at-oj-digital-4476441590",
+      "match_score": 65,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Greater London, Engl"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-743034c395",
+      "title": "Applied Researcher - Quantitative Finance",
+      "category": "Visa Sponsored (UK / Global)",
+      "organization": "Prime Intellect",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 6 days ago",
+      "deadline": "Posted: 1 week ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/staff-data-scientist-at-marshmallow-4464121898",
+      "apply_url": "https://uk.linkedin.com/jobs/view/applied-researcher-quantitative-finance-at-prime-intellect-4484076316",
       "match_score": 65,
       "tags": [
         "LinkedIn",
@@ -1155,51 +919,33 @@
       "source": "LinkedIn"
     },
     {
-      "id": "wf-5fcb7423e4",
-      "title": "Product Lead",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970395-product-lead",
+      "id": "li-1175b46248",
+      "title": "Quantitative Researcher",
+      "category": "Visa Sponsored (UK / Global)",
+      "organization": "QuanTech Partners",
+      "location": "🇬🇧 London Area, United Kingdom",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 1 day ago",
+      "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/quantitative-researcher-at-quantech-partners-4487252795",
       "match_score": 65,
       "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
+        "LinkedIn",
+        "Backend",
+        "London Area, United "
       ],
-      "source": "Wellfound"
+      "source": "LinkedIn"
     },
     {
-      "id": "wf-892ca77099",
-      "title": "Lead product manager",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970346-lead-product-manager",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-c5666c0e2e",
-      "title": "Technical Product Manager (Applied AI : EdTech : Career Development) [non-profit] (USA Remote)",
+      "id": "wf-c88e58eee1",
+      "title": "Junior CRM Project Coordinator",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970184-technical-product-manager-applied-ai-edtech-career-development-non-profit",
+      "apply_url": "https://wellfound.com/jobs/4995179-junior-crm-project-coordinator",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1209,15 +955,33 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-1277bbc8e1",
-      "title": "Product Manager",
+      "id": "wf-58d44f108a",
+      "title": "Business Development Representative (B2B, Entry-Level) | Commercial Real Estate Finance",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
+      "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4970137-ui-ux-clone",
+      "apply_url": "https://wellfound.com/jobs/4521139-business-development-representative-b2b-entry-level-commercial-real-estate-finance",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-de1e927613",
+      "title": "Manager, CX",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/4986245-manager-cx",
       "match_score": 65,
       "tags": [
         "Wellfound",
