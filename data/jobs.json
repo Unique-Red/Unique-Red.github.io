@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-11-10T01:57:03Z",
-    "total_count": 69,
+    "last_updated": "2026-11-10T15:31:00Z",
+    "total_count": 70,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
       "4+ Years High-Availability Systems",
@@ -409,27 +409,9 @@
       "organization": "9fin",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
+      "deadline": "Posted: 3 weeks ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-backend-engineer-at-9fin-4471526352",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-8c09aaa363",
-      "title": "Senior Python Software Engineer - FinTech",
-      "category": "UK Tech & Remote",
-      "organization": "Client Server",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 6 days ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-software-engineer-fintech-at-client-server-4486873685",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -499,7 +481,7 @@
       "organization": "HomeServe EMEA",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 days ago",
+      "deadline": "Posted: 6 days ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-backend-engineer-at-homeserve-emea-4486386152",
       "match_score": 93,
@@ -525,6 +507,24 @@
         "LinkedIn",
         "Backend",
         "London Area, United "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-7d25c43932",
+      "title": "Senior Software Engineer (Backend, Python)",
+      "category": "UK Tech & Remote",
+      "organization": "Octopus Energy",
+      "location": "🇬🇧 London, England, United Kingdom",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 1 week ago",
+      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-software-engineer-backend-python-at-octopus-energy-4469188087",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "London, England, Uni"
       ],
       "source": "LinkedIn"
     },
@@ -601,15 +601,33 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-d60e3457be",
+      "id": "li-f92009d211",
+      "title": "Senior Backend Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Lorgarithm",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 months ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-backend-engineer-at-lorgarithm-4448968578",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-c8d0d0e58d",
       "title": "Forward Deployed Engineer (Python / Go) | Production Agentic AI | B2C Start-up, Series A | £100k-£200k + Equity | London (5 Days) | Visa Sponsorship + Relocation",
       "category": "Visa Sponsored (UK / Global)",
       "organization": "Owen Thomas | B Corp™",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 17 hours ago",
+      "deadline": "Posted: 6 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/forward-deployed-engineer-python-go-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3200k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4488824836",
+      "apply_url": "https://uk.linkedin.com/jobs/view/forward-deployed-engineer-python-go-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3200k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4489447032",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -619,15 +637,33 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-bb10e2b429",
+      "id": "li-9ca4890b2a",
+      "title": "Software Engineer (Python, API)",
+      "category": "Visa Sponsored (UK / Global)",
+      "organization": "Wiraa",
+      "location": "🇬🇧 England, United Kingdom",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 1 hour ago",
+      "summary": "Active opening on LinkedIn in England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/software-engineer-python-api-at-wiraa-4488369039",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "England, United King"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-fc2c12be22",
       "title": "Senior Product Engineer (Python / Go / TS ) | Production Agentic AI | B2C Start-up, Series A | £100k-£250k + Equity | London (5 Days) | Visa Sponsorship + Relocation",
       "category": "Visa Sponsored (UK / Global)",
       "organization": "Owen Thomas | B Corp™",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 17 hours ago",
+      "deadline": "Posted: 6 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-ts-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3250k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4488827708",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-ts-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3250k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4489425942",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -637,15 +673,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "wf-46e2d9bbdc",
-      "title": "Process Engineer /Membrane Technical Staff and R&D Engineer",
+      "id": "wf-ac3df698f0",
+      "title": "Senior Software Engineer (Ruby/Rails), MVR",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/2909982-process-engineer-membrane-technical-staff-and-r-d-engineer",
+      "apply_url": "https://wellfound.com/jobs/5034575-senior-software-engineer-ruby-rails-mvr",
       "match_score": 91,
       "tags": [
         "Wellfound",
@@ -655,33 +691,15 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-236c307bcd",
-      "title": "Software Engineer, Agents",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5027463-software-engineer-agents",
-      "match_score": 91,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-f55dea86cf",
-      "title": "Senior Software Engineer",
+      "id": "wf-c93dcdedbb",
+      "title": "Senior AI Developer - Contract Role with Opportunity for Full-Time",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5027360-senior-software-engineer",
+      "apply_url": "https://wellfound.com/jobs/4791894-senior-ai-developer-contract-role-with-opportunity-for-full-time",
       "match_score": 91,
       "tags": [
         "Wellfound",
@@ -691,15 +709,15 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-3d538b728a",
-      "title": "Research Software Engineer",
+      "id": "wf-072a17bf49",
+      "title": "Forward Deployed Engineer",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/1211726-research-software-engineer",
+      "apply_url": "https://wellfound.com/jobs/5027539-forward-deployed-engineer",
       "match_score": 91,
       "tags": [
         "Wellfound",
@@ -761,26 +779,6 @@
         "Magama, Niger State,"
       ],
       "source": "LinkedIn"
-    },
-    {
-      "id": "ktp-56a628fff4",
-      "title": "KTP Associate – Data Scientist (Engagement Analytics)",
-      "category": "KTP Associates (UK)",
-      "organization": "University of Stirling",
-      "location": "🎓 United Kingdom, UK (Hybrid/Onsite)",
-      "salary": "£34,000 - £42,000 + £4k Personal Training Budget",
-      "deadline": "Rolling / 3-4 Weeks",
-      "summary": "Innovative KTP Associate opportunity bridging academic research with commercial delivery. Includes a dedicated £4,000 personal development and training budget.",
-      "apply_url": "https://iuk-ktp.org.uk/job/ktp-associate-data-scientist-engagement-analytics/",
-      "match_score": 85,
-      "tags": [
-        "KTP Associate",
-        "Innovate UK",
-        "UK University",
-        "Research & Development",
-        "Tech Bridge"
-      ],
-      "source": "Innovate UK KTP Portal"
     },
     {
       "id": "ktp-7263e3283d",
@@ -947,7 +945,7 @@
       "organization": "Jobgether",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 4 days ago",
+      "deadline": "Posted: 5 days ago",
       "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://ng.linkedin.com/jobs/view/staff-ai-engineer-at-jobgether-4486738305",
       "match_score": 85,
@@ -995,6 +993,24 @@
       "source": "LinkedIn"
     },
     {
+      "id": "li-946155e295",
+      "title": "Data Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Soum",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/data-engineer-at-soum-4483561419",
+      "match_score": 75,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
       "id": "ktp-2869f3ee26",
       "title": "Machine Learning Engineer – Ship Design & Hydrodynamics",
       "category": "KTP Associates (UK)",
@@ -1015,31 +1031,13 @@
       "source": "Innovate UK KTP Portal"
     },
     {
-      "id": "li-93ef229707",
-      "title": "Research Engineer, Benchmarking - Member of Technical Staff",
-      "category": "Visa Sponsored (UK / Global)",
-      "organization": "Callosum",
-      "location": "🇬🇧 London, England, United Kingdom",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/research-engineer-benchmarking-member-of-technical-staff-at-callosum-4456706367",
-      "match_score": 70,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "London, England, Uni"
-      ],
-      "source": "LinkedIn"
-    },
-    {
       "id": "li-524885b7a8",
       "title": "Member of Technical Staff - Pre-Training",
       "category": "Visa Sponsored (UK / Global)",
       "organization": "Reflection",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 days ago",
+      "deadline": "Posted: 6 days ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/member-of-technical-staff-pre-training-at-reflection-4324668808",
       "match_score": 65,
@@ -1123,15 +1121,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "wf-5aeb0b94c5",
-      "title": "Account Executive, Venture Capital",
+      "id": "wf-869217e553",
+      "title": "Policy Director",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
+      "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/2785918-account-executive-venture-capital",
+      "apply_url": "https://wellfound.com/jobs/5034588-policy-director",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1141,15 +1139,15 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-1c1d701378",
-      "title": "Manufacturing Designer",
-      "category": "UK Tech & Remote",
+      "id": "wf-36b97763d8",
+      "title": "Social Media and Content Creator",
+      "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🇬🇧 United Kingdom (Remote/Hybrid)",
+      "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5027441-manufacturing-designer",
+      "apply_url": "https://wellfound.com/jobs/5031281-social-media-and-content-creator",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1159,15 +1157,15 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-2ca9a5a9bd",
-      "title": "Director of Paid Advertising",
+      "id": "wf-9374d67c20",
+      "title": "Senior Paid Social Account Manager (Americas)",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5027440-director-of-paid-advertising",
+      "apply_url": "https://wellfound.com/jobs/5031342-senior-paid-social-account-manager-americas",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1177,15 +1175,51 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-f5fa43b35d",
-      "title": "Sales Director - US (East Coast)",
+      "id": "wf-d2ae9974ed",
+      "title": "Product Manager (2x YC founder mentorship)",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5027427-sales-director-us-east-coast",
+      "apply_url": "https://wellfound.com/jobs/5027521-product-manager-2x-yc-founder-mentorship",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-133a86d21c",
+      "title": "Senior Product Manager | Housing",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5027504-senior-product-manager-housing",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-32baf8781d",
+      "title": "Technical Product Manager, Pedagogy & AI Quality",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Worldwide / Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5027482-technical-product-manager-pedagogy-ai-quality",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1204,24 +1238,6 @@
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
       "apply_url": "https://wellfound.com/jobs/5026929-mts-product",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-ff46b0519a",
-      "title": "Senior Product Manager",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5008718-senior-product-manager",
       "match_score": 65,
       "tags": [
         "Wellfound",
