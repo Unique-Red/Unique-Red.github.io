@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-11-23T16:40:29Z",
-    "total_count": 120,
+    "last_updated": "2026-11-23T19:08:39Z",
+    "total_count": 108,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
       "4+ Years High-Availability Systems & Backend Engineering",
@@ -20,24 +20,6 @@
     ]
   },
   "jobs": [
-    {
-      "id": "li-18dd2a1c06",
-      "title": "Senior Software Engineer - Python/Golang - Kubernetes",
-      "category": "Nigeria (NG) Roles",
-      "organization": "Canonical",
-      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/senior-software-engineer-python-golang-kubernetes-at-canonical-4489640313",
-      "match_score": 99,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Lagos, Lagos State, "
-      ],
-      "source": "LinkedIn"
-    },
     {
       "id": "remote-2091137",
       "title": "Senior Data Engineer",
@@ -97,14 +79,14 @@
     },
     {
       "id": "remote-2091135",
-      "title": "Senior Back-end Developer",
+      "title": "Senior Back-end Developerusa",
       "category": "Remote Worldwide",
       "organization": "Lemon.io",
       "location": "🌍 Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
       "salary": "",
       "deadline": "Active Listing",
       "summary": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engin...",
-      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developerusa-2091135",
       "match_score": 99,
       "tags": [
         ".Net",
@@ -428,196 +410,6 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-2fd92d6745",
-      "title": "Customer Service",
-      "category": "Admin & Customer Support",
-      "organization": "ABM UK",
-      "location": "🎧 🇬🇧 🌍 Oxford, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 3 weeks ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for ABM UK. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-at-abm-uk-4486160955",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-c38369851c",
-      "title": "German Customer Service Representative",
-      "category": "Admin & Customer Support",
-      "organization": "Computershare UK",
-      "location": "🎧 🇬🇧 🌍 Bristol, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Computershare UK. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/german-customer-service-representative-at-computershare-uk-4488600055",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-ffc75254fe",
-      "title": "Contact Centre Advisor",
-      "category": "Admin & Customer Support",
-      "organization": "Sureserve",
-      "location": "🎧 🇬🇧 🌍 Liverpool, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 2 days ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Sureserve. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/contact-centre-advisor-at-sureserve-4492837815",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-264beaad21",
-      "title": "Customer Service Advisor",
-      "category": "Admin & Customer Support",
-      "organization": "Workwell Contractor Solutions",
-      "location": "🎧 🇬🇧 🌍 Chester, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Workwell Contractor Solutions. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-advisor-at-workwell-contractor-solutions-4490317966",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-f446a0ba06",
-      "title": "Membership Support Advisor - Nottingham",
-      "category": "Admin & Customer Support",
-      "organization": "David Lloyd Clubs",
-      "location": "🎧 🇬🇧 🌍 Nottingham, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for David Lloyd Clubs. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/membership-support-advisor-nottingham-at-david-lloyd-clubs-4488254144",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-4a0627d973",
-      "title": "Customer Service Agent",
-      "category": "Admin & Customer Support",
-      "organization": "Aira",
-      "location": "🎧 🇬🇧 🌍 Manchester, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 3 days ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Aira. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-agent-at-aira-4474977629",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-7f50e04e60",
-      "title": "Customer Service Advisor",
-      "category": "Admin & Customer Support",
-      "organization": "Fitness Superstore",
-      "location": "🎧 🇬🇧 🌍 Northampton, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Fitness Superstore. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-advisor-at-fitness-superstore-4487913286",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-11fee4fc12",
-      "title": "Call Handler - Contact Centre",
-      "category": "Admin & Customer Support",
-      "organization": "Vets Now",
-      "location": "🎧 🇬🇧 🌍 Dunfermline, Scotland, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Vets Now. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/call-handler-contact-centre-at-vets-now-4480788781",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-215423b1c6",
-      "title": "Customer Service Agent",
-      "category": "Admin & Customer Support",
-      "organization": "Jaja Finance",
-      "location": "🎧 🇬🇧 🌍 Manchester, England, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for Jaja Finance. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-agent-at-jaja-finance-4490328523",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-116fb9f303",
-      "title": "Customer Service Representative Lloyds Banking Group Disputes",
-      "category": "Admin & Customer Support",
-      "organization": "TP",
-      "location": "🎧 🇬🇧 🌍 Glasgow, Scotland, United Kingdom",
-      "salary": "Competitive (£22,000 - £32,000 / yr)",
-      "deadline": "Posted: 1 month ago",
-      "summary": "Customer service representation, user support, and account assistance in the UK for TP. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-representative-lloyds-banking-group-disputes-at-tp-4473026890",
-      "match_score": 96,
-      "tags": [
-        "UK CSR",
-        "Customer Service",
-        "United Kingdom",
-        "Client Support"
-      ],
-      "source": "LinkedIn"
-    },
-    {
       "id": "li-a940f19f17",
       "title": "Administration Assistant",
       "category": "Admin & Customer Support",
@@ -776,7 +568,7 @@
       "organization": "Paul Smith",
       "location": "🎧 🇬🇧 🌍 London, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 2 days ago",
+      "deadline": "Posted: 3 days ago",
       "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Paul Smith. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
       "apply_url": "https://uk.linkedin.com/jobs/view/office-assistant-at-paul-smith-4491945455",
       "match_score": 96,
@@ -965,15 +757,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-0f976c620d",
-      "title": "Python Engineer (AI/ML) Level I-II",
+      "id": "li-a1ac14b411",
+      "title": "AI and ML Developer/Engineer -ATAfrica",
       "category": "Nigeria (NG) Roles",
-      "organization": "Cavista Technologies",
+      "organization": "ATAfrica",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 3 hours ago",
+      "deadline": "Posted: 2 weeks ago",
       "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/python-engineer-ai-ml-level-i-ii-at-cavista-technologies-4493635593",
+      "apply_url": "https://ng.linkedin.com/jobs/view/ai-and-ml-developer-engineer-atafrica-at-atafrica-4486365805",
       "match_score": 95,
       "tags": [
         "LinkedIn",
@@ -1046,7 +838,7 @@
       "organization": "Padlet",
       "location": "🎧 🌍 London, England, United Kingdom",
       "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 2 days ago",
+      "deadline": "Posted: 3 days ago",
       "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Padlet. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
       "apply_url": "https://uk.linkedin.com/jobs/view/customer-support-associate-london-at-padlet-4492968098",
       "match_score": 95,
@@ -1141,7 +933,7 @@
       "organization": "RexHire",
       "location": "🎧 🌍 Eindhoven, North Brabant, Netherlands",
       "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 9 hours ago",
+      "deadline": "Posted: 13 hours ago",
       "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for RexHire. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
       "apply_url": "https://nl.linkedin.com/jobs/view/administrative-assistant-entry-level-at-rexhire-4493619017",
       "match_score": 95,
@@ -1179,28 +971,9 @@
       "organization": "RexHire",
       "location": "🎧 🌍 Derbyshire, England, United Kingdom",
       "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 9 hours ago",
+      "deadline": "Posted: 13 hours ago",
       "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for RexHire. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
       "apply_url": "https://uk.linkedin.com/jobs/view/administrative-assistant-entry-level-at-rexhire-4493610631",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-82fb48729e",
-      "title": "Senior Administrative Assistant",
-      "category": "Admin & Customer Support",
-      "organization": "IQVIA",
-      "location": "🎧 🌍 Livingston, Scotland, United Kingdom",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for IQVIA. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-administrative-assistant-at-iqvia-4488388859",
       "match_score": 95,
       "tags": [
         "Administrative",
@@ -1258,6 +1031,25 @@
       "deadline": "Posted: 1 week ago",
       "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Set Up My Offshore. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
       "apply_url": "https://au.linkedin.com/jobs/view/construction-admin-assistant-w-australian-experience-at-set-up-my-offshore-4488912359",
+      "match_score": 95,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-ee53ded352",
+      "title": "Administrative Assistant - Travel Team",
+      "category": "Admin & Customer Support",
+      "organization": "IES Communications",
+      "location": "🎧 🌍 Tempe, AZ",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for IES Communications. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://www.linkedin.com/jobs/view/administrative-assistant-travel-team-at-ies-communications-4488882868",
       "match_score": 95,
       "tags": [
         "Administrative",
@@ -1476,7 +1268,7 @@
       "organization": "Owen Thomas | B Corp™",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 hours ago",
+      "deadline": "Posted: 5 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-lead-backend-engineers-python-ai-fintech-saas-us-expansion-build-own-products-and-new-features-end-to-end-%C2%A3100-160k-%2B-equity-london-hybrid-at-owen-thomas-b-corp%E2%84%A2-4493638827",
       "match_score": 93,
@@ -1494,7 +1286,7 @@
       "organization": "iFindTech Ltd",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
+      "deadline": "Posted: 2 weeks ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-developer-at-ifindtech-ltd-4473665318",
       "match_score": 93,
@@ -1502,96 +1294,6 @@
         "LinkedIn",
         "Backend",
         "London Area, United "
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-355f2faf10",
-      "title": "Senior Software Engineer - Python/MongoDB",
-      "category": "Nigeria (NG) Roles",
-      "organization": "Canonical",
-      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/senior-software-engineer-python-mongodb-at-canonical-4489636519",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Lagos, Lagos State, "
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-5eae6ddecd",
-      "title": "Backend Developer",
-      "category": "Nigeria (NG) Roles",
-      "organization": "Vickeny",
-      "location": "🇳🇬 Ado-Ekiti, Ekiti State, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 4 months ago",
-      "summary": "Active opening on LinkedIn in Ado-Ekiti, Ekiti State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/backend-developer-at-vickeny-4436675560",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Ado-Ekiti, Ekiti Sta"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-24f03b7369",
-      "title": "Full Stack Engineer (Python/Django Backend & Next.js Frontend)",
-      "category": "Nigeria (NG) Roles",
-      "organization": "Lorgarithm",
-      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 3 months ago",
-      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/full-stack-engineer-python-django-backend-next-js-frontend-at-lorgarithm-4448966537",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Lagos, Lagos State, "
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-b80328ff42",
-      "title": "Remote Junior Backend Developer @ the99edge Company",
-      "category": "Nigeria (NG) Roles",
-      "organization": "Bankable Wisdom",
-      "location": "🇳🇬 Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 months ago",
-      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/remote-junior-backend-developer-%40-the99edge-company-at-bankable-wisdom-4432954293",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Nigeria"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-106d694203",
-      "title": "Backend Developer",
-      "category": "Nigeria (NG) Roles",
-      "organization": "TurboFlux Network Solutions Ltd (TFN Solutions)",
-      "location": "🇳🇬 Awka South, Anambra State, Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 months ago",
-      "summary": "Active opening on LinkedIn in Awka South, Anambra State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/backend-developer-at-turboflux-network-solutions-ltd-tfn-solutions-4431655232",
-      "match_score": 93,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Awka South, Anambra "
       ],
       "source": "LinkedIn"
     },
@@ -1610,6 +1312,42 @@
         "LinkedIn",
         "Backend",
         "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-6886c3a614",
+      "title": "Senior Backend Engineer - Asset Sales",
+      "category": "Nigeria (NG) Roles",
+      "organization": "M-KOPA",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 weeks ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-backend-engineer-asset-sales-at-m-kopa-4484259325",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-cdf4d0f16c",
+      "title": "Backend Developer (Node.js / Java)",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Tezza Business Solutions Ltd",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 4 months ago",
+      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/backend-developer-node-js-java-at-tezza-business-solutions-ltd-4441852535",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Lagos, Lagos State, "
       ],
       "source": "LinkedIn"
     },
@@ -1638,7 +1376,7 @@
       "organization": "Owen Thomas | B Corp™",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 2 hours ago",
+      "deadline": "Posted: 5 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-ts-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3250k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4493646550",
       "match_score": 93,
@@ -1648,6 +1386,24 @@
         "London Area, United "
       ],
       "source": "LinkedIn"
+    },
+    {
+      "id": "wf-b9f0ddf5ba",
+      "title": "Staff Software Engineer, AI Infrastructure",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/4809607-staff-software-engineer-ai-infrastructure",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
     },
     {
       "id": "wf-ea94bea695",
@@ -1723,24 +1479,6 @@
       "source": "Remotive Remote API"
     },
     {
-      "id": "li-73506cd0fe",
-      "title": "Software Engineer Needed at PressOne Africa",
-      "category": "Nigeria (NG) Roles",
-      "organization": "Bankable Wisdom",
-      "location": "🇳🇬 Nigeria",
-      "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 5 months ago",
-      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/software-engineer-needed-at-pressone-africa-at-bankable-wisdom-4431366400",
-      "match_score": 87,
-      "tags": [
-        "LinkedIn",
-        "Backend",
-        "Nigeria"
-      ],
-      "source": "LinkedIn"
-    },
-    {
       "id": "li-45c5c52cd3",
       "title": "Software Engineer | Remote",
       "category": "Nigeria (NG) Roles",
@@ -1755,6 +1493,24 @@
         "LinkedIn",
         "Backend",
         "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-efdd70609d",
+      "title": "Senior Software Engineer (Identity)",
+      "category": "Nigeria (NG) Roles",
+      "organization": "FairMoney",
+      "location": "🇳🇬 Abuja, Federal Capital Territory, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 1 month ago",
+      "summary": "Active opening on LinkedIn in Abuja, Federal Capital Territory, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-software-engineer-identity-at-fairmoney-4490288048",
+      "match_score": 87,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Abuja, Federal Capit"
       ],
       "source": "LinkedIn"
     },
@@ -1959,15 +1715,15 @@
       "source": "Innovate UK KTP Portal"
     },
     {
-      "id": "li-8499769d29",
-      "title": "Senior AI Engineer (Internal Tools & Agents)",
+      "id": "li-93084550e6",
+      "title": "AI Data Curator / Data Engineer",
       "category": "Nigeria (NG) Roles",
-      "organization": "Jobgether",
+      "organization": "DataLens Africa",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 3 days ago",
+      "deadline": "Posted: 3 months ago",
       "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/senior-ai-engineer-internal-tools-agents-at-jobgether-4492576767",
+      "apply_url": "https://ng.linkedin.com/jobs/view/ai-data-curator-data-engineer-at-datalens-africa-4446551170",
       "match_score": 85,
       "tags": [
         "LinkedIn",
@@ -2014,20 +1770,56 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-946155e295",
-      "title": "Data Engineer",
+      "id": "li-70ff5b2579",
+      "title": "Computational Engineer | $50/hr Remote",
       "category": "Nigeria (NG) Roles",
-      "organization": "Soum",
+      "organization": "Crossing Hurdles",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 4 weeks ago",
+      "deadline": "Posted: 1 week ago",
       "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/data-engineer-at-soum-4483561419",
+      "apply_url": "https://ng.linkedin.com/jobs/view/computational-engineer-%2450-hr-remote-at-crossing-hurdles-4471901774",
       "match_score": 75,
       "tags": [
         "LinkedIn",
         "Backend",
         "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-d19b19cda0",
+      "title": "Data Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Reliance Health",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 1 month ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/data-engineer-at-reliance-health-4487270006",
+      "match_score": 75,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-ae72f2b08a",
+      "title": "ERP Integration Technical Specialist",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Tezza Business Solutions Ltd",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 4 months ago",
+      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/erp-integration-technical-specialist-at-tezza-business-solutions-ltd-4441854464",
+      "match_score": 75,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Lagos, Lagos State, "
       ],
       "source": "LinkedIn"
     },
@@ -2160,6 +1952,42 @@
       "source": "LinkedIn"
     },
     {
+      "id": "wf-c30f220bcf",
+      "title": "Sales Development Representative",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5135408-sales-development-representative",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-397b1bf80d",
+      "title": "Commercial Real Estate Sales Associate",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Worldwide / Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5133380-commercial-real-estate-sales-associate",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
       "id": "wf-656869448c",
       "title": "Account Executive, USA",
       "category": "Remote Worldwide",
@@ -2169,60 +1997,6 @@
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
       "apply_url": "https://wellfound.com/jobs/5135207-account-executive-usa",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-06da32ba8c",
-      "title": "Client Success Manager, Immigration",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5135182-client-success-manager-immigration",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-b91f483a0d",
-      "title": "Portfolio Manager, Commercial Operations",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5133409-portfolio-manager-commercial-operations",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-caba0a4af9",
-      "title": "Penetration Tester (AI-Augmented Offensive Security), Part-Time",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5133379-penetration-tester-ai-augmented-offensive-security-part-time",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -2268,15 +2042,15 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-ab8a9d0e19",
-      "title": "Founding Product Lead",
+      "id": "wf-b91f483a0d",
+      "title": "Portfolio Manager, Commercial Operations",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
+      "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5026951-founding-product-manager",
+      "apply_url": "https://wellfound.com/jobs/5133409-portfolio-manager-commercial-operations",
       "match_score": 65,
       "tags": [
         "Wellfound",
