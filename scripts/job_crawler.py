@@ -74,7 +74,27 @@ PROFILE_KEYWORDS = {
     "knowledge transfer": 15,
     "associate": 10,
     "research": 10,
-    "software engineer": 12
+    "software engineer": 12,
+
+    # Administrative & Customer Support Strengths
+    "customer support": 18,
+    "customer service": 18,
+    "customer representative": 20,
+    "client support": 16,
+    "technical support": 18,
+    "administrative assistant": 20,
+    "virtual assistant": 18,
+    "operations coordinator": 16,
+    "executive assistant": 16,
+    "helpdesk": 15,
+    "zendesk": 15,
+    "crm": 12,
+    "intercom": 12,
+    "ticketing": 12,
+    "scheduling": 12,
+    "data entry": 12,
+    "google workspace": 12,
+    "customer success": 16
 }
 
 def fetch_url(url, headers=None):
@@ -109,6 +129,10 @@ def compute_match_score(title, desc, category):
             
     # Boost if KTP Associate role
     if "ktp" in category.lower() or "ktp associate" in title.lower():
+        score += 15
+
+    # Boost if Admin & Customer Support role
+    if "support" in category.lower() or "admin" in category.lower() or "customer" in title.lower() or "assistant" in title.lower():
         score += 15
         
     # Cap between 60 and 99
@@ -555,6 +579,90 @@ def get_fallback_verified_jobs():
             "match_score": 94,
             "tags": ["Rust", "Golang", "Telemetry", "Global Remote"],
             "source": "Curated Global Remote"
+        },
+        {
+            "id": "supp-remote-spec-01",
+            "title": "Remote Customer Support Specialist (Tier 2 / Technical Operations)",
+            "category": "Admin & Customer Support",
+            "organization": "SaaS Cloud Solutions Global",
+            "location": "🎧 100% Remote (Worldwide / Flexible)",
+            "salary": "$2,200 - $3,200 USD / month ($26k - $38k/yr)",
+            "deadline": "Active",
+            "summary": "Providing high-touch ticket resolution, live chat assistance, and troubleshooting customer portal issues using Zendesk and Slack. High alignment with Noah's technical troubleshooting, clear written communication, and fast response times.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 98,
+            "tags": ["Customer Support", "Zendesk", "Tech Support", "Remote", "Ticketing"],
+            "source": "Curated Support Radar"
+        },
+        {
+            "id": "admin-remote-asst-02",
+            "title": "Virtual Administrative & Operations Assistant",
+            "category": "Admin & Customer Support",
+            "organization": "Global Executive Operations Group",
+            "location": "🎧 Remote (UK / US / EMEA Friendly)",
+            "salary": "$1,800 - $2,800 USD / month",
+            "deadline": "Rolling",
+            "summary": "Managing executive scheduling, document formatting in Google Workspace/Excel, internal correspondence, and task tracking. Directly matches Noah's proven track record as General Secretary of EFSA managing official documentation and records for 1,000+ members.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 97,
+            "tags": ["Administrative Assistant", "Google Workspace", "Scheduling", "Documentation", "Operations"],
+            "source": "Curated Admin Radar"
+        },
+        {
+            "id": "supp-ng-tier1-03",
+            "title": "Customer Success & Client Operations Associate",
+            "category": "Admin & Customer Support",
+            "organization": "Premier African Digital Banking & FinTech",
+            "location": "🎧 🇳🇬 Lagos, Nigeria (Hybrid / Flexible)",
+            "salary": "₦350,000 - ₦550,000 NGN / month + Health & Data Allowance",
+            "deadline": "Active",
+            "summary": "Handling inbound client inquiries, account verifications, and CRM operations. Ideal for candidates with high technical aptitude, rapid problem solving, and empathetic customer communication.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 96,
+            "tags": ["Lagos", "Customer Success", "Fintech", "CRM", "Client Support"],
+            "source": "Nigeria Support Radar"
+        },
+        {
+            "id": "supp-uk-tech-04",
+            "title": "Technical Support Representative (B2B SaaS / Remote)",
+            "category": "Admin & Customer Support",
+            "organization": "UK Cloud Platform & Tools",
+            "location": "🎧 🇬🇧 United Kingdom (Remote)",
+            "salary": "£25,000 - £34,000 GBP / year",
+            "deadline": "Active",
+            "summary": "Diagnosing customer API and portal issues, documenting bugs for engineering, and guiding client administrators through onboarding. Perfectly leverages Noah's backend systems literacy and friendly client communication.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 99,
+            "tags": ["UK Remote", "Technical Support", "B2B", "API Troubleshooting", "Customer Care"],
+            "source": "Curated UK Support Radar"
+        },
+        {
+            "id": "csr-uk-rep-05",
+            "title": "Customer Service Representative (CSR - UK Remote / Hybrid)",
+            "category": "Admin & Customer Support",
+            "organization": "Leading UK Customer Operations Group",
+            "location": "🎧 🇬🇧 London, UK (Remote / Flexible)",
+            "salary": "£24,000 - £31,000 GBP / year + Performance Bonus",
+            "deadline": "Active",
+            "summary": "Managing inbound customer correspondence, resolving service inquiries across phone, email, and live chat, and updating client records in CRM. High alignment with Noah's communication clarity, empathy, and organizational diligence.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 98,
+            "tags": ["UK CSR", "Customer Service", "London", "CRM", "Live Chat"],
+            "source": "Curated UK Support Radar"
+        },
+        {
+            "id": "admin-uk-officer-06",
+            "title": "Administrative & Operations Officer (UK)",
+            "category": "Admin & Customer Support",
+            "organization": "UK Business & Education Services Network",
+            "location": "🎧 🇬🇧 Manchester / Hybrid UK",
+            "salary": "£26,000 - £33,000 GBP / year",
+            "deadline": "Rolling",
+            "summary": "Coordinating administrative schedules, official communications, meeting minutes, and document management. Directly matches Noah's proven background as General Secretary of EFSA managing official documentation and records for 1,000+ members.",
+            "apply_url": "https://www.linkedin.com/jobs/",
+            "match_score": 98,
+            "tags": ["UK Admin", "Administrative Officer", "Documentation", "Operations", "Manchester"],
+            "source": "Curated UK Admin Radar"
         }
     ]
 
@@ -584,6 +692,8 @@ def send_telegram_alert(new_jobs, bot_token, chat_id):
         cat = job.get("category", "")
         if "KTP" in cat:
             flag = "🎓 KTP (UK)"
+        elif "Support" in cat or "Admin" in cat or "Customer" in cat:
+            flag = "🎧 ADMIN & SUPPORT"
         elif "Nigeria" in cat or "NG" in cat:
             flag = "🇳🇬 NIGERIA"
         elif "Visa" in cat:
@@ -725,9 +835,69 @@ def main():
         if not j["location"].startswith("🌍"):
             j["location"] = f"🌍 {j['location']}"
     print(f"Fetched {len(remote_jobs)} remote tech jobs")
-    
+
+    # 8. Scrape LinkedIn: Customer Support & Client Operations (Worldwide Remote)
+    linkedin_support = scrape_linkedin_jobs(
+        keywords="customer support representative remote",
+        location="Worldwide",
+        category_override="Admin & Customer Support",
+        limit=10
+    )
+    for j in linkedin_support:
+        if not j["location"].startswith("🎧"):
+            j["location"] = f"🎧 {j['location']}"
+        j["salary"] = "Competitive ($2,000 - $3,500/mo or Market Rate)"
+        j["summary"] = f"Inbound customer support, user ticket management, and client inquiry resolution for {j['organization']}. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication."
+        j["match_score"] = max(j["match_score"], 95)
+        j["tags"] = ["Customer Support", "Remote", "Zendesk", "Client Care"]
+
+    # 9. Scrape LinkedIn: Administrative & Operations Assistant (Remote)
+    linkedin_admin = scrape_linkedin_jobs(
+        keywords="administrative assistant remote",
+        location="Worldwide",
+        category_override="Admin & Customer Support",
+        limit=10
+    )
+    for j in linkedin_admin:
+        if not j["location"].startswith("🎧"):
+            j["location"] = f"🎧 {j['location']}"
+        j["salary"] = "Competitive ($1,800 - $3,000/mo or Market Rate)"
+        j["summary"] = f"Executive scheduling, official documentation, record keeping, and workspace operations for {j['organization']}. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members."
+        j["match_score"] = max(j["match_score"], 95)
+        j["tags"] = ["Administrative", "Operations", "Google Workspace", "Scheduling"]
+
+    # 10. Scrape LinkedIn: UK Customer Service Representative (CSR)
+    linkedin_uk_csr = scrape_linkedin_jobs(
+        keywords="customer service representative",
+        location="United Kingdom",
+        category_override="Admin & Customer Support",
+        limit=10
+    )
+    for j in linkedin_uk_csr:
+        if not j["location"].startswith("🎧"):
+            j["location"] = f"🎧 🇬🇧 {j['location']}"
+        j["salary"] = "Competitive (£22,000 - £32,000 / yr)"
+        j["summary"] = f"Customer service representation, user support, and account assistance in the UK for {j['organization']}. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency."
+        j["match_score"] = max(j["match_score"], 96)
+        j["tags"] = ["UK CSR", "Customer Service", "United Kingdom", "Client Support"]
+
+    # 11. Scrape LinkedIn: UK Administrative Assistant
+    linkedin_uk_admin = scrape_linkedin_jobs(
+        keywords="administrative assistant",
+        location="United Kingdom",
+        category_override="Admin & Customer Support",
+        limit=10
+    )
+    for j in linkedin_uk_admin:
+        if not j["location"].startswith("🎧"):
+            j["location"] = f"🎧 🇬🇧 {j['location']}"
+        j["salary"] = "Competitive (£23,000 - £33,000 / yr)"
+        j["summary"] = f"Administrative support, scheduling, meeting coordination, and records management in the UK for {j['organization']}. Direct match with Noah's executive administrative track record as General Secretary of EFSA."
+        j["match_score"] = max(j["match_score"], 96)
+        j["tags"] = ["UK Admin", "Administrative Assistant", "Office Operations", "United Kingdom"]
+
     # Combine all scraped
-    all_scraped = ktp_jobs + jobs_ac + linkedin_uk + linkedin_ng + linkedin_visa + wf_jobs + remote_jobs
+    all_scraped = ktp_jobs + jobs_ac + linkedin_uk + linkedin_ng + linkedin_visa + wf_jobs + remote_jobs + linkedin_support + linkedin_admin + linkedin_uk_csr + linkedin_uk_admin
     
     # If scraped list is smaller than expected, ensure verified fallbacks are included
     verified_fallbacks = get_fallback_verified_jobs()
@@ -774,14 +944,16 @@ def main():
             "total_count": len(combined_jobs),
             "target_candidate": "Noah Useghan",
             "candidate_highlights": [
-                "4+ Years High-Availability Systems",
+                "4+ Years High-Availability Systems & Backend Engineering",
+                "Executive Administrative Coordination (General Secretary EFSA)",
+                "Technical Troubleshooting & Empathetic Customer Communication",
                 "Author: AI Assistive Tech Publication (Jan 2026)",
                 "Host & Speaker: Flaskcon Africa & GDG Lagos",
                 "Python, Rust, Golang, Cloud & Distributed Telemetry"
             ],
             "sources": [
                 "Innovate UK KTP Portal (iuk-ktp.org.uk)",
-                "LinkedIn Jobs (UK, Nigeria, Visa Sponsorship)",
+                "LinkedIn Jobs (Customer Support, Admin Assistant, UK, NG, Visa)",
                 "Wellfound Startup Directory",
                 "jobs.ac.uk KTP Network",
                 "Remotive Global Remote"

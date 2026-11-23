@@ -2443,6 +2443,12 @@ footer {
   border: 1px solid rgba(0, 240, 255, 0.3);
 }
 
+.radar-category-pill.cat-support {
+  background: rgba(247, 37, 133, 0.15);
+  color: #ff70a6;
+  border: 1px solid rgba(247, 37, 133, 0.4);
+}
+
 .radar-category-pill.cat-linkedin {
   background: rgba(10, 102, 194, 0.16);
   color: #70b5f9;

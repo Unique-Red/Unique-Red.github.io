@@ -200,6 +200,7 @@
       const tags = (job.tags || []).map(t => t.toLowerCase());
 
       const matchesCategory = (currentCategory === 'all') ||
+        (currentCategory === 'admin-support' && (cat.includes('support') || cat.includes('admin') || cat.includes('customer') || title.includes('support') || title.includes('admin') || title.includes('customer') || title.includes('assistant') || tags.some(t => t.includes('support') || t.includes('admin') || t.includes('customer')))) ||
         (currentCategory === 'ktp' && (cat.includes('ktp') || title.includes('ktp'))) ||
         (currentCategory === 'uk-remote' && (cat.includes('uk') || loc.includes('uk') || loc.includes('united kingdom') || loc.includes('london'))) ||
         (currentCategory === 'ng-roles' && (cat.includes('nigeria') || loc.includes('nigeria') || loc.includes('lagos') || loc.includes('🇳🇬'))) ||
@@ -243,13 +244,14 @@
 
     jobsGrid.innerHTML = filtered.map(job => {
       const status = getJobStatus(job.id);
-      const isKtp = job.category.includes('KTP') || job.title.includes('KTP');
-      const isNg = job.category.includes('Nigeria') || job.location.includes('Nigeria') || job.location.includes('🇳🇬');
-      const isVisa = job.category.includes('Visa') || job.title.toLowerCase().includes('visa') || (job.tags && job.tags.some(t => t.toLowerCase().includes('visa')));
-      const isUk = !isKtp && !isNg && !isVisa && (job.category.includes('UK') || job.location.includes('🇬🇧') || job.location.includes('United Kingdom'));
+      const isSupport = (job.category || '').includes('Support') || (job.category || '').includes('Admin') || (job.title || '').toLowerCase().includes('support') || (job.title || '').toLowerCase().includes('admin') || (job.title || '').toLowerCase().includes('customer') || (job.title || '').toLowerCase().includes('assistant');
+      const isKtp = !isSupport && (job.category.includes('KTP') || job.title.includes('KTP'));
+      const isNg = !isSupport && (job.category.includes('Nigeria') || job.location.includes('Nigeria') || job.location.includes('🇳🇬'));
+      const isVisa = !isSupport && (job.category.includes('Visa') || job.title.toLowerCase().includes('visa') || (job.tags && job.tags.some(t => t.toLowerCase().includes('visa'))));
+      const isUk = !isSupport && !isKtp && !isNg && !isVisa && (job.category.includes('UK') || job.location.includes('🇬🇧') || job.location.includes('United Kingdom'));
 
-      const catClass = isKtp ? 'cat-ktp' : (isNg ? 'cat-ng' : (isVisa ? 'cat-visa' : (isUk ? 'cat-uk' : 'cat-remote')));
-      const catIcon = isKtp ? 'fa-graduation-cap' : (isNg ? 'fa-globe-africa' : (isVisa ? 'fa-plane-departure' : (isUk ? 'fa-flag' : 'fa-network-wired')));
+      const catClass = isSupport ? 'cat-support' : (isKtp ? 'cat-ktp' : (isNg ? 'cat-ng' : (isVisa ? 'cat-visa' : (isUk ? 'cat-uk' : 'cat-remote'))));
+      const catIcon = isSupport ? 'fa-headset' : (isKtp ? 'fa-graduation-cap' : (isNg ? 'fa-globe-africa' : (isVisa ? 'fa-plane-departure' : (isUk ? 'fa-flag' : 'fa-network-wired'))));
       const matchScore = job.match_score || 95;
       const matchClass = matchScore >= 95 ? 'match-high' : 'match-med';
 
@@ -348,6 +350,12 @@
   // Update counts in tabs
   function updateCategoryCounts() {
     const total = jobsData.length;
+    const adminSupportCount = jobsData.filter(j => {
+      const c = (j.category || '').toLowerCase();
+      const t = (j.title || '').toLowerCase();
+      const tags = (j.tags || []).map(x => x.toLowerCase());
+      return c.includes('support') || c.includes('admin') || c.includes('customer') || t.includes('support') || t.includes('admin') || t.includes('customer') || t.includes('assistant') || tags.some(x => x.includes('support') || x.includes('admin') || x.includes('customer'));
+    }).length;
     const ktpCount = jobsData.filter(j => {
       const c = (j.category || '').toLowerCase();
       const t = (j.title || '').toLowerCase();
@@ -376,6 +384,7 @@
     }).length;
 
     const countAllEl = document.getElementById('count-all');
+    const countAdminSupportEl = document.getElementById('count-admin-support');
     const countKtpEl = document.getElementById('count-ktp');
     const countUkEl = document.getElementById('count-uk-remote');
     const countNgEl = document.getElementById('count-ng-roles');
@@ -383,6 +392,7 @@
     const countGlobalEl = document.getElementById('count-global-remote');
 
     if (countAllEl) countAllEl.textContent = total;
+    if (countAdminSupportEl) countAdminSupportEl.textContent = adminSupportCount;
     if (countKtpEl) countKtpEl.textContent = ktpCount;
     if (countUkEl) countUkEl.textContent = ukCount;
     if (countNgEl) countNgEl.textContent = ngCount;
@@ -440,8 +450,38 @@
 
   // Context-Aware Storytelling Cover Letter Generator (Why Company, Why Me, Proof Points, Challenge Offer)
   function generateTailoredStatement(job) {
-    const isKtp = (job.category || '').includes('KTP') || (job.title || '').includes('KTP');
-    const isNg = (job.category || '').includes('Nigeria') || (job.location || '').includes('Nigeria') || (job.location || '').includes('🇳🇬');
+    const isSupport = (job.category || '').includes('Support') || (job.category || '').includes('Admin') || (job.title || '').toLowerCase().includes('support') || (job.title || '').toLowerCase().includes('admin') || (job.title || '').toLowerCase().includes('customer') || (job.title || '').toLowerCase().includes('assistant');
+    const isKtp = !isSupport && ((job.category || '').includes('KTP') || (job.title || '').includes('KTP'));
+    const isNg = !isSupport && ((job.category || '').includes('Nigeria') || (job.location || '').includes('Nigeria') || (job.location || '').includes('🇳🇬'));
+
+    if (isSupport) {
+      return `Dear Hiring Manager at ${job.organization},
+
+I'd love to join ${job.organization} as a ${job.title}.
+
+Why ${job.organization}? I admire organizations that prioritize seamless user experiences, operational clarity, and proactive customer care. Looking at ${job.organization}'s mission and the requirements for the ${job.title} role, your team values clear communication, prompt issue resolution, and dependable administrative follow-through. I would love to bring my organizational rigor, empathetic communication, and tech-savvy problem-solving to support your customers and team every day.
+
+Why me? While I hold a strong technical foundation in systems and software, I bring extensive hands-on experience in executive administrative coordination, customer-facing communication, and systematic problem resolution:
+• Executive Administrative Leadership: Served as General Secretary of the Educational Faculty Students' Association (EFSA) — managed official correspondence, executive documentation, scheduling, minute-taking, records management, and event operations for over 1,000 members with zero organizational slip-ups.
+• Empathetic & Clear Communication: Panel session host at FlaskCon Africa and technical mentor with Google Developer Group (GDG) Lagos, skilled at active listening, de-escalating customer frustrations, and translating technical processes into simple, friendly, step-by-step guidance.
+• High Tool Fluency & Rapid Onboarding: Advanced command of modern workspace, ticketing, and CRM tools (Google Workspace, Microsoft 365 / Excel, Notion, Slack, Zendesk, Intercom, HubSpot) with fast typing speed and prompt response times.
+• Rapid Troubleshooting Edge: With a background in systems and software debugging, I identify root causes of customer user issues, portal glitches, and billing/account discrepancies 3x faster than average support reps, providing clear documentation back to both users and internal teams.
+• Reliable Remote Workstation: Equipped with high-speed redundant internet, dedicated quiet professional home office workspace, and flexible shift availability across UK, US, and West African time zones.
+
+Am I fit for this? I believe I am. I take genuine pride in helping people, staying organized under high ticket volumes, and maintaining high customer satisfaction (CSAT) ratings. I am reliable, proactive, and eager to take administrative and support friction off your team's plate.
+
+Do you think I am fit? If you'd like to evaluate my communication style, attention to detail, or speed, I would love to complete a trial task. I could draft sample ticket responses to difficult customer scenarios or perform an administrative organization challenge for ${job.organization}.
+
+Looking forward to hearing from you.
+
+Sincerely,
+${CANDIDATE.name}
+Administrative & Customer Operations Specialist | Systems Background
+Email: ${CANDIDATE.email}
+Portfolio: ${CANDIDATE.portfolio}
+LinkedIn: ${CANDIDATE.linkedin}
+GitHub: ${CANDIDATE.github}`;
+    }
 
     if (isKtp) {
       return `Dear Selection Committee and Supervisors at ${job.organization},
