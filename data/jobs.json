@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "last_updated": "2026-11-22T15:11:11Z",
+    "last_updated": "2026-11-23T00:08:27Z",
     "total_count": 72,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
@@ -538,7 +538,7 @@
       "organization": "Octopus Energy",
       "location": "🇬🇧 London, England, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 9 minutes ago",
+      "deadline": "Posted: 9 hours ago",
       "summary": "Active opening on LinkedIn in London, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-software-engineer-backend-python-at-octopus-energy-4469188087",
       "match_score": 93,
@@ -568,7 +568,7 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-88e9096419",
+      "id": "li-23891d6b8e",
       "title": "Senior & Lead Backend Engineers (Python) | AI FinTech SaaS | US expansion | Build & Own Products, and New Features, End-to-End | £100-160k + Equity | London, Hybrid",
       "category": "UK Tech & Remote",
       "organization": "Owen Thomas | B Corp™",
@@ -576,7 +576,7 @@
       "salary": "Competitive (Market Rate)",
       "deadline": "Posted: 4 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-lead-backend-engineers-python-ai-fintech-saas-us-expansion-build-own-products-and-new-features-end-to-end-%C2%A3100-160k-%2B-equity-london-hybrid-at-owen-thomas-b-corp%E2%84%A2-4493350886",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-lead-backend-engineers-python-ai-fintech-saas-us-expansion-build-own-products-and-new-features-end-to-end-%C2%A3100-160k-%2B-equity-london-hybrid-at-owen-thomas-b-corp%E2%84%A2-4493390233",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -712,7 +712,7 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-4f34e8c874",
+      "id": "li-49488513c3",
       "title": "Senior Product Engineer (Python / Go / TS ) | Production Agentic AI | B2C Start-up, Series A | £100k-£250k + Equity | London (5 Days) | Visa Sponsorship + Relocation",
       "category": "Visa Sponsored (UK / Global)",
       "organization": "Owen Thomas | B Corp™",
@@ -720,7 +720,7 @@
       "salary": "Competitive (Market Rate)",
       "deadline": "Posted: 4 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-ts-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3250k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4493353885",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-ts-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3250k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4493382745",
       "match_score": 93,
       "tags": [
         "LinkedIn",
@@ -752,7 +752,7 @@
       "title": "Founding Engineer",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
+      "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
@@ -1254,6 +1254,24 @@
       "source": "LinkedIn"
     },
     {
+      "id": "wf-bbd6a2c609",
+      "title": "Event Marketing Manager",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5027288-event-marketing-manager",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
       "id": "wf-409760ce2f",
       "title": "AI Security & Governance SaaS Sales Manager, SME (Contract, Remote, US)",
       "category": "Remote Worldwide",
@@ -1281,24 +1299,6 @@
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
       "apply_url": "https://wellfound.com/jobs/5130496-founding-recruiter-remote",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-e69adaf6de",
-      "title": "Brand & Community Associate",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Worldwide / Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5130486-brand-community-associate",
       "match_score": 65,
       "tags": [
         "Wellfound",
