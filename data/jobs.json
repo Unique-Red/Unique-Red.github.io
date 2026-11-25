@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-11-24T18:46:29Z",
-    "total_count": 95,
+    "last_updated": "2026-11-25T02:58:36Z",
+    "total_count": 108,
     "target_candidate": "Noah Useghan",
     "candidate_highlights": [
       "4+ Years High-Availability Systems & Backend Engineering",
@@ -20,6 +20,24 @@
     ]
   },
   "jobs": [
+    {
+      "id": "li-18dd2a1c06",
+      "title": "Senior Software Engineer - Python/Golang - Kubernetes",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Canonical",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-software-engineer-python-golang-kubernetes-at-canonical-4489640313",
+      "match_score": 99,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Lagos, Lagos State, "
+      ],
+      "source": "LinkedIn"
+    },
     {
       "id": "remote-2091137",
       "title": "Senior Data Engineer",
@@ -115,6 +133,25 @@
         "Customer Care"
       ],
       "source": "Curated UK Support Radar"
+    },
+    {
+      "id": "li-b36baf7a0a",
+      "title": "Virtual Assistant",
+      "category": "Admin & Customer Support",
+      "organization": "Sonora BPO",
+      "location": "🎧 🌍 Metro Manila",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 1 week ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Sonora BPO. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://ph.linkedin.com/jobs/view/virtual-assistant-at-sonora-bpo-4491169404",
+      "match_score": 98,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
     },
     {
       "id": "uk-backend-lead-05",
@@ -315,167 +352,205 @@
       "source": "Curated Admin Radar"
     },
     {
-      "id": "li-6471d1ef98",
-      "title": "Customer Service Specialist (Korean Speaker)",
+      "id": "li-e7f395d28e",
+      "title": "Customer Service Advisor",
       "category": "Admin & Customer Support",
-      "organization": "Binance",
-      "location": "🎧 🌍 Ho Chi Minh City, Ho Chi Minh City, Vietnam",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Binance. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://vn.linkedin.com/jobs/view/customer-service-specialist-korean-speaker-at-binance-4487845939",
+      "organization": "Calor Gas Ltd",
+      "location": "🎧 🇬🇧 🌍 Plymouth, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 1 month ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Calor Gas Ltd. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-advisor-at-calor-gas-ltd-4467755587",
       "match_score": 96,
       "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
       ],
       "source": "LinkedIn"
     },
     {
-      "id": "li-95cec763e7",
-      "title": "Bilingual Customer Service Specialist",
+      "id": "li-cfac80e02d",
+      "title": "Call Centre - Customer Service Advisor",
       "category": "Admin & Customer Support",
-      "organization": "Alphanumeric Systems",
-      "location": "🎧 🌍 Toronto, Ontario, Canada",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
+      "organization": "Bupa UK",
+      "location": "🎧 🇬🇧 🌍 Salford, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Bupa UK. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/call-centre-customer-service-advisor-at-bupa-uk-4487509039",
+      "match_score": 96,
+      "tags": [
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-dfdb6b390a",
+      "title": "Customer Support Advisor",
+      "category": "Admin & Customer Support",
+      "organization": "Hometree",
+      "location": "🎧 🇬🇧 🌍 Stoke-On-Trent, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 8 months ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Hometree. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-support-advisor-at-hometree-4388747154",
+      "match_score": 96,
+      "tags": [
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-aaaefb4ce2",
+      "title": "Membership Support Advisor - Glasgow",
+      "category": "Admin & Customer Support",
+      "organization": "David Lloyd Clubs",
+      "location": "🎧 🇬🇧 🌍 Glasgow, Scotland, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 1 week ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for David Lloyd Clubs. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/membership-support-advisor-glasgow-at-david-lloyd-clubs-4490822537",
+      "match_score": 96,
+      "tags": [
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-4b9bf6d409",
+      "title": "Customer Service Advisor",
+      "category": "Admin & Customer Support",
+      "organization": "Truespeed",
+      "location": "🎧 🇬🇧 🌍 Bath, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
       "deadline": "Posted: 2 months ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Alphanumeric Systems. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://ca.linkedin.com/jobs/view/bilingual-customer-service-specialist-at-alphanumeric-systems-4472062943",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Truespeed. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-advisor-at-truespeed-4460389805",
       "match_score": 96,
       "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
       ],
       "source": "LinkedIn"
     },
     {
-      "id": "li-d6f01cbfb4",
-      "title": "Full-Time Customer Service Representative (Urgently Hiring)",
+      "id": "li-28661ff8c5",
+      "title": "Customer Service Representative",
       "category": "Admin & Customer Support",
-      "organization": "MCI",
-      "location": "🎧 🌍 Fulton County, GA",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 3 months ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for MCI. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://www.linkedin.com/jobs/view/full-time-customer-service-representative-urgently-hiring-at-mci-4449853797",
-      "match_score": 96,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-646a3acef9",
-      "title": "Customer Service Representative - Spanish, Basque and English",
-      "category": "Admin & Customer Support",
-      "organization": "Savior Artigos Texteis Lda",
-      "location": "🎧 🌍 Lisbon, Lisbon, Portugal",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 3 weeks ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Savior Artigos Texteis Lda. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://pt.linkedin.com/jobs/view/customer-service-representative-spanish-basque-and-english-at-savior-artigos-texteis-lda-4484144314",
-      "match_score": 96,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-21b0f1716e",
-      "title": "Executive Assistant",
-      "category": "Admin & Customer Support",
-      "organization": "SourcingXPress",
-      "location": "🎧 🌍 Bengaluru, Karnataka, India",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 7 months ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for SourcingXPress. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://in.linkedin.com/jobs/view/executive-assistant-at-sourcingxpress-4399894474",
-      "match_score": 96,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-3cf967ee16",
-      "title": "Business Assistant - HD Community Team",
-      "category": "Admin & Customer Support",
-      "organization": "Leicestershire Partnership NHS Trust",
-      "location": "🎧 🇬🇧 🌍 Leicester, England, United Kingdom",
-      "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 6 days ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Leicestershire Partnership NHS Trust. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/business-assistant-hd-community-team-at-leicestershire-partnership-nhs-trust-4491758917",
-      "match_score": 96,
-      "tags": [
-        "UK Admin",
-        "Administrative Assistant",
-        "Office Operations",
-        "United Kingdom"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-61a45821d4",
-      "title": "Administration Assistant",
-      "category": "Admin & Customer Support",
-      "organization": "Gregory Group",
-      "location": "🎧 🇬🇧 🌍 Cribbs Causeway, England, United Kingdom",
-      "salary": "Competitive (£23,000 - £33,000 / yr)",
+      "organization": "FNZ",
+      "location": "🎧 🇬🇧 🌍 Bolton, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
       "deadline": "Posted: 1 week ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Gregory Group. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/administration-assistant-at-gregory-group-4491571004",
+      "summary": "Customer service representation, user support, and account assistance in the UK for FNZ. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-representative-at-fnz-4463024223",
       "match_score": 96,
       "tags": [
-        "UK Admin",
-        "Administrative Assistant",
-        "Office Operations",
-        "United Kingdom"
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
       ],
       "source": "LinkedIn"
     },
     {
-      "id": "li-e4957d4bd8",
-      "title": "Business Assistant",
+      "id": "li-45d6feac61",
+      "title": "Italian speaking Customer Service Agent",
       "category": "Admin & Customer Support",
-      "organization": "Leicestershire Partnership NHS Trust",
-      "location": "🎧 🇬🇧 🌍 Loughborough, England, United Kingdom",
-      "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Leicestershire Partnership NHS Trust. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/business-assistant-at-leicestershire-partnership-nhs-trust-4490058089",
+      "organization": "Trip.com Group",
+      "location": "🎧 🇬🇧 🌍 Edinburgh, Scotland, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 16 hours ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Trip.com Group. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/italian-speaking-customer-service-agent-at-trip-com-group-4494324820",
       "match_score": 96,
       "tags": [
-        "UK Admin",
-        "Administrative Assistant",
-        "Office Operations",
-        "United Kingdom"
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
       ],
       "source": "LinkedIn"
     },
     {
-      "id": "li-eff1227ba2",
+      "id": "li-fac79129ea",
+      "title": "Customer Care Advisor",
+      "category": "Admin & Customer Support",
+      "organization": "Lyreco UK and Ireland",
+      "location": "🎧 🇬🇧 🌍 Telford, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 1 week ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Lyreco UK and Ireland. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-care-advisor-at-lyreco-uk-and-ireland-4490593959",
+      "match_score": 96,
+      "tags": [
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-63f5cedb4b",
+      "title": "Customer Service Representative",
+      "category": "Admin & Customer Support",
+      "organization": "Acorn Group",
+      "location": "🎧 🇬🇧 🌍 Liverpool, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Acorn Group. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-service-representative-at-acorn-group-4488019414",
+      "match_score": 96,
+      "tags": [
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-fd0d3f7fd9",
+      "title": "Customer Care Advisor",
+      "category": "Admin & Customer Support",
+      "organization": "Lyreco Group",
+      "location": "🎧 🇬🇧 🌍 Telford, England, United Kingdom",
+      "salary": "Competitive (£22,000 - £32,000 / yr)",
+      "deadline": "Posted: 1 week ago",
+      "summary": "Customer service representation, user support, and account assistance in the UK for Lyreco Group. Direct alignment with Noah's communication clarity, problem resolution, and support tool proficiency.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/customer-care-advisor-at-lyreco-group-4490707824",
+      "match_score": 96,
+      "tags": [
+        "UK CSR",
+        "Customer Service",
+        "United Kingdom",
+        "Client Support"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-66047630a3",
       "title": "Administrative Assistant",
       "category": "Admin & Customer Support",
-      "organization": "Dorset HealthCare University NHS Foundation Trust",
-      "location": "🎧 🇬🇧 🌍 Wareham, England, United Kingdom",
+      "organization": "American Bureau of Shipping (ABS)",
+      "location": "🎧 🇬🇧 🌍 Warrington, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
       "deadline": "Posted: 1 week ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Dorset HealthCare University NHS Foundation Trust. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/administrative-assistant-at-dorset-healthcare-university-nhs-foundation-trust-4489756738",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for American Bureau of Shipping (ABS). Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/administrative-assistant-at-american-bureau-of-shipping-abs-4489939281",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -486,15 +561,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-53f6454333",
-      "title": "Office Administrator",
+      "id": "li-4ae25eb6a0",
+      "title": "Admin Assistant - Care Home",
       "category": "Admin & Customer Support",
-      "organization": "Sureserve",
-      "location": "🎧 🇬🇧 🌍 Glasgow, Scotland, United Kingdom",
+      "organization": "Barchester Healthcare",
+      "location": "🎧 🇬🇧 🌍 Bristol, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Sureserve. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/office-administrator-at-sureserve-4487823998",
+      "deadline": "Posted: 14 hours ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Barchester Healthcare. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/admin-assistant-care-home-at-barchester-healthcare-4485750330",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -505,15 +580,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-8f1c0ed668",
-      "title": "Secretary, Governance",
+      "id": "li-8e0a0b11d3",
+      "title": "Administrator",
       "category": "Admin & Customer Support",
-      "organization": "Birmingham City Council",
-      "location": "🎧 🇬🇧 🌍 Birmingham, England, United Kingdom",
+      "organization": "Heated Mechanical Services Ltd",
+      "location": "🎧 🇬🇧 🌍 Eastleigh, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 18 hours ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Birmingham City Council. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/secretary-governance-at-birmingham-city-council-4494099016",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Heated Mechanical Services Ltd. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/administrator-at-heated-mechanical-services-ltd-4487814756",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -524,15 +599,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-a15dfea9b6",
-      "title": "Team Administrator",
+      "id": "li-08bf13e2bf",
+      "title": "Administration Assistant\nEDV/2026/OSPA/04055",
       "category": "Admin & Customer Support",
-      "organization": "Public Sector Resourcing",
-      "location": "🎧 🇬🇧 🌍 Birmingham, England, United Kingdom",
+      "organization": "Ormiston Academies Trust",
+      "location": "🎧 🇬🇧 🌍 Little Grimsby, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 4 days ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Public Sector Resourcing. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/team-administrator-at-public-sector-resourcing-4492915680",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Ormiston Academies Trust. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/administration-assistant%0Aedv-2026-ospa-04055-at-ormiston-academies-trust-4488380841",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -543,15 +618,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-29e82ec1a7",
-      "title": "Administration Assistant",
+      "id": "li-791c5a3214",
+      "title": "Administrator",
       "category": "Admin & Customer Support",
-      "organization": "Weightmans",
-      "location": "🎧 🇬🇧 🌍 Liverpool, England, United Kingdom",
+      "organization": "Orchard Hill College & Academy Trust",
+      "location": "🎧 🇬🇧 🌍 Hambledon, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Weightmans. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/administration-assistant-at-weightmans-4488996009",
+      "deadline": "Posted: 10 hours ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Orchard Hill College & Academy Trust. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/administrator-at-orchard-hill-college-academy-trust-4488886021",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -562,15 +637,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-415c3a85c9",
-      "title": "Office Assistant",
+      "id": "li-1295ceac76",
+      "title": "Business Support Administrator #RO #UK",
       "category": "Admin & Customer Support",
-      "organization": "Paul Smith",
-      "location": "🎧 🇬🇧 🌍 London, England, United Kingdom",
+      "organization": "CAF (Construcciones y Auxiliar de Ferrocarriles)",
+      "location": "🎧 🇬🇧 🌍 Newport, England, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 4 days ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Paul Smith. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/office-assistant-at-paul-smith-4491945455",
+      "deadline": "Posted: 3 weeks ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for CAF (Construcciones y Auxiliar de Ferrocarriles). Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-support-administrator-%23ro-%23uk-at-caf-construcciones-y-auxiliar-de-ferrocarriles-4486159509",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -581,15 +656,72 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-7ebc11e674",
-      "title": "Office Assistant",
+      "id": "li-e785731e15",
+      "title": "Administrator",
       "category": "Admin & Customer Support",
-      "organization": "Express Laser Cleaning",
-      "location": "🎧 🇬🇧 🌍 Enniskillen, Northern Ireland, United Kingdom",
+      "organization": "Morgan Sindall Infrastructure",
+      "location": "🎧 🇬🇧 🌍 Motherwell, Scotland, United Kingdom",
       "salary": "Competitive (£23,000 - £33,000 / yr)",
-      "deadline": "Posted: 8 months ago",
-      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Express Laser Cleaning. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/office-assistant-at-express-laser-cleaning-4387861804",
+      "deadline": "Posted: 6 days ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Morgan Sindall Infrastructure. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/administrator-at-morgan-sindall-infrastructure-4480794874",
+      "match_score": 96,
+      "tags": [
+        "UK Admin",
+        "Administrative Assistant",
+        "Office Operations",
+        "United Kingdom"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-57d92183fc",
+      "title": "Administrator",
+      "category": "Admin & Customer Support",
+      "organization": "SLR Consulting",
+      "location": "🎧 🇬🇧 🌍 Edinburgh, Scotland, United Kingdom",
+      "salary": "Competitive (£23,000 - £33,000 / yr)",
+      "deadline": "Posted: 15 hours ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for SLR Consulting. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/administrator-at-slr-consulting-4485737468",
+      "match_score": 96,
+      "tags": [
+        "UK Admin",
+        "Administrative Assistant",
+        "Office Operations",
+        "United Kingdom"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-8050b523de",
+      "title": "Business Support Administrator #RO #UK",
+      "category": "Admin & Customer Support",
+      "organization": "Caf Rolling Stock Uk Limited",
+      "location": "🎧 🇬🇧 🌍 Newport, England, United Kingdom",
+      "salary": "Competitive (£23,000 - £33,000 / yr)",
+      "deadline": "Posted: 3 weeks ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Caf Rolling Stock Uk Limited. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-support-administrator-%23ro-%23uk-at-caf-rolling-stock-uk-limited-4484657598",
+      "match_score": 96,
+      "tags": [
+        "UK Admin",
+        "Administrative Assistant",
+        "Office Operations",
+        "United Kingdom"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-395126601b",
+      "title": "Team Administrator (Aspiring PA)",
+      "category": "Admin & Customer Support",
+      "organization": "Katie Bard",
+      "location": "🎧 🇬🇧 🌍 Nottingham, England, United Kingdom",
+      "salary": "Competitive (£23,000 - £33,000 / yr)",
+      "deadline": "Posted: 5 days ago",
+      "summary": "Administrative support, scheduling, meeting coordination, and records management in the UK for Katie Bard. Direct match with Noah's executive administrative track record as General Secretary of EFSA.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/team-administrator-aspiring-pa-at-katie-bard-4492400728",
       "match_score": 96,
       "tags": [
         "UK Admin",
@@ -757,129 +889,33 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-8b1eae68b7",
-      "title": "Customer Support Representative",
-      "category": "Admin & Customer Support",
-      "organization": "Neu Money",
-      "location": "🎧 🌍 Kolkata metropolitan area, West Bengal, India",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Neu Money. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://in.linkedin.com/jobs/view/customer-support-representative-at-neu-money-4486578249",
+      "id": "li-0f976c620d",
+      "title": "Python Engineer (AI/ML) Level I-II",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Cavista Technologies",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 1 day ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/python-engineer-ai-ml-level-i-ii-at-cavista-technologies-4493635593",
       "match_score": 95,
       "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
       ],
       "source": "LinkedIn"
     },
     {
-      "id": "li-8d7ce30bb2",
-      "title": "Chat/Phone Support Specialist - Remote",
+      "id": "li-1fcf1e6aa7",
+      "title": "Assistant Officer - Administration",
       "category": "Admin & Customer Support",
-      "organization": "Inktel Contact Center Solutions",
-      "location": "🎧 🌍 Orlando, FL",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 6 months ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Inktel Contact Center Solutions. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://www.linkedin.com/jobs/view/chat-phone-support-specialist-remote-at-inktel-contact-center-solutions-4419883793",
-      "match_score": 95,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-8082c6c545",
-      "title": "Customer Support Advisor – German Speaking (C1)",
-      "category": "Admin & Customer Support",
-      "organization": "Hiring International Academy",
-      "location": "🎧 🌍 Athens, Attiki, Greece",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Hiring International Academy. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://gr.linkedin.com/jobs/view/customer-support-advisor-%E2%80%93-german-speaking-c1-at-hiring-international-academy-4488315267",
-      "match_score": 95,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-56d061264a",
-      "title": "Customer Support Associate - London",
-      "category": "Admin & Customer Support",
-      "organization": "Padlet",
-      "location": "🎧 🌍 London, England, United Kingdom",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 4 days ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Padlet. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/customer-support-associate-london-at-padlet-4492968098",
-      "match_score": 95,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-4ef35d7f64",
-      "title": "Remote Call Center Representative",
-      "category": "Admin & Customer Support",
-      "organization": "MCI",
-      "location": "🎧 🌍 Fulton County, GA",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 1 year ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for MCI. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://www.linkedin.com/jobs/view/remote-call-center-representative-at-mci-4241206910",
-      "match_score": 95,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-a9addd3c60",
-      "title": "Customer Care Specialist",
-      "category": "Admin & Customer Support",
-      "organization": "Alphanumeric Systems",
-      "location": "🎧 🌍 Québec, Quebec, Canada",
-      "salary": "Competitive ($2,000 - $3,500/mo or Market Rate)",
-      "deadline": "Posted: 3 months ago",
-      "summary": "Inbound customer support, user ticket management, and client inquiry resolution for Alphanumeric Systems. Direct match with Noah's administrative coordination, technical troubleshooting, and clear written communication.",
-      "apply_url": "https://ca.linkedin.com/jobs/view/customer-care-specialist-at-alphanumeric-systems-4450767060",
-      "match_score": 95,
-      "tags": [
-        "Customer Support",
-        "Remote",
-        "Zendesk",
-        "Client Care"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-80273ab459",
-      "title": "Administrative Assistant",
-      "category": "Admin & Customer Support",
-      "organization": "PT. Akhdani Reka Solusi",
-      "location": "🎧 🌍 Baguio City, Cordillera Admin Region, Philippines",
+      "organization": "Al Ghurair",
+      "location": "🎧 🌍 Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
       "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 3 months ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for PT. Akhdani Reka Solusi. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://ph.linkedin.com/jobs/view/administrative-assistant-at-pt-akhdani-reka-solusi-4446127764",
+      "deadline": "Posted: 15 hours ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Al Ghurair. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://ae.linkedin.com/jobs/view/assistant-officer-administration-at-al-ghurair-4494331591",
       "match_score": 95,
       "tags": [
         "Administrative",
@@ -890,15 +926,72 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-19473f498c",
-      "title": "Administrative Assistant (Emirati National)",
+      "id": "li-b387c518fd",
+      "title": "ASSISTENTE ADMINISTRATIVO | AFIRMATIVA PcD",
+      "category": "Admin & Customer Support",
+      "organization": "SGS",
+      "location": "🎧 🌍 Barueri, São Paulo, Brazil",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 5 days ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for SGS. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://br.linkedin.com/jobs/view/assistente-administrativo-afirmativa-pcd-at-sgs-4491651166",
+      "match_score": 95,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-19b11a7c63",
+      "title": "Secretary",
+      "category": "Admin & Customer Support",
+      "organization": "Aura vacation homes",
+      "location": "🎧 🌍 New Delhi, Delhi, India",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 4 hours ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Aura vacation homes. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://in.linkedin.com/jobs/view/secretary-at-aura-vacation-homes-4493055275",
+      "match_score": 95,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-a4b47c37fd",
+      "title": "Bilingual Administrative Assistant (English/Spanish)",
+      "category": "Admin & Customer Support",
+      "organization": "UtiliSave LLC",
+      "location": "🎧 🌍 New York, NY",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for UtiliSave LLC. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://www.linkedin.com/jobs/view/bilingual-administrative-assistant-english-spanish-at-utilisave-llc-4487533700",
+      "match_score": 95,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-84a12e07fd",
+      "title": "Administrative & Operations Assistant (UAE National)",
       "category": "Admin & Customer Support",
       "organization": "Talents of Endearment",
       "location": "🎧 🌍 Dubai, Dubai, United Arab Emirates",
       "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 18 hours ago",
+      "deadline": "Posted: 1 day ago",
       "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Talents of Endearment. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://ae.linkedin.com/jobs/view/administrative-assistant-emirati-national-at-talents-of-endearment-4494181593",
+      "apply_url": "https://ae.linkedin.com/jobs/view/administrative-operations-assistant-uae-national-at-talents-of-endearment-4494195097",
       "match_score": 95,
       "tags": [
         "Administrative",
@@ -909,129 +1002,53 @@
       "source": "LinkedIn"
     },
     {
-      "id": "li-f4226d9957",
-      "title": "Administrative Assistant | Entry-Level",
+      "id": "li-a51137bebf",
+      "title": "Administrative & Operations Assistant",
       "category": "Admin & Customer Support",
-      "organization": "RexHire",
-      "location": "🎧 🌍 Eindhoven, North Brabant, Netherlands",
+      "organization": "KB & Partner (Pvt) Ltd",
+      "location": "🎧 🌍 Go, Tillabéri Region, Niger",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 3 weeks ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for KB & Partner (Pvt) Ltd. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://ne.linkedin.com/jobs/view/administrative-operations-assistant-at-kb-partner-pvt-ltd-4484175259",
+      "match_score": 95,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-4549cb596f",
+      "title": "Real Estate Admin Assistant",
+      "category": "Admin & Customer Support",
+      "organization": "RemoteVA",
+      "location": "🎧 🌍 Davao, Davao Region, Philippines",
+      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
+      "deadline": "Posted: 4 months ago",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for RemoteVA. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://ph.linkedin.com/jobs/view/real-estate-admin-assistant-at-remoteva-4444267081",
+      "match_score": 95,
+      "tags": [
+        "Administrative",
+        "Operations",
+        "Google Workspace",
+        "Scheduling"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-4d0c2b690f",
+      "title": "Secrétaire Assistante H/F",
+      "category": "Admin & Customer Support",
+      "organization": "Nantes Métropole",
+      "location": "🎧 🌍 Nantes, Pays de la Loire, France",
       "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
       "deadline": "Posted: 1 day ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for RexHire. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://nl.linkedin.com/jobs/view/administrative-assistant-entry-level-at-rexhire-4493619017",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-0c0c86ae2f",
-      "title": "Senior Administrative Assistant",
-      "category": "Admin & Customer Support",
-      "organization": "IQVIA",
-      "location": "🎧 🌍 Reading, England, United Kingdom",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for IQVIA. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-administrative-assistant-at-iqvia-4488391759",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-d1b6ea64be",
-      "title": "Administrative Assistant | Entry-Level",
-      "category": "Admin & Customer Support",
-      "organization": "RexHire",
-      "location": "🎧 🌍 Derbyshire, England, United Kingdom",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 1 day ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for RexHire. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/administrative-assistant-entry-level-at-rexhire-4493610631",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-82fb48729e",
-      "title": "Senior Administrative Assistant",
-      "category": "Admin & Customer Support",
-      "organization": "IQVIA",
-      "location": "🎧 🌍 Livingston, Scotland, United Kingdom",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for IQVIA. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://uk.linkedin.com/jobs/view/senior-administrative-assistant-at-iqvia-4488388859",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-4d9f806eab",
-      "title": "Administrative Officer",
-      "category": "Admin & Customer Support",
-      "organization": "Mayden Care",
-      "location": "🎧 🌍 Mumbai, Maharashtra, India",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Mayden Care. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://in.linkedin.com/jobs/view/administrative-officer-at-mayden-care-4491036972",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-c9c269dc5c",
-      "title": "Construction Admin Assistant (w/ Australian Experience)",
-      "category": "Admin & Customer Support",
-      "organization": "Set Up My Offshore",
-      "location": "🎧 🌍 Herston, Queensland, Australia",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 1 week ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Set Up My Offshore. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://au.linkedin.com/jobs/view/construction-admin-assistant-w-australian-experience-at-set-up-my-offshore-4488912359",
-      "match_score": 95,
-      "tags": [
-        "Administrative",
-        "Operations",
-        "Google Workspace",
-        "Scheduling"
-      ],
-      "source": "LinkedIn"
-    },
-    {
-      "id": "li-ee53ded352",
-      "title": "Administrative Assistant - Travel Team",
-      "category": "Admin & Customer Support",
-      "organization": "IES Communications",
-      "location": "🎧 🌍 Tempe, AZ",
-      "salary": "Competitive ($1,800 - $3,000/mo or Market Rate)",
-      "deadline": "Posted: 2 weeks ago",
-      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for IES Communications. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
-      "apply_url": "https://www.linkedin.com/jobs/view/administrative-assistant-travel-team-at-ies-communications-4488882868",
+      "summary": "Executive scheduling, official documentation, record keeping, and workspace operations for Nantes Métropole. Direct match with Noah's proven background as General Secretary of EFSA managing administrative operations for 1,000+ members.",
+      "apply_url": "https://fr.linkedin.com/jobs/view/secr%C3%A9taire-assistante-h-f-at-nantes-m%C3%A9tropole-4493593274",
       "match_score": 95,
       "tags": [
         "Administrative",
@@ -1114,6 +1131,24 @@
         "LinkedIn",
         "Backend",
         "London, England, Uni"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-726639fb4c",
+      "title": "Backend Developer- Python",
+      "category": "UK Tech & Remote",
+      "organization": "HP",
+      "location": "🇬🇧 Cambridge, England, United Kingdom",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 hours ago",
+      "summary": "Active opening on LinkedIn in Cambridge, England, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/backend-developer-python-at-hp-4494445605",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Cambridge, England, "
       ],
       "source": "LinkedIn"
     },
@@ -1232,7 +1267,7 @@
       "organization": "Owen Thomas | B Corp™",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 9 hours ago",
+      "deadline": "Posted: 17 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-lead-backend-engineers-python-ai-fintech-saas-us-expansion-build-own-products-and-new-features-end-to-end-%C2%A3100-160k-%2B-equity-london-hybrid-at-owen-thomas-b-corp%E2%84%A2-4494111194",
       "match_score": 93,
@@ -1240,6 +1275,132 @@
         "LinkedIn",
         "Backend",
         "London Area, United "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-87dc5da58c",
+      "title": "Senior Python Developer",
+      "category": "UK Tech & Remote",
+      "organization": "iFindTech Ltd",
+      "location": "🇬🇧 London Area, United Kingdom",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/senior-python-developer-at-ifindtech-ltd-4473665318",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "London Area, United "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-355f2faf10",
+      "title": "Senior Software Engineer - Python/MongoDB",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Canonical",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 2 weeks ago",
+      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-software-engineer-python-mongodb-at-canonical-4489636519",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Lagos, Lagos State, "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-5eae6ddecd",
+      "title": "Backend Developer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Vickeny",
+      "location": "🇳🇬 Ado-Ekiti, Ekiti State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 4 months ago",
+      "summary": "Active opening on LinkedIn in Ado-Ekiti, Ekiti State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/backend-developer-at-vickeny-4436675560",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Ado-Ekiti, Ekiti Sta"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-24f03b7369",
+      "title": "Full Stack Engineer (Python/Django Backend & Next.js Frontend)",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Lorgarithm",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 months ago",
+      "summary": "Active opening on LinkedIn in Lagos, Lagos State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/full-stack-engineer-python-django-backend-next-js-frontend-at-lorgarithm-4448966537",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Lagos, Lagos State, "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-b80328ff42",
+      "title": "Remote Junior Backend Developer @ the99edge Company",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Bankable Wisdom",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 5 months ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/remote-junior-backend-developer-%40-the99edge-company-at-bankable-wisdom-4432954293",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-106d694203",
+      "title": "Backend Developer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "TurboFlux Network Solutions Ltd (TFN Solutions)",
+      "location": "🇳🇬 Awka South, Anambra State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 5 months ago",
+      "summary": "Active opening on LinkedIn in Awka South, Anambra State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/backend-developer-at-turboflux-network-solutions-ltd-tfn-solutions-4431655232",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Awka South, Anambra "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-f92009d211",
+      "title": "Senior Backend Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Lorgarithm",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 3 months ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-backend-engineer-at-lorgarithm-4448968578",
+      "match_score": 93,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
       ],
       "source": "LinkedIn"
     },
@@ -1268,7 +1429,7 @@
       "organization": "Owen Thomas | B Corp™",
       "location": "🇬🇧 London Area, United Kingdom",
       "salary": "Competitive (Market Rate)",
-      "deadline": "Posted: 9 hours ago",
+      "deadline": "Posted: 17 hours ago",
       "summary": "Active opening on LinkedIn in London Area, United Kingdom. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
       "apply_url": "https://uk.linkedin.com/jobs/view/senior-product-engineer-python-go-ts-production-agentic-ai-b2c-start-up-series-a-%C2%A3100k-%C2%A3250k-%2B-equity-london-5-days-visa-sponsorship-%2B-relocation-at-owen-thomas-b-corp%E2%84%A2-4494109207",
       "match_score": 93,
@@ -1280,15 +1441,33 @@
       "source": "LinkedIn"
     },
     {
-      "id": "wf-b01645f6eb",
-      "title": "Lead Hardware Engineer, UAS / Drones",
+      "id": "wf-d813a08710",
+      "title": "Founding Partner : Senior Software Engineer (Non-profit, EdTech, US Remote)",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
+      "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5135481-lead-hardware-engineer-uas-drones",
+      "apply_url": "https://wellfound.com/jobs/5137427-founding-partner-senior-software-engineer-non-profit-edtech-us-remote",
+      "match_score": 91,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-3ec83857e9",
+      "title": "jam-IT Enterprise-Level Integration & Technology Engineer (Senior Appian Developer)",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Worldwide / Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5137425-jam-it-enterprise-level-integration-technology-engineer-senior-appian-developer",
       "match_score": 91,
       "tags": [
         "Wellfound",
@@ -1370,24 +1549,6 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-ea94bea695",
-      "title": "Software Engineer — Product",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4239846-software-engineer-product",
-      "match_score": 91,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
       "id": "remote-2091045",
       "title": "Tier III Service Desk Engineer",
       "category": "Remote Worldwide",
@@ -1405,6 +1566,24 @@
         "video"
       ],
       "source": "Remotive Remote API"
+    },
+    {
+      "id": "li-73506cd0fe",
+      "title": "Software Engineer Needed at PressOne Africa",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Bankable Wisdom",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 5 months ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/software-engineer-needed-at-pressone-africa-at-bankable-wisdom-4431366400",
+      "match_score": 87,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
     },
     {
       "id": "ktp-2e446f0a60",
@@ -1587,6 +1766,42 @@
       "source": "Innovate UK KTP Portal"
     },
     {
+      "id": "li-8499769d29",
+      "title": "Senior AI Engineer (Internal Tools & Agents)",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Jobgether",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 4 days ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-ai-engineer-internal-tools-agents-at-jobgether-4492576767",
+      "match_score": 85,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-513d3fea64",
+      "title": "AI Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Choice Talents LTD",
+      "location": "🇳🇬 Port Harcourt, Rivers State, Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 6 hours ago",
+      "summary": "Active opening on LinkedIn in Port Harcourt, Rivers State, Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/ai-engineer-at-choice-talents-ltd-4494404665",
+      "match_score": 85,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Port Harcourt, River"
+      ],
+      "source": "LinkedIn"
+    },
+    {
       "id": "remote-1680495",
       "title": "Remote Office Assistant",
       "category": "Remote Worldwide",
@@ -1620,6 +1835,24 @@
         "LinkedIn",
         "Backend",
         "London Area, United "
+      ],
+      "source": "LinkedIn"
+    },
+    {
+      "id": "li-946155e295",
+      "title": "Data Engineer",
+      "category": "Nigeria (NG) Roles",
+      "organization": "Soum",
+      "location": "🇳🇬 Nigeria",
+      "salary": "Competitive (Market Rate)",
+      "deadline": "Posted: 4 weeks ago",
+      "summary": "Active opening on LinkedIn in Nigeria. Evaluated against Noah's profile in backend engineering, distributed systems, and Python architecture.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/data-engineer-at-soum-4483561419",
+      "match_score": 75,
+      "tags": [
+        "LinkedIn",
+        "Backend",
+        "Nigeria"
       ],
       "source": "LinkedIn"
     },
@@ -1752,33 +1985,15 @@
       "source": "LinkedIn"
     },
     {
-      "id": "wf-add8df18d7",
-      "title": "Head of Product, AI-Native Commerce",
-      "category": "Remote Worldwide",
-      "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
-      "salary": "Competitive + Equity",
-      "deadline": "Active Rolling",
-      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4797096-head-of-product-ai-native-commerce",
-      "match_score": 65,
-      "tags": [
-        "Wellfound",
-        "Startup",
-        "Backend"
-      ],
-      "source": "Wellfound"
-    },
-    {
-      "id": "wf-eb2b78ac2f",
-      "title": "Product Manager with Mental Health or Wellness experience",
+      "id": "wf-ff70679b88",
+      "title": "Director of B2B Employer Marketing",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/4201638-user-experience-researcher",
+      "apply_url": "https://wellfound.com/jobs/4463669-director-of-b2b-employer-marketing",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1788,15 +2003,15 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-25a9d808be",
-      "title": "Senior Product Manager - IoT",
+      "id": "wf-d493d22023",
+      "title": "Senior Technical Solutions Consultant",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
-      "location": "🌍 Global Remote",
+      "location": "🌍 Worldwide / Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5137353-senior-product-manager-iot",
+      "apply_url": "https://wellfound.com/jobs/5137479-senior-technical-solutions-consultant",
       "match_score": 65,
       "tags": [
         "Wellfound",
@@ -1806,15 +2021,33 @@
       "source": "Wellfound"
     },
     {
-      "id": "wf-8b55ea7e64",
-      "title": "Senior Product Manager, Digital Banking Fraud",
+      "id": "wf-c2d87474fe",
+      "title": "Customer Growth Account Executive, Commercial",
       "category": "Remote Worldwide",
       "organization": "High-Growth Tech Startup",
       "location": "🌍 Global Remote",
       "salary": "Competitive + Equity",
       "deadline": "Active Rolling",
       "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
-      "apply_url": "https://wellfound.com/jobs/5137309-senior-product-manager-digital-banking-fraud",
+      "apply_url": "https://wellfound.com/jobs/3794914-customer-growth-account-executive-commercial",
+      "match_score": 65,
+      "tags": [
+        "Wellfound",
+        "Startup",
+        "Backend"
+      ],
+      "source": "Wellfound"
+    },
+    {
+      "id": "wf-ef202c5d7b",
+      "title": "Founding Product",
+      "category": "Remote Worldwide",
+      "organization": "High-Growth Tech Startup",
+      "location": "🌍 Global Remote",
+      "salary": "Competitive + Equity",
+      "deadline": "Active Rolling",
+      "summary": "Startup engineering role sourced from Wellfound. Involves rapid feature velocity, microservices, and product scaling.",
+      "apply_url": "https://wellfound.com/jobs/5137442-founding-product-old-clone",
       "match_score": 65,
       "tags": [
         "Wellfound",
