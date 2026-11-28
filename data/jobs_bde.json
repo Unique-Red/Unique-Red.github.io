@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "last_updated": "2026-11-27T17:22:06Z",
-    "total_count": 36,
+    "last_updated": "2026-11-28T01:50:26Z",
+    "total_count": 46,
     "target_candidate": "Oduniyi A. Tinuijioluwa",
     "candidate_highlights": [
       "Secured NGN 10M Service Contract in 18 Days (Lightbridge Global)",
@@ -37,25 +37,6 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-e58b65fcee",
-      "title": "Founding Account Executive, SEA region",
-      "category": "Global Remote B2B",
-      "organization": "Sprout Solutions",
-      "location": "🌍 Kuala Lumpur, Federal Territory of Kuala Lumpur, Malaysia (Remote / Global)",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Sprout Solutions. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://my.linkedin.com/jobs/view/founding-account-executive-sea-region-at-sprout-solutions-4495553207",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
       "id": "bde-li-d7c43b8655",
       "title": "Talent Account Executive",
       "category": "Global Remote B2B",
@@ -65,25 +46,6 @@
       "deadline": "Active / Apply Now",
       "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for LinkedIn. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
       "apply_url": "https://in.linkedin.com/jobs/view/talent-account-executive-at-linkedin-4495586817",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
-      "id": "bde-li-408e5af7c4",
-      "title": "Business Development Executive",
-      "category": "Global Remote B2B",
-      "organization": "Khashsoft",
-      "location": "🌍 Noida, Uttar Pradesh, India (Remote / Global)",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Khashsoft. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://in.linkedin.com/jobs/view/business-development-executive-at-khashsoft-4495307648",
       "match_score": 99,
       "tags": [
         "B2B Sales",
@@ -113,25 +75,6 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-e1a6e86bcc",
-      "title": "Business Development Executive",
-      "category": "Global Remote B2B",
-      "organization": "Xaltius",
-      "location": "🌍 Metro Manila (Remote / Global)",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Xaltius. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ph.linkedin.com/jobs/view/business-development-executive-at-xaltius-4495077678",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
       "id": "bde-li-cbc80ca52a",
       "title": "Account Executive, Expansion Sales",
       "category": "Global Remote B2B",
@@ -147,6 +90,26 @@
         "Business Development",
         "Outbound",
         "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-a26cbe80ff",
+      "title": "Enterprise Account Executive",
+      "category": "Global Remote B2B",
+      "organization": "Cortexa",
+      "location": "🌍 Vancouver, British Columbia, Canada (Remote / Global)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Cortexa. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ca.linkedin.com/jobs/view/enterprise-account-executive-at-cortexa-4495835902",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition",
+        "Enterprise Sales"
       ],
       "source": "LinkedIn B2B Feeds"
     },
@@ -190,6 +153,25 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
+      "id": "bde-li-0f89ad1659",
+      "title": "Sales Specialist Identity, Japan",
+      "category": "Global Remote B2B",
+      "organization": "Rubrik",
+      "location": "🌍 Tokyo, Tokyo, Japan (Remote / Global)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Rubrik. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://jp.linkedin.com/jobs/view/sales-specialist-identity-japan-at-rubrik-4495843473",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
       "id": "bde-li-0c200f3042",
       "title": "New Business Account Executive",
       "category": "Global Remote B2B",
@@ -209,15 +191,15 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-1d0b06d272",
-      "title": "Commercial Executive – Energy Storage & Inverters",
-      "category": "Nigeria Enterprise",
-      "organization": "AX-Talents International HR Services",
-      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "id": "bde-li-1608fdd01c",
+      "title": "Experienced Sales Executive",
+      "category": "Global Remote B2B",
+      "organization": "Nirman Techlab",
+      "location": "🌍 Surat, Gujarat, India (Remote / Global)",
       "salary": "Competitive Base + Uncapped OTE & Commission",
       "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for AX-Talents International HR Services. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/commercial-executive-%E2%80%93-energy-storage-inverters-at-ax-talents-international-hr-services-4495008511",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Nirman Techlab. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://in.linkedin.com/jobs/view/experienced-sales-executive-at-nirman-techlab-4493860968",
       "match_score": 99,
       "tags": [
         "B2B Sales",
@@ -228,15 +210,322 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-afcffeacc1",
-      "title": "Sales Executive",
+      "id": "bde-li-21e76f2cee",
+      "title": "Business Development Executive (HF1360326)",
+      "category": "UK & EMEA Remote",
+      "organization": "Flourish",
+      "location": "🇬🇧 Birmingham, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Flourish. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-development-executive-hf1360326-at-flourish-4495820611",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-bb6e62da5e",
+      "title": "Business Development Executive",
+      "category": "UK & EMEA Remote",
+      "organization": "Digital Waffle",
+      "location": "🇬🇧 Royal Leamington Spa, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Digital Waffle. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-development-executive-at-digital-waffle-4495311193",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-851c069ad2",
+      "title": "Sales Executive - Leicester",
+      "category": "UK & EMEA Remote",
+      "organization": "Just Eat Takeaway.com",
+      "location": "🇬🇧 Leicester, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Just Eat Takeaway.com. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/sales-executive-leicester-at-just-eat-takeaway-com-4477030214",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-289def69b9",
+      "title": "Business Development Executive (988395)",
+      "category": "UK & EMEA Remote",
+      "organization": "Furza",
+      "location": "🇬🇧 Manchester Area, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Furza. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-development-executive-988395-at-furza-4495098255",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-eb52bc424a",
+      "title": "Account Executive - Mid Market",
+      "category": "UK & EMEA Remote",
+      "organization": "HiBob",
+      "location": "🇬🇧 London, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for HiBob. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/account-executive-mid-market-at-hibob-4495834139",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-d32c77ff04",
+      "title": "Business Development Executive (Large Enterprise), Gartner for Legal, Risk & Compliance",
+      "category": "UK & EMEA Remote",
+      "organization": "Gartner",
+      "location": "🇬🇧 London, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Gartner. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-development-executive-large-enterprise-gartner-for-legal-risk-compliance-at-gartner-4330519950",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition",
+        "Enterprise Sales"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-03d5b204a6",
+      "title": "Business Development Executive",
+      "category": "UK & EMEA Remote",
+      "organization": "Hybrid",
+      "location": "🇬🇧 City Of Bristol, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Hybrid. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-development-executive-at-hybrid-4494209010",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-dd37681db1",
+      "title": "Sales Executive (HF1360326)",
+      "category": "UK & EMEA Remote",
+      "organization": "Flourish",
+      "location": "🇬🇧 Birmingham, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Flourish. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/sales-executive-hf1360326-at-flourish-4495829266",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-70b127301f",
+      "title": "Account Executive, UK",
+      "category": "UK & EMEA Remote",
+      "organization": "Rubrik",
+      "location": "🇬🇧 London, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Rubrik. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/account-executive-uk-at-rubrik-4480356595",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-8f1cc18af7",
+      "title": "Business Development Executive (Mid-Size Enterprise), Gartner for Legal, Risk and Compliance Leaders",
+      "category": "UK & EMEA Remote",
+      "organization": "Gartner",
+      "location": "🇬🇧 London, England, United Kingdom (Remote/Hybrid)",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Gartner. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://uk.linkedin.com/jobs/view/business-development-executive-mid-size-enterprise-gartner-for-legal-risk-and-compliance-leaders-at-gartner-4495067549",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition",
+        "Enterprise Sales"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-a505068700",
+      "title": "Enterprise Account Executive",
       "category": "Nigeria Enterprise",
-      "organization": "Leadway Assurance",
+      "organization": "Canonical",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Canonical. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/enterprise-account-executive-at-canonical-4489181837",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition",
+        "Enterprise Sales"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-b4fc804c0a",
+      "title": "Senior Sales Executive.",
+      "category": "Nigeria Enterprise",
+      "organization": "Renmoney",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Renmoney. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/senior-sales-executive-at-renmoney-4467088062",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-7b99d5674a",
+      "title": "Business Development Lead",
+      "category": "Nigeria Enterprise",
+      "organization": "LibraStrat Consulting Services",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for LibraStrat Consulting Services. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/business-development-lead-at-librastrat-consulting-services-4486757977",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-3acac45200",
+      "title": "Software Business Development Associate",
+      "category": "Nigeria Enterprise",
+      "organization": "SENRI Ltd.",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for SENRI Ltd.. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/software-business-development-associate-at-senri-ltd-4487450740",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-d9761f03b5",
+      "title": "Business Development Executive",
+      "category": "Nigeria Enterprise",
+      "organization": "olaktechnologies",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for olaktechnologies. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/business-development-executive-4495808032",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-ef806a7bee",
+      "title": "Telecom Account Executive",
+      "category": "Nigeria Enterprise",
+      "organization": "Canonical",
+      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "salary": "Competitive Base + Uncapped OTE & Commission",
+      "deadline": "Active / Apply Now",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Canonical. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/telecom-account-executive-at-canonical-4489185843",
+      "match_score": 99,
+      "tags": [
+        "B2B Sales",
+        "Business Development",
+        "Outbound",
+        "Client Acquisition"
+      ],
+      "source": "LinkedIn B2B Feeds"
+    },
+    {
+      "id": "bde-li-a1bcb40020",
+      "title": "Business Development Executive",
+      "category": "Nigeria Enterprise",
+      "organization": "Lopterra Services Limited",
       "location": "🇳🇬 Nigeria",
       "salary": "Competitive Base + Uncapped OTE & Commission",
       "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Leadway Assurance. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/sales-executive-4493898807",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Lopterra Services Limited. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/business-development-executive-at-lopterra-services-limited-4484519729",
       "match_score": 99,
       "tags": [
         "B2B Sales",
@@ -247,34 +536,15 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-d41f0af462",
-      "title": "Field Sales Specialist Chinese Trade Lane",
+      "id": "bde-li-490f12b6a1",
+      "title": "ERP B2B Sales Executive",
       "category": "Nigeria Enterprise",
-      "organization": "DHL Global Forwarding",
-      "location": "🇳🇬 Nigeria",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for DHL Global Forwarding. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/field-sales-specialist-chinese-trade-lane-at-dhl-global-forwarding-4495812751",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
-      "id": "bde-li-d5d1ae92b2",
-      "title": "Engineering sales executive ( Agro processing and industrial spares )",
-      "category": "Nigeria Enterprise",
-      "organization": "Huko Advisory Services Limited",
+      "organization": "QCLOSE NIG",
       "location": "🇳🇬 Lagos State, Nigeria",
       "salary": "Competitive Base + Uncapped OTE & Commission",
       "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Huko Advisory Services Limited. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/engineering-sales-executive-agro-processing-and-industrial-spares-at-huko-advisory-services-limited-4493881701",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for QCLOSE NIG. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/erp-b2b-sales-executive-at-qclose-nig-4492049532",
       "match_score": 99,
       "tags": [
         "B2B Sales",
@@ -285,34 +555,15 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-9c013524da",
-      "title": "Business Relationship Manager",
+      "id": "bde-li-ac6e7364a3",
+      "title": "SAAS SALES EXECUTIVE",
       "category": "Nigeria Enterprise",
-      "organization": "Tida Retail",
-      "location": "🇳🇬 Lagos State, Nigeria",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Tida Retail. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/business-relationship-manager-at-tida-retail-4494414342",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
-      "id": "bde-li-e5ff070eff",
-      "title": "Sales And Marketing Representative",
-      "category": "Nigeria Enterprise",
-      "organization": "Leadway",
+      "organization": "Sigma Consulting Group",
       "location": "🇳🇬 Lagos, Lagos State, Nigeria",
       "salary": "Competitive Base + Uncapped OTE & Commission",
       "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Leadway. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/sales-and-marketing-representative-at-leadway-4494207011",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Sigma Consulting Group. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/saas-sales-executive-at-sigma-consulting-group-4477260928",
       "match_score": 99,
       "tags": [
         "B2B Sales",
@@ -323,72 +574,15 @@
       "source": "LinkedIn B2B Feeds"
     },
     {
-      "id": "bde-li-8a08bf004b",
-      "title": "Insurance Sales Specialist",
+      "id": "bde-li-4d36f03184",
+      "title": "Business Development Executive",
       "category": "Nigeria Enterprise",
-      "organization": "TWPC HR Services",
-      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
+      "organization": "Sigma Consulting Group",
+      "location": "🇳🇬 Abuja, Federal Capital Territory, Nigeria",
       "salary": "Competitive Base + Uncapped OTE & Commission",
       "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for TWPC HR Services. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/insurance-sales-specialist-at-twpc-hr-services-4495822468",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
-      "id": "bde-li-781b996d04",
-      "title": "Sales Advocate",
-      "category": "Nigeria Enterprise",
-      "organization": "SELAR",
-      "location": "🇳🇬 Lagos, Lagos State, Nigeria",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for SELAR. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/sales-advocate-4495543992",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
-      "id": "bde-li-0a093db3a5",
-      "title": "Cross Border Payments Lead Origination Specialist",
-      "category": "Nigeria Enterprise",
-      "organization": "Applysion",
-      "location": "🇳🇬 Lagos State, Nigeria",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Applysion. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/cross-border-payments-lead-origination-specialist-at-applysion-4495823257",
-      "match_score": 99,
-      "tags": [
-        "B2B Sales",
-        "Business Development",
-        "Outbound",
-        "Client Acquisition"
-      ],
-      "source": "LinkedIn B2B Feeds"
-    },
-    {
-      "id": "bde-li-69f149f2ab",
-      "title": "Investment Sales Advisor",
-      "category": "Nigeria Enterprise",
-      "organization": "Reform Capital Solutions (Recapss)",
-      "location": "🇳🇬 Lagos State, Nigeria",
-      "salary": "Competitive Base + Uncapped OTE & Commission",
-      "deadline": "Active / Apply Now",
-      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Reform Capital Solutions (Recapss). Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
-      "apply_url": "https://ng.linkedin.com/jobs/view/investment-sales-advisor-at-reform-capital-solutions-recapss-4493876464",
+      "summary": "Drive client acquisition, strategic B2B partnerships, and outbound pipeline expansion for Sigma Consulting Group. Requires proven commercial negotiation, lead generation, and revenue quota achievement.",
+      "apply_url": "https://ng.linkedin.com/jobs/view/business-development-executive-at-sigma-consulting-group-4486360706",
       "match_score": 99,
       "tags": [
         "B2B Sales",
@@ -459,26 +653,6 @@
       "source": "Wellfound (AngelList)"
     },
     {
-      "id": "bde-wf-5137426",
-      "title": "Junior Pharmacy Account Executive Remote Nationwide",
-      "category": "Startup & Tech Partnerships",
-      "organization": "Venture-Backed Tech Startup",
-      "location": "🚀 Global Remote / Flexible",
-      "salary": "$55,000 - $85,000 USD Base + Equity & Commission",
-      "deadline": "Active",
-      "summary": "High-growth venture-backed startup seeking an entrepreneurial Business Development Executive / Growth Lead to scale customer acquisition, manage outbound lead pipelines, and close high-value B2B accounts.",
-      "apply_url": "https://wellfound.com/jobs/5137426-junior-pharmacy-account-executive-remote-nationwide",
-      "match_score": 99,
-      "tags": [
-        "Startup",
-        "B2B Sales",
-        "SaaS",
-        "HubSpot",
-        "Equity"
-      ],
-      "source": "Wellfound (AngelList)"
-    },
-    {
       "id": "bde-wf-5135521",
       "title": "Remote Sales Representative Clone",
       "category": "Startup & Tech Partnerships",
@@ -508,6 +682,26 @@
       "deadline": "Active",
       "summary": "High-growth venture-backed startup seeking an entrepreneurial Business Development Executive / Growth Lead to scale customer acquisition, manage outbound lead pipelines, and close high-value B2B accounts.",
       "apply_url": "https://wellfound.com/jobs/5133380-commercial-real-estate-sales-associate",
+      "match_score": 99,
+      "tags": [
+        "Startup",
+        "B2B Sales",
+        "SaaS",
+        "HubSpot",
+        "Equity"
+      ],
+      "source": "Wellfound (AngelList)"
+    },
+    {
+      "id": "bde-wf-5130488",
+      "title": "Founding Sales Lead Commission Base Unlocks",
+      "category": "Startup & Tech Partnerships",
+      "organization": "Venture-Backed Tech Startup",
+      "location": "🚀 Global Remote / Flexible",
+      "salary": "$55,000 - $85,000 USD Base + Equity & Commission",
+      "deadline": "Active",
+      "summary": "High-growth venture-backed startup seeking an entrepreneurial Business Development Executive / Growth Lead to scale customer acquisition, manage outbound lead pipelines, and close high-value B2B accounts.",
+      "apply_url": "https://wellfound.com/jobs/5130488-founding-sales-lead-commission-base-unlocks",
       "match_score": 99,
       "tags": [
         "Startup",
